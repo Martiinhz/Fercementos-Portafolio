@@ -46,7 +46,7 @@ const Footer = () => {
         {/* Información legal */}
         <div className="text-center text-sm">
           © TODOS LOS DERECHOS RESERVADOS<br />
-          Fercementos S.A.S. NIT 900.499.362-8. Carrera 22 # 21-50, Armenia, Colombia
+          Fercementos S.A.S. NIT 901.586.586-7. Carrera 22 # 21-50, Armenia, Colombia
         </div>
       </div>
     </footer>
