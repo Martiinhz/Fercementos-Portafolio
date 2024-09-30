@@ -84,7 +84,7 @@ const Header = ({ onSearch }) => {
 
       {/* Sidebar animado */}
       <motion.div
-        className="fixed left-0 top-0 h-full sm: w-5w-3/4 max-w-sm bg-gray-800 text-white shadow-lg p-4 z-50"
+        className="fixed left-0 top-0 h-full sm:w-3/4 w-1/2 max-w-sm bg-gray-800 text-white shadow-lg p-4 z-50"
         initial="closed"
         animate={isMenuOpen ? 'open' : 'closed'}
         variants={sidebarVariants}
@@ -108,7 +108,7 @@ const Header = ({ onSearch }) => {
               {category.name}
               {hoveredCategory === index && (
                 <motion.div
-                  className="absolute left-full top-0 ml-4 bg-gray-700 p-4 space-y-2 shadow-lg w-56"
+                  className="absolute left-full top-0 ml-4 bg-gray-700 p-4 space-y-2 shadow-lg w-56 sm:w-full"
                   initial={{ opacity: 0, y: -20 }}
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: -20 }}
