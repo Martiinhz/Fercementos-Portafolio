@@ -269,7 +269,7 @@ import celta110 from '../../../assets/Productos/Celta/110.png'
 import celta111 from '../../../assets/Productos/Celta/111.png'
 import celta112 from '../../../assets/Productos/Celta/112.png'
 import celta113 from '../../../assets/Productos/Celta/113.png'
-import celta114 from '../../../assets/Productos/celta/114.png'
+// import celta114 from '../../../assets/Productos/celta/114.png'
 import celta115 from '../../../assets/Productos/Celta/115.png'
 import celta116 from '../../../assets/Productos/Celta/116.png'
 import celta117 from '../../../assets/Productos/Celta/117.png'
@@ -544,7 +544,7 @@ export const products = [
   {id: 245, name: "Caja llaves lavadora", image: celta111},
   {id: 246, name: "Lavamanos lavaplatos con válvulas de regulación", image: celta112},
   {id: 247, name: "Sanitario con válvulas de regulación", image: celta113},
-  {id: 248, name: "Válvula de regulación sencilla para acople", image: celta114},
+  // {id: 248, name: "Válvula de regulación sencilla para acople", image: celta114},
   {id: 249, name: "Válvula de regulación", image: celta115},
   {id: 250, name: "Acoples con válvula de regulación para lavamanos", image: celta116},
   {id: 251, name: "Lavamanos lavaplatos sin válvula", image: celta117},
