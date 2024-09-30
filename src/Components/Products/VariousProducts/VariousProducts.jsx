@@ -61,7 +61,7 @@ const ProductGrid = ({ searchTerm }) => {
         />
       </div>
 
-      <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {currentProducts.map((product) => (
           <div key={product.id} className="bg-white shadow-md rounded-lg p-4 text-center">
             {/* Aca */}
