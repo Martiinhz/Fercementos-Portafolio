@@ -53,7 +53,8 @@ const Header = ({ onSearch }) => {
   };
 
   return (
-    <header className="bg-gray-500 shadow-md w-full h-[80px] flex justify-evenly items-center px-8">
+    <header className="bg-gray-500 shadow-md w-full h-[80px] flex justify-evenly items-center px-8 sticky top-0 z-50">
+
       <div className="flex items-center">
         <img src={Logo} alt="Fercementos Logo" className="w-[150px] h-auto" />
       </div>
