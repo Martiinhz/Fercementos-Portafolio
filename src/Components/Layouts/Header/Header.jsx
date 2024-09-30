@@ -65,7 +65,7 @@ const Header = ({ onSearch }) => {
           onClick={toggleMenu}
           whileTap={{ scale: 0.9 }}
         >
-          <TiThMenu />
+          <TiThMenu className='ml-3'/>
           Menú
         </motion.button>
       </div>
@@ -84,7 +84,7 @@ const Header = ({ onSearch }) => {
 
       {/* Sidebar animado */}
       <motion.div
-        className="fixed left-0 top-0 h-full w-3/4 max-w-sm bg-gray-800 text-white shadow-lg p-4 z-50"
+        className="fixed left-0 top-0 h-full sm: w-5w-3/4 max-w-sm bg-gray-800 text-white shadow-lg p-4 z-50"
         initial="closed"
         animate={isMenuOpen ? 'open' : 'closed'}
         variants={sidebarVariants}
