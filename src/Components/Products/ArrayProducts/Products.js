@@ -292,23 +292,29 @@ import celta133 from '../../../assets/Productos/Celta/133.png'
 import celta134 from '../../../assets/Productos/Celta/134.png'
 import celta135 from '../../../assets/Productos/Celta/135.png'
 import celta136 from '../../../assets/Productos/Celta/136.png'
+
+// Proteja
+import proteja1 from '../../../assets/Productos/Proteja/1.png'
+import proteja2 from '../../../assets/Productos/Proteja/2.png'
+import proteja3 from '../../../assets/Productos/Proteja/3.png'
+import proteja4 from '../../../assets/Productos/Proteja/4.png'
+import proteja5 from '../../../assets/Productos/Proteja/5.png'
 export const products = [
   // Acuaviva
-  { id: 1, name: "Tanque 250 L", image: acuaviva1 },
-  { id: 2, name: "Tanque 500 L", image: acuaviva2 },
-  { id: 3, name: "Tanque 550 L", image: acuaviva3 },
-  { id: 4, name: "Tanque 1000 L", image: acuaviva4 },
-  { id: 5, name: "Tanque 2000 L", image: acuaviva5 },
-  { id: 6, name: "Tanque 5000 L", image: acuaviva6 },
-  { id: 7, name: "Tanque 6000 L", image: acuaviva7 },
+  { id: 1, name: "Tanque 250 L", image: acuaviva1, description: "Peso del kit (Tanque + tapa) 7 kg"},
+  { id: 2, name: "Tanque 500 L", image: acuaviva2, description: "Peso de kit (Tanque + tapa) 11 kg"},
+  { id: 4, name: "Tanque 1000 L", image: acuaviva4, description: "Peso de kit (Tanque + tapa) 18 kg" },
+  { id: 5, name: "Tanque 2000 L", image: acuaviva5, description: "Peso de kit (Tanque + tapa) 37 kg" },
+  { id: 6, name: "Tanque 5000 L", image: acuaviva6, description: "Peso de kit (Tanque + tapa) 100 kg" },
+  { id: 7, name: "Tanque 6000 L", image: acuaviva7, description: "Peso de kit (Tanque + tapa) 119"},
 
   // Ajover
-  { id: 8, name: "Teja Ajover Ajozinc Policarbonato", image: ajover1 },
+  { id: 8, name: "Teja Ajover Ajozinc", image: ajover1, description: "Policarbonato" },
   { id: 9, name: "Teja Policarbonato Cristal", image: ajover2 },
   { id: 10, name: "Teja Ajonit Heavy Duty", image: ajover3 },
   { id: 11, name: "Teja Ajozinc Translucida", image: ajover4 },
   { id: 12, name: "Teja de Zinc Calibre 34 y 35", image: ajover5 },
-  { id: 13, name: "Perfil 4x8 CL 20 Y CL 18 X 6 MTS", image: ajover6 },
+  { id: 13, name: "Perfil", image: ajover6, description: "4x8 CL 20 Y CL 18 X 6 MTS" },
   { id: 14, name: "Ladrillo Calao", image: ajover7 },
   { id: 15, name: "Ladrillo Farol", image: ajover8 },
   { id: 16, name: "Ladrillo Toleto", image: ajover9 },
@@ -333,10 +339,10 @@ export const products = [
   { id: 35, name: "Mineral Aleman Rojo x lb", image: ajover28 },
   { id: 36, name: "Mineral Aleman Verde x lb", image: ajover29 },
   { id: 37, name: "Mineral Aleman Negro x lb", image: ajover30 },
-  { id: 38, name: "Clavo Acero Concreto 1 Libra", image: ajover31 },
-  { id: 39, name: "Clavo Acero Concreto 500 gramos", image: ajover32 },
-  { id: 40, name: "Puntilla (Con cabeza y sin cabeza", image: ajover33 },
-  { id: 41, name: "Malla Hexagonal (1.8 MTS ALTO X 36 MTS LARGO X 11/4 HUECO", image: ajover34 },
+  { id: 38, name: "Clavo Acero Concreto 1 Libra", image: ajover31, description: "1”, 1 ½”, 2”, 2 ½”, 3”" },
+  { id: 39, name: "Clavo Acero Concreto 500 gramos", image: ajover32, description: "1”, 1 ½”, 2”, 2 ½”, 3”" },
+  { id: 40, name: "Puntilla (Con cabeza y sin cabeza", image: ajover33, description: "1”, 1 ½”, 2”, 2 ½”, 3”, 3½”, 4”" },
+  { id: 41, name: "Malla Hexagonal", image: ajover34, description: "(1.8 MTS ALTO X 36 MTS LARGO X 11/4 HUECO)"},
   { id: 124, name: "Piedra Blanca x 23 kl y 40 kl", image: ajover35 },
 
   // Argos
@@ -352,8 +358,8 @@ export const products = [
 
 
   // Gyplac
-  { id: 51, name: "Placa de yeso Gyplac 1/2", image: gyplac1 },
-  { id: 52, name: "Cinta Papel y/o Cinta Malla", image: gyplac2 },
+  { id: 51, name: "Placa de yeso Gyplac 1/2", image: gyplac1, description: "(12.7mm) 1.12 x 2.44 mts" },
+  { id: 52, name: "Cinta Papel y/o Cinta Malla", image: gyplac2, description: "5 cm x 150 Mts, 5 cm x 75, 5 cm x 23 Mts" },
 
   // Impadoc
   { id: 53, name: "Estuco Listo x 25 y 10 kg", image: impadoc1 },
@@ -372,35 +378,35 @@ export const products = [
   { id: 64, name: "Carretilla Finquera", image: imsa2 },
 
   // Pintuland
-  { id: 65, name: "Superlavable", image: pintuland1 },
-  { id: 66, name: "Lavable", image: pintuland2 },
-  { id: 67, name: "Corriente", image: pintuland3 },
-  { id: 68, name: "Barniz Sintético", image: pintuland4 },
-  { id: 69, name: "Baños y Cocinas", image: pintuland5 },
-  { id: 70, name: "Acriland", image: pintuland6 },
-  { id: 71, name: "Extraland", image: pintuland7 },
-  { id: 72, name: "Estuco Plastico", image: pintuland8 },
-  { id: 73, name: "Esmalte Línea Clásica", image: pintuland9 },
-  { id: 74, name: "Esmalte Línea Dorada", image: pintuland10 },
-  { id: 75, name: "Anticorrosivo", image: pintuland11 },
-  { id: 76, name: "Imprimante", image: pintuland12 },
-  { id: 77, name: "PVA", image: pintuland13 },
-  { id: 78, name: "Disolvente", image: pintuland14 },
-  { id: 79, name: "Epóxica", image: pintuland15 },
-  { id: 80, name: "Removedor", image: pintuland16 },
-  { id: 81, name: "Esmalte Ecológico", image: pintuland17 },
-  { id: 82, name: "Pintura Para Canchas y Pisos", image: pintuland18 },
-  { id: 83, name: "Maderland", image: pintuland19 },
-  { id: 84, name: "Tinte Para Madera", image: pintuland20 },
-  { id: 85, name: "Sellador y Laca", image: pintuland21 },
-  { id: 86, name: "Cosmomadera", image: pintuland22 },
-  { id: 87, name: "Primer Industrial", image: pintuland23 },
-  { id: 88, name: "Pintura Para Tráfico", image: pintuland24 },
+  { id: 65, name: "Superlavable", image: pintuland1, link: "https://pintuland.com.co/wp-content/uploads/2022/08/Carta_De_Colores_Pintuland_Web.pdf" },
+  { id: 66, name: "Lavable", image: pintuland2, link: "https://pintuland.com.co/wp-content/uploads/2022/08/Carta_De_Colores_Pintuland_Web.pdf" },
+  { id: 67, name: "Corriente", image: pintuland3, link: "https://pintuland.com.co/wp-content/uploads/2022/08/Carta_De_Colores_Pintuland_Web.pdf" },
+  { id: 68, name: "Barniz Sintético", image: pintuland4, link: "https://pintuland.com.co/wp-content/uploads/2022/08/Carta_De_Colores_Pintuland_Web.pdf" },
+  { id: 69, name: "Baños y Cocinas", image: pintuland5, link: "https://pintuland.com.co/wp-content/uploads/2022/08/Carta_De_Colores_Pintuland_Web.pdf" },
+  { id: 70, name: "Acriland", image: pintuland6, link: "https://pintuland.com.co/wp-content/uploads/2022/08/Carta_De_Colores_Pintuland_Web.pdf" },
+  { id: 71, name: "Extraland", image: pintuland7, link: "https://pintuland.com.co/wp-content/uploads/2022/08/Carta_De_Colores_Pintuland_Web.pdf" },
+  { id: 72, name: "Estuco Plastico", image: pintuland8, link: "https://pintuland.com.co/wp-content/uploads/2022/08/Carta_De_Colores_Pintuland_Web.pdf" },
+  { id: 73, name: "Esmalte Línea Clásica", image: pintuland9, link: "https://pintuland.com.co/wp-content/uploads/2022/08/Carta_De_Colores_Pintuland_Web.pdf" },
+  { id: 74, name: "Esmalte Línea Dorada", image: pintuland10, link: "https://pintuland.com.co/wp-content/uploads/2022/08/Carta_De_Colores_Pintuland_Web.pdf" },
+  { id: 75, name: "Anticorrosivo", image: pintuland11, link: "https://pintuland.com.co/wp-content/uploads/2022/08/Carta_De_Colores_Pintuland_Web.pdf" },
+  { id: 76, name: "Imprimante", image: pintuland12, link: "https://pintuland.com.co/wp-content/uploads/2022/08/Carta_De_Colores_Pintuland_Web.pdf" },
+  { id: 77, name: "PVA", image: pintuland13, link: "https://pintuland.com.co/wp-content/uploads/2022/08/Carta_De_Colores_Pintuland_Web.pdf"},
+  { id: 78, name: "Disolvente", image: pintuland14, link: "https://pintuland.com.co/wp-content/uploads/2022/08/Carta_De_Colores_Pintuland_Web.pdf" },
+  { id: 79, name: "Epóxica", image: pintuland15, link: "https://pintuland.com.co/wp-content/uploads/2022/08/Carta_De_Colores_Pintuland_Web.pdf" },
+  { id: 80, name: "Removedor", image: pintuland16, link: "https://pintuland.com.co/wp-content/uploads/2022/08/Carta_De_Colores_Pintuland_Web.pdf" },
+  { id: 81, name: "Esmalte Ecológico", image: pintuland17, link: "https://pintuland.com.co/wp-content/uploads/2022/08/Carta_De_Colores_Pintuland_Web.pdf" },
+  { id: 82, name: "Pintura Para Canchas y Pisos", image: pintuland18, link: "https://pintuland.com.co/wp-content/uploads/2022/08/Carta_De_Colores_Pintuland_Web.pdf"},
+  { id: 83, name: "Maderland", image: pintuland19, link: "https://pintuland.com.co/wp-content/uploads/2022/08/Carta_De_Colores_Pintuland_Web.pdf"},
+  { id: 84, name: "Tinte Para Madera", image: pintuland20, link: "https://pintuland.com.co/wp-content/uploads/2022/08/Carta_De_Colores_Pintuland_Web.pdf"},
+  { id: 85, name: "Sellador y Laca", image: pintuland21, link: "https://pintuland.com.co/wp-content/uploads/2022/08/Carta_De_Colores_Pintuland_Web.pdf" },
+  { id: 86, name: "Cosmomadera", image: pintuland22, link: "https://pintuland.com.co/wp-content/uploads/2022/08/Carta_De_Colores_Pintuland_Web.pdf" },
+  { id: 87, name: "Primer Industrial", image: pintuland23, link: "https://pintuland.com.co/wp-content/uploads/2022/08/Carta_De_Colores_Pintuland_Web.pdf"},
+  { id: 88, name: "Pintura Para Tráfico", image: pintuland24, link: "https://pintuland.com.co/wp-content/uploads/2022/08/Carta_De_Colores_Pintuland_Web.pdf"},
 
   // // Sidoc
-  { id: 89, name: "Barra Corrugada", image: sidoc1 },
-  { id: 90, name: "Chipa Corrugada", image: sidoc2 },
-  { id: 91, name: "Malla Electrosoldada", image: sidoc3 },
+  { id: 89, name: "Barra Corrugada", image: sidoc1, description: "Varilla 6 mts, 9 mts y 12 mts: 1/4, 3/8, 1/2, 5/8, 3/4" },
+  { id: 90, name: "Chipa Corrugada", image: sidoc2, description: "Chipa: 1/4, 3/8, 1/2, 5/8" },
+  { id: 91, name: "Malla Electrosoldada", image: sidoc3, description: "Malla electrosoldada 15x15 de 6 mts: 4 mm 5 mm, Rollo Malla electrosoldada 15x15 de 18 mts: 3.5 mm 4 mm" },
 
   // Supermastick
   { id: 92, name: "Cuñete 28 kg", image: Supermastick1 },
@@ -566,6 +572,12 @@ export const products = [
   {id: 267, name: "Lavamanos sencillo con rebose", image: celta133},
   {id: 268, name: "Plástica aro acero filtro acero", image: celta134},
   {id: 269, name: "Plástica blanca", image: celta135},
-  {id: 270, name: "Plástica aro acero filtro polipropileno", image: celta136}
+  {id: 270, name: "Plástica aro acero filtro polipropileno", image: celta136},
 
+  // Proteja
+  {id: 271, name: "proteja", image: proteja1, link: "https://media.proteja.com.co/pd56525/original/1807590254/ayuda-ventas-proteja-p10-colombia.pdf"},
+  {id: 272, name: "Claraboya", image: proteja2},
+  {id: 273, name: "Caballate tipo nuevo", image: proteja3},
+  {id: 274, name: "Caballate tipo viejo", image: proteja4},
+  {id: 275, name: "Limatesa limahoya teja", image: proteja5}
 ];
