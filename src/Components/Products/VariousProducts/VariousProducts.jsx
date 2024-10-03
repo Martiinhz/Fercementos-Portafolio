@@ -8,6 +8,7 @@ const ProductGrid = ({ searchTerm }) => {
   const [filteredProducts, setFilteredProducts] = useState(products);
   const [currentPage, setCurrentPage] = useState(1);
   const [selectedProduct, setSelectedProduct] = useState(null);
+  const [activeImage, setActiveImage] = useState(null); // Nuevo estado para la imagen activa
   const productsPerPage = 16;
 
   // Filtrado de productos y reseteo de la paginación a la primera página
@@ -40,10 +41,16 @@ const ProductGrid = ({ searchTerm }) => {
 
   const handleViewProduct = (product) => {
     setSelectedProduct(product);
+    setActiveImage(product.image); // Inicializamos con la primera imagen
   };
 
   const handleCloseModal = () => {
     setSelectedProduct(null);
+    setActiveImage(null); // Reiniciamos la imagen activa al cerrar el modal
+  };
+
+  const handleImageClick = (image) => {
+    setActiveImage(image); // Actualizamos la imagen activa cuando se hace clic en una imagen
   };
 
   return (
@@ -101,17 +108,42 @@ const ProductGrid = ({ searchTerm }) => {
 
         {selectedProduct && (
           <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
-            <div className="bg-white p-6 rounded-lg max-w-lg w-full">
+            <div className="bg-white p-6 rounded-lg w-full max-w-lg lg:max-w-2xl xl:max-w-4xl">
               <h2 className="text-xl font-bold mb-4 text-center">{selectedProduct.name}</h2>
-              <img
-                src={selectedProduct.image}
-                alt={selectedProduct.name}
-                className="w-full h-80 object-contain mb-4"
-              />
+              
+              <div className="flex flex-col lg:flex-row items-center">
+                {/* Imagen principal activa */}
+                <img
+                  src={activeImage}
+                  alt={selectedProduct.name}
+                  className="w-full lg:w-3/4 h-[500px] object-contain mb-4 lg:mb-0"
+                />
+                
+                {/* Miniaturas de las imágenes */}
+                <div className="flex lg:flex-col lg:ml-4 mt-4 lg:mt-0">
+                  {/* Primera imagen */}
+                  <img
+                    src={selectedProduct.image}
+                    alt={selectedProduct.name}
+                    onClick={() => handleImageClick(selectedProduct.image)} // Cambia la imagen activa al hacer clic
+                    className={`w-20 h-20 object-contain cursor-pointer mb-2 ${activeImage === selectedProduct.image ? 'border-2 border-blue-500' : ''}`}
+                  />
+                  {/* Segunda imagen si existe */}
+                  {selectedProduct.secondImage && (
+                    <img
+                      src={selectedProduct.secondImage}
+                      alt={`Second view of ${selectedProduct.name}`}
+                      onClick={() => handleImageClick(selectedProduct.secondImage)} // Cambia la imagen activa al hacer clic
+                      className={`w-20 h-20 object-contain cursor-pointer ${activeImage === selectedProduct.secondImage ? 'border-2 border-blue-500' : ''}`}
+                    />
+                  )}
+                </div>
+              </div>
+
               {selectedProduct.description && (
                 <p className="text-gray-700 mb-4 text-center">{selectedProduct.description}</p>
               )}
-              {/* Enlace al producto */}
+              
               {selectedProduct.link && (
                 <a 
                   href={selectedProduct.link} 
