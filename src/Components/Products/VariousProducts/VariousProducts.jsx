@@ -64,7 +64,7 @@ const ProductGrid = ({ searchTerm }) => {
 
         {/* Pagina superior */}
         <div className="pb-6">
-          <Pagination 
+          <Pagination
             currentPage={currentPage}
             totalPages={totalPages}
             handleNextPage={handleNextPage}
@@ -110,44 +110,45 @@ const ProductGrid = ({ searchTerm }) => {
           <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
             <div className="bg-white p-6 rounded-lg w-full max-w-lg lg:max-w-2xl xl:max-w-4xl">
               <h2 className="text-xl font-bold mb-4 text-center">{selectedProduct.name}</h2>
-              
+
               <div className="flex flex-col lg:flex-row items-center">
                 {/* Imagen principal activa */}
                 <img
                   src={activeImage}
                   alt={selectedProduct.name}
-                  className="w-full lg:w-3/4 h-[500px] object-contain mb-4 lg:mb-0"
+                  className="w-full h-[300px] object-contain mb-4 mx-auto sm:h-[100px] lg:h-[400px]" // Ajustar la altura máxima para dispositivos pequeños
                 />
-                
+
+
                 {/* Miniaturas de las imágenes */}
-                <div className="flex lg:flex-col lg:ml-4 mt-4 lg:mt-0">
-                  {/* Primera imagen */}
-                  <img
-                    src={selectedProduct.image}
-                    alt={selectedProduct.name}
-                    onClick={() => handleImageClick(selectedProduct.image)} // Cambia la imagen activa al hacer clic
-                    className={`w-20 h-20 object-contain cursor-pointer mb-2 ${activeImage === selectedProduct.image ? 'border-2 border-blue-500' : ''}`}
-                  />
-                  {/* Segunda imagen si existe */}
-                  {selectedProduct.secondImage && (
+                {selectedProduct.secondImage && (
+                  <div className="flex lg:flex-col lg:ml-4 mt-4 lg:mt-0">
+                    {/* Primera imagen */}
+                    <img
+                      src={selectedProduct.image}
+                      alt={selectedProduct.name}
+                      onClick={() => handleImageClick(selectedProduct.image)} // Cambia la imagen activa al hacer clic
+                      className={`w-20 h-20 object-contain cursor-pointer mb-2 ${activeImage === selectedProduct.image ? 'border-2 border-blue-500' : ''}`}
+                    />
+                    {/* Segunda imagen */}
                     <img
                       src={selectedProduct.secondImage}
                       alt={`Second view of ${selectedProduct.name}`}
                       onClick={() => handleImageClick(selectedProduct.secondImage)} // Cambia la imagen activa al hacer clic
                       className={`w-20 h-20 object-contain cursor-pointer ${activeImage === selectedProduct.secondImage ? 'border-2 border-blue-500' : ''}`}
                     />
-                  )}
-                </div>
+                  </div>
+                )}
               </div>
 
               {selectedProduct.description && (
                 <p className="text-gray-700 mb-4 text-center">{selectedProduct.description}</p>
               )}
-              
+
               {selectedProduct.link && (
-                <a 
-                  href={selectedProduct.link} 
-                  target="_blank" 
+                <a
+                  href={selectedProduct.link}
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="bg-[#ACC90F] hover:bg-[#adc90fbb] text-white px-4 py-2 rounded w-full block text-center mb-4"
                 >
