@@ -65,6 +65,10 @@ import ajover33 from '../../../assets/Productos/Ajover/PuntillaConySinCabeza.png
 import ajover34 from '../../../assets/Productos/Ajover/MallaHexagonal.png'
 import ajover35 from '../../../assets/Productos/Ajover/PiedraJardinBlanca.png'
 import ajover36 from '../../../assets/Productos/Ajover/1.png'
+import ajover37 from '../../../assets/Productos/Ajover/2.png'
+import ajover38 from '../../../assets/Productos/Ajover/3.png'
+import ajover39 from '../../../assets/Productos/Ajover/4.png'
+import ajover40 from '../../../assets/Productos/Ajover/5.png'
 
 // Argos
 import argos1 from '../../../assets/Productos/Argos/Cementox50.png'
@@ -127,6 +131,10 @@ import pintuland24 from '../../../assets/Productos/Pintuland/PinturaTrafico.png'
 import sidoc1 from '../../../assets/Productos/Sidoc/Barracorrugada.png'
 import sidoc2 from '../../../assets/Productos/Sidoc/ChipaCorrugada.png'
 import sidoc3 from '../../../assets/Productos/Sidoc/MallaElectrosoldada.png'
+import sidoc4 from '../../../assets/Productos/Sidoc/1.png'
+import sidoc5 from '../../../assets/Productos/Sidoc/2.png'
+import sidoc6 from '../../../assets/Productos/Sidoc/3.png'
+
 
 // SuperMastick
 import Supermastick1 from '../../../assets/Productos/Supermastick/Cuneta.png'
@@ -322,10 +330,10 @@ export const products = [
   { id: 7, name: "Tanque 6000 L", image: acuaviva7, description: "Peso de kit (Tanque + tapa) 119" },
 
   // Ajover
-  { id: 8, name: "Teja Ajover Ajozinc", image: ajover1, description: "Policarbonato" },
-  { id: 9, name: "Teja Policarbonato Cristal", image: ajover2 },
-  { id: 10, name: "Teja Ajonit Heavy Duty", image: ajover3 },
-  { id: 11, name: "Teja Ajozinc Translucida", image: ajover4 },
+  { id: 8, name: "Teja Ajover Ajozinc", image: ajover1, secondImage: ajover37, description: "Policarbonato" },
+  { id: 9, name: "Teja Policarbonato Cristal", image: ajover2, secondImage: ajover38},
+  { id: 10, name: "Teja Ajonit Heavy Duty", image: ajover3, secondImage: ajover39},
+  { id: 11, name: "Teja Ajozinc Translucida", image: ajover4, secondImage: ajover40},
   { id: 12, name: "Teja de Zinc Calibre 34 y 35", image: ajover5 },
   { id: 13, name: "Perfil 40X80", image: ajover6, description: "4x8 CL 20 Y CL 18 X 6 MTS, CL 16" },
   { id: 14, name: "Ladrillo Calao", image: ajover7 },
@@ -418,9 +426,9 @@ export const products = [
   { id: 88, name: "Pintura Para Tráfico", image: pintuland24, link: "https://pintuland.com.co/wp-content/uploads/2022/08/Carta_De_Colores_Pintuland_Web.pdf" },
 
   // // Sidoc
-  { id: 89, name: "Barra Corrugada", image: sidoc1, description: "Varilla 6 mts, 9 mts y 12 mts: 1/4, 3/8, 1/2, 5/8, 3/4" },
-  { id: 90, name: "Chipa Corrugada", image: sidoc2, description: "Chipa: 1/4, 3/8, 1/2, 5/8" },
-  { id: 91, name: "Malla Electrosoldada", image: sidoc3, description: "Malla electrosoldada 15x15 de 6 mts: 4 mm 5 mm, Rollo Malla electrosoldada 15x15 de 18 mts: 3.5 mm 4 mm" },
+  { id: 89, name: "Barra Corrugada", image: sidoc1,secondImage: sidoc4, description: "Varilla 6 mts, 9 mts y 12 mts: 1/4, 3/8, 1/2, 5/8, 3/4" },
+  { id: 90, name: "Chipa Corrugada", image: sidoc2,secondImage: sidoc5, description: "Chipa: 1/4, 3/8, 1/2, 5/8" },
+  { id: 91, name: "Malla Electrosoldada", image: sidoc3,secondImage: sidoc6, description: "Malla electrosoldada 15x15 de 6 mts: 4 mm 5 mm, Rollo Malla electrosoldada 15x15 de 18 mts: 3.5 mm 4 mm" },
 
   // Supermastick
   { id: 92, name: "Cuñete 28 kg", image: Supermastick1 },
