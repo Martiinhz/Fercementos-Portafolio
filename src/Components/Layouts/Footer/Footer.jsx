@@ -20,7 +20,7 @@ const Footer = () => {
               href="https://www.instagram.com/fercementos_col/?hl=es-la"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-[#ACC90F] p-2 rounded-full hover:bg-[#adc90fbd]"
+              className="bg-[#ACC90F] p-2 rounded-full hover:bg-[#adc90fbd] mr-0 sm:mr-5"
             >
               <FaInstagram className="text-white" />
             </a>

@@ -86,12 +86,15 @@ const ProductGrid = ({ searchTerm }) => {
                 whileTap={{ scale: 0.95 }}
               />
               <h3 className="text-lg font-semibold mb-2">{product.name}</h3>
-              <button
+              <motion.button
                 className="bg-[#ACC90F] text-white px-4 py-2 rounded hover:bg-[#adc90fbb]"
                 onClick={() => handleViewProduct(product)}
+                whileHover={{ scale: 1.1,}}
+                whileTap={{ scale: 0.95 }}
               >
                 VER PRODUCTO
-              </button>
+              </motion.button>
+
             </div>
           ))}
         </div>

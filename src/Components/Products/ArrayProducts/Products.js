@@ -27,6 +27,7 @@ import acuaviva4 from '../../../assets/Productos/Acuaviva/Tanque1000.png'
 import acuaviva5 from '../../../assets/Productos/Acuaviva/Tanque2000.png'
 import acuaviva6 from '../../../assets/Productos/Acuaviva/Tanque5000.png'
 import acuaviva7 from '../../../assets/Productos/Acuaviva/Tanque6000.png'
+import acuaviva8 from '../../../assets/Productos/Acuaviva/1.png'
 
 // Ajover
 import ajover1 from '../../../assets/Productos/Ajover/TejaAjover5años.png'
@@ -303,6 +304,22 @@ import celta133 from '../../../assets/Productos/Celta/133.png'
 import celta134 from '../../../assets/Productos/Celta/134.png'
 import celta135 from '../../../assets/Productos/Celta/135.png'
 import celta136 from '../../../assets/Productos/Celta/136.png'
+import celta137 from '../../../assets/Productos/Celta/TuberiaPresion.png'
+import celta138 from '../../../assets/Productos/Celta/TuberiaSanitario.png'
+import celta139 from '../../../assets/Productos/Celta/TuberiaCaliente.png'
+import celta140 from '../../../assets/Productos/Celta/TuberiaElectrico.png'
+import celta141 from '../../../assets/Productos/Celta/TuberiaSolsadura.png'
+import celta142 from '../../../assets/Productos/Celta/SoldaduraAzul.png'
+import celta143 from '../../../assets/Productos/Celta/SoldaduraRoja.png'
+import celta144 from '../../../assets/Productos/Celta/Acondicionador.png'
+import celta145 from '../../../assets/Productos/Celta/Alcantarillado.png'
+import celta146 from '../../../assets/Productos/Celta/Alcantarillado.png'
+import celta147 from '../../../assets/Productos/Celta/Ventilacion0.png'
+import celta148 from '../../../assets/Productos/Celta/Ventilacion1.png'
+import celta149 from '../../../assets/Productos/Celta/Ventilacion2.png'
+import celta150 from '../../../assets/Productos/Celta/Tapa0.png'
+import celta151 from '../../../assets/Productos/Celta/Caja0.png'
+import celta152 from '../../../assets/Productos/Celta/Caja1.png'
 
 // Proteja
 import proteja1 from '../../../assets/Productos/Proteja/1.png'
@@ -310,6 +327,7 @@ import proteja2 from '../../../assets/Productos/Proteja/2.png'
 import proteja3 from '../../../assets/Productos/Proteja/3.png'
 import proteja4 from '../../../assets/Productos/Proteja/4.png'
 import proteja5 from '../../../assets/Productos/Proteja/5.png'
+import proteja6 from '../../../assets/Productos/Proteja/6.png'
 
 // LadrilleraSantafe
 import santafe1 from '../../../assets/Productos/LadrilleraSantafe/1.png'
@@ -322,12 +340,12 @@ import santafe6 from '../../../assets/Productos/LadrilleraSantafe/6.png'
 
 export const products = [
   // Acuaviva
-  { id: 1, name: "Tanque 250 L", image: acuaviva1, description: "Peso del kit (Tanque + tapa) 7 kg" },
-  { id: 2, name: "Tanque 500 L", image: acuaviva2, description: "Peso de kit (Tanque + tapa) 11 kg" },
-  { id: 4, name: "Tanque 1000 L", image: acuaviva4, description: "Peso de kit (Tanque + tapa) 18 kg" },
-  { id: 5, name: "Tanque 2000 L", image: acuaviva5, description: "Peso de kit (Tanque + tapa) 37 kg" },
-  { id: 6, name: "Tanque 5000 L", image: acuaviva6, description: "Peso de kit (Tanque + tapa) 100 kg" },
-  { id: 7, name: "Tanque 6000 L", image: acuaviva7, description: "Peso de kit (Tanque + tapa) 119" },
+  { id: 1, name: "Tanque 250 L", image: acuaviva1, secondImage: acuaviva8, description: "Peso del kit (Tanque + tapa) 7 kg" },
+  { id: 2, name: "Tanque 500 L", image: acuaviva2, secondImage: acuaviva8, description: "Peso de kit (Tanque + tapa) 11 kg" },
+  { id: 4, name: "Tanque 1000 L", image: acuaviva4, secondImage: acuaviva8, description: "Peso de kit (Tanque + tapa) 18 kg" },
+  { id: 5, name: "Tanque 2000 L", image: acuaviva5, secondImage: acuaviva8, description: "Peso de kit (Tanque + tapa) 37 kg" },
+  { id: 6, name: "Tanque 5000 L", image: acuaviva6, secondImage: acuaviva8, description: "Peso de kit (Tanque + tapa) 100 kg" },
+  { id: 7, name: "Tanque 6000 L", image: acuaviva7, secondImage: acuaviva8, description: "Peso de kit (Tanque + tapa) 119" },
 
   // Ajover
   { id: 8, name: "Teja Ajover Ajozinc", image: ajover1, secondImage: ajover37, description: "Policarbonato" },
@@ -459,7 +477,7 @@ export const products = [
   { id: 123, name: "Pattex: No mas clavos Blanco", image: henkel6 },
 
   // Celta
-  { id: 125, name: "Tubería Presión", image: celta1 },
+  { id: 125, name: "Tubería Presión", image: celta1, secondImage: celta137 },
   { id: 126, name: "Tee roscado x soldado", image: celta2 },
   { id: 127, name: "Tapón macho roscado", image: celta3 },
   { id: 128, name: "Inserto para  manguera", image: celta4 },
@@ -473,7 +491,7 @@ export const products = [
   { id: 136, name: "Unión Universal", image: celta12 },
   { id: 137, name: "Adaptador Hembra (Con inserto metálico)", image: celta13 },
   { id: 138, name: "Válvulas de la bola compacta soldada SCH 40", image: celta14 },
-  { id: 139, name: "Tubería Sanitaria", image: celta15 },
+  { id: 139, name: "Tubería Sanitaria", image: celta15, secondImage: celta138 },
   { id: 140, name: "Unión", image: celta16 },
   { id: 141, name: "Buje soldado", image: celta17 },
   { id: 142, name: "Codo CxE 90°", image: celta18 },
@@ -494,7 +512,7 @@ export const products = [
   { id: 157, name: "Adaptador de limpieza", image: celta33 },
   { id: 158, name: "Tee sencilla", image: celta34 },
   { id: 159, name: "Tee reducida", image: celta35 },
-  { id: 160, name: "CPV Agua caliente 82°", image: celta36 },
+  { id: 160, name: "CPV Agua caliente 82°", image: celta36, secondImage: celta139 },
   { id: 161, name: "Adaptador Macho", image: celta37 },
   { id: 162, name: "Buje soldado", image: celta38 },
   { id: 163, name: "Tapón soldad", image: celta39 },
@@ -505,7 +523,7 @@ export const products = [
   { id: 168, name: "Válvula de bola CPVC para soldar", image: celta44 },
   { id: 169, name: "Unión universal", image: celta45 },
   { id: 170, name: "Transición CPVC - METAL", image: celta46 },
-  { id: 171, name: "Conduit tramos de 3 m", image: celta47 },
+  { id: 171, name: "Conduit tramos de 3 m", image: celta47, secondImage: celta140 },
   { id: 172, name: "Curvas CxE 90°", image: celta48 },
   { id: 173, name: "Adaptador caja conduit", image: celta49 },
   { id: 174, name: "Caja eléctrica rectangular", image: celta50 },
@@ -518,12 +536,12 @@ export const products = [
   { id: 181, name: "Canaleta sin adhesivo", image: celta57 },
   { id: 182, name: "Canaleta con Adhesivo", image: celta58 },
   { id: 183, name: "Curvas 90-SCH40", image: celta59 },
-  { id: 184, name: "Tuberias", image: celta60 },
-  { id: 185, name: "Soldadura PVC color azul", image: celta61 },
-  { id: 186, name: "Soldadura liquida CPVC ", image: celta62 },
-  { id: 187, name: "Acondicionador", image: celta63 },
-  { id: 188, name: "Tubos S4", image: celta64 },
-  { id: 189, name: "Tubos S8", image: celta65 },
+  { id: 184, name: "Tubería Duraconduit", image: celta60, secondImage: celta141},
+  { id: 185, name: "Soldadura PVC color azul", image: celta61, secondImage: celta142},
+  { id: 186, name: "Soldadura liquida CPVC ", image: celta62, secondImage: celta143},
+  { id: 187, name: "Acondicionador", image: celta63, secondImage: celta144},
+  { id: 188, name: "Tubos S4", image: celta64, secondImage: celta145 },
+  { id: 189, name: "Tubos S8", image: celta65, secondImage: celta146 },
   { id: 190, name: "Lubricante", image: celta66 },
   { id: 191, name: "Unión", image: celta67 },
   { id: 192, name: "Sillas yee", image: celta68 },
@@ -564,12 +582,12 @@ export const products = [
   { id: 237, name: "Soporte de bajante", image: celta103 },
   { id: 238, name: "Unión bajante", image: celta104 },
   { id: 239, name: "Codo bajante 90°", image: celta105 },
-  { id: 240, name: "Ventilación corriente", image: celta106 },
-  { id: 241, name: "Ventilación persiana", image: celta107 },
-  { id: 242, name: "Ventilación europea", image: celta108 },
-  { id: 243, name: "Tapa registro corriente", image: celta109 },
-  { id: 244, name: "Caja para registro y Gas", image: celta110 },
-  { id: 245, name: "Caja llaves lavadora", image: celta111 },
+  { id: 240, name: "Ventilación corriente", image: celta106, secondImage: celta147},
+  { id: 241, name: "Ventilación persiana", image: celta107, secondImage: celta148 },
+  { id: 242, name: "Ventilación europea", image: celta108, secondImage: celta149 },
+  { id: 243, name: "Tapa registro corriente", image: celta109, secondImage: celta150},
+  { id: 244, name: "Caja para registro y Gas", image: celta110, secondImage: celta151},
+  { id: 245, name: "Caja llaves lavadora", image: celta111, secondImage: celta152},
   { id: 246, name: "Lavamanos lavaplatos con válvulas de regulación", image: celta112 },
   { id: 247, name: "Sanitario con válvulas de regulación", image: celta113 },
   // {id: 248, name: "Válvula de regulación sencilla para acople", image: celta114},
@@ -597,7 +615,7 @@ export const products = [
   { id: 270, name: "Plástica aro acero filtro polipropileno", image: celta136 },
 
   // Proteja
-  { id: 271, name: "proteja", image: proteja1, link: "https://media.proteja.com.co/pd56525/original/1807590254/ayuda-ventas-proteja-p10-colombia.pdf" },
+  { id: 271, name: "proteja", image: proteja1, secondImage: proteja6 },
   { id: 272, name: "Claraboya", image: proteja2 },
   { id: 273, name: "Caballate tipo nuevo", image: proteja3 },
   { id: 274, name: "Caballate tipo viejo", image: proteja4 },
