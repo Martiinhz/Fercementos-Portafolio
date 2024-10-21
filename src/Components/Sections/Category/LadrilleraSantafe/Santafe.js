@@ -8,11 +8,11 @@ import santafe6 from '../../../../assets/Productos/6.png'
 
 export const Santafe = [
 
-{id: 1, name: "#", image: santafe1},
-{id: 2, name: "#", image: santafe2},
-{id: 3, name: "#", image: santafe3},
-{id: 4, name: "#", image: santafe4},
-{id: 5, name: "#", image: santafe5},
-{id: 6, name: "#", image: santafe6}
+{id: 1, name: "Bloquelon placa facil", image: santafe1},
+{id: 2, name: "Perfil enrepiso negro", image: santafe2},
+{id: 3, name: "Ladrillo", image: santafe3},
+{id: 4, name: "Ladrillo", image: santafe4},
+{id: 5, name: "Ladrillo", image: santafe5},
+{id: 6, name: "Ladrillo", image: santafe6}
 ];
 

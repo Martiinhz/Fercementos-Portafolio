@@ -9,7 +9,7 @@ const ProductGrid = ({ searchTerm }) => {
   const [currentPage, setCurrentPage] = useState(1);
   const [selectedProduct, setSelectedProduct] = useState(null);
   const [activeImage, setActiveImage] = useState(null); // Nuevo estado para la imagen activa
-  const productsPerPage = 16;
+  const productsPerPage = 20;
 
   // Filtrado de productos y reseteo de la paginación a la primera página
   useEffect(() => {

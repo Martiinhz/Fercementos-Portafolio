@@ -281,7 +281,7 @@ import celta110 from '../../../assets/Productos/Celta/110.png'
 import celta111 from '../../../assets/Productos/Celta/111.png'
 import celta112 from '../../../assets/Productos/Celta/112.png'
 import celta113 from '../../../assets/Productos/Celta/113.png'
-// import celta114 from '../../../assets/Productos/celta/114.png'
+import celta114 from '../../../assets/Productos/celta/114.png'
 import celta115 from '../../../assets/Productos/Celta/115.png'
 import celta116 from '../../../assets/Productos/Celta/116.png'
 import celta117 from '../../../assets/Productos/Celta/117.png'
@@ -306,6 +306,19 @@ import celta135 from '../../../assets/Productos/Celta/135.png'
 import celta136 from '../../../assets/Productos/Celta/136.png'
 import celta137 from '../../../assets/Productos/Celta/TuberiaPresion.png'
 import celta138 from '../../../assets/Productos/Celta/TuberiaSanitario.png'
+import celta139 from '../../../assets/Productos/Celta/TuberiaCaliente.png'
+import celta140 from '../../../assets/Productos/Celta/TuberiaElectrico.png'
+import celta141 from '../../../assets/Productos/Celta/TuberiaSolsadura.png'
+import celta142 from '../../../assets/Productos/Celta/SoldaduraAzul.png'
+import celta143 from '../../../assets/Productos/celta/SoldaduraRoja.png'
+import celta144 from '../../../assets/Productos/Celta/Acondicionador.png'
+import celta145 from '../../../assets/Productos/Celta/Alcantarillado.png'
+import celta146 from '../../../assets/Productos/Celta/Ventilacion0.png'
+import celta147 from '../../../assets/Productos/Celta/Ventilacion1.png'
+import celta148 from '../../../assets/Productos/Celta/Ventilacion2.png'
+import celta149 from '../../../assets/Productos/Celta/Tapa0.png'
+import celta150 from '../../../assets/Productos/Celta/Caja0.png'
+import celta151 from '../../../assets/Productos/Celta/Caja1.png'
 // Proteja
 import proteja1 from '../../../assets/Productos/Proteja/1.png'
 import proteja2 from '../../../assets/Productos/Proteja/2.png'
@@ -361,8 +374,8 @@ export const products = [
   { id: 33, name: "Mineral Aleman Amarillo x lb", image: ajover26 },
   { id: 34, name: "Mineral Aleman Azul x lb", image: ajover27 },
   { id: 35, name: "Mineral Aleman Rojo x lb", image: ajover28 },
-  { id: 36, name: "Mineral Aleman Verde x lb", image: ajover29 },
-  { id: 37, name: "Mineral Aleman Negro x lb", image: ajover30 },
+  { id: 36, name: "Mineral Aleman Negro x lb", image: ajover29 },
+  { id: 37, name: "Mineral Aleman Verde x lb", image: ajover30 },
   { id: 38, name: "Clavo Acero Concreto 1 Libra", image: ajover31, description: "1”, 1 ½”, 2”, 2 ½”, 3”" },
   { id: 39, name: "Clavo Acero Concreto 500 gramos", image: ajover32, description: "1”, 1 ½”, 2”, 2 ½”, 3”" },
   { id: 40, name: "Puntilla (Con cabeza y sin cabeza", image: ajover33, description: "1”, 1 ½”, 2”, 2 ½”, 3”, 3½”, 4”" },
@@ -497,7 +510,7 @@ export const products = [
   { id: 157, name: "Adaptador de limpieza", image: celta33 },
   { id: 158, name: "Tee sencilla", image: celta34 },
   { id: 159, name: "Tee reducida", image: celta35 },
-  // { id: 160, name: "CPV Agua caliente 82°", image: celta36, secondImage: celta139 },
+  { id: 160, name: "CPV Agua caliente 82°", image: celta36, secondImage: celta139 },
   { id: 161, name: "Adaptador Macho", image: celta37 },
   { id: 162, name: "Buje soldado", image: celta38 },
   { id: 163, name: "Tapón soldad", image: celta39 },
@@ -508,25 +521,25 @@ export const products = [
   { id: 168, name: "Válvula de bola CPVC para soldar", image: celta44 },
   { id: 169, name: "Unión universal", image: celta45 },
   { id: 170, name: "Transición CPVC - METAL", image: celta46 },
-  // { id: 171, name: "Conduit tramos de 3 m", image: celta47, secondImage: celta140 },
+  { id: 171, name: "Conduit tramos de 3 m", image: celta47, secondImage: celta140 },
   { id: 172, name: "Curvas CxE 90°", image: celta48 },
   { id: 173, name: "Adaptador caja conduit", image: celta49 },
   { id: 174, name: "Caja eléctrica rectangular", image: celta50 },
   { id: 175, name: "Suplemento caja doble", image: celta51 },
   { id: 176, name: "Caja eléctrica octagonal", image: celta52 },
-  { id: 177, name: "Caje eléctrica doble", image: celta53 },
+  { id: 177, name: "Caja eléctrica doble", image: celta53 },
   { id: 178, name: "Tapa caja doble", image: celta54 },
   { id: 179, name: "Unión conduit", image: celta55 },
   { id: 180, name: "Adaptador terminal", image: celta56 },
   { id: 181, name: "Canaleta sin adhesivo", image: celta57 },
   { id: 182, name: "Canaleta con Adhesivo", image: celta58 },
   { id: 183, name: "Curvas 90-SCH40", image: celta59 },
-  // { id: 184, name: "Tubería Duraconduit", image: celta60, secondImage: celta141},
-  // { id: 185, name: "Soldadura PVC color azul", image: celta61, secondImage: celta142},
-  // { id: 186, name: "Soldadura liquida CPVC ", image: celta62, secondImage: celta143},
-  // { id: 187, name: "Acondicionador", image: celta63, secondImage: celta144},
-  // { id: 188, name: "Tubos S4", image: celta64, secondImage: celta145 },
-  // { id: 189, name: "Tubos S8", image: celta65, secondImage: celta146 },
+  { id: 184, name: "Tubería Duraconduit", image: celta60, secondImage: celta141},
+  { id: 185, name: "Soldadura PVC color azul", image: celta61, secondImage: celta142},
+  { id: 186, name: "Soldadura liquida CPVC ", image: celta62, secondImage: celta143},
+  { id: 187, name: "Acondicionador", image: celta63, secondImage: celta144},
+  { id: 188, name: "Tubos S4", image: celta64, secondImage: celta145 },
+  { id: 189, name: "Tubos S8", image: celta65, secondImage: celta146 },
   { id: 190, name: "Lubricante", image: celta66 },
   { id: 191, name: "Unión", image: celta67 },
   { id: 192, name: "Sillas yee", image: celta68 },
@@ -546,7 +559,7 @@ export const products = [
   { id: 206, name: "Hidrosello canal C 90", image: celta82 },
   { id: 207, name: "Unión de canal bajante", image: celta83 },
   { id: 208, name: "Tapa interna derecha canal", image: celta84 },
-  { id: 209, name: "Tapa inter izquierda canal", image: celta85 },
+  { id: 209, name: "Tapa interna izquierda canal", image: celta85 },
   { id: 210, name: "Soporte metálico de canal", image: celta86 },
   { id: 211, name: "Unión esquina interior canal", image: celta87 },
   { id: 212, name: "Soporte de canal", image: celta88 },
@@ -567,15 +580,15 @@ export const products = [
   { id: 237, name: "Soporte de bajante", image: celta103 },
   { id: 238, name: "Unión bajante", image: celta104 },
   { id: 239, name: "Codo bajante 90°", image: celta105 },
-  // { id: 240, name: "Ventilación corriente", image: celta106, secondImage: celta147},
-  // { id: 241, name: "Ventilación persiana", image: celta107, secondImage: celta148 },
-  // { id: 242, name: "Ventilación europea", image: celta108, secondImage: celta149 },
-  // { id: 243, name: "Tapa registro corriente", image: celta109, secondImage: celta150},
-  // { id: 244, name: "Caja para registro y Gas", image: celta110, secondImage: celta151},
-  // { id: 245, name: "Caja llaves lavadora", image: celta111, secondImage: celta152},
+  { id: 240, name: "Ventilación corriente", image: celta106, secondImage: celta146},
+  { id: 241, name: "Ventilación persiana", image: celta107, secondImage: celta147 },
+  { id: 242, name: "Ventilación europea", image: celta108, secondImage: celta148 },
+  { id: 243, name: "Tapa registro corriente", image: celta109, secondImage: celta149},
+  { id: 244, name: "Caja para registro y Gas", image: celta110, secondImage: celta150},
+  { id: 245, name: "Caja llaves lavadora", image: celta111, secondImage: celta151},
   { id: 246, name: "Lavamanos lavaplatos con válvulas de regulación", image: celta112 },
   { id: 247, name: "Sanitario con válvulas de regulación", image: celta113 },
-  // {id: 248, name: "Válvula de regulación sencilla para acople", image: celta114},
+  {id: 248, name: "Válvula de regulación sencilla para acople", image: celta114},
   { id: 249, name: "Válvula de regulación", image: celta115 },
   { id: 250, name: "Acoples con válvula de regulación para lavamanos", image: celta116 },
   { id: 251, name: "Lavamanos lavaplatos sin válvula", image: celta117 },
