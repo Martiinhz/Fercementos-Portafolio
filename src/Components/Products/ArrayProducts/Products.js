@@ -135,6 +135,8 @@ import sidoc3 from '../../../assets/Productos/Sidoc/MallaElectrosoldada.png'
 import sidoc4 from '../../../assets/Productos/Sidoc/1.png'
 import sidoc5 from '../../../assets/Productos/Sidoc/2.png'
 import sidoc6 from '../../../assets/Productos/Sidoc/3.png'
+import sidoc7 from '../../../assets/Productos/Sidoc/AlambreNegro.png'
+import sidoc8 from '../../../assets/Productos/Sidoc/AlambreGris.png'
 
 
 // SuperMastick
@@ -442,9 +444,11 @@ export const products = [
   { id: 88, name: "Pintura Para Tráfico", image: pintuland24, link: "https://pintuland.com.co/wp-content/uploads/2022/08/Carta_De_Colores_Pintuland_Web.pdf" },
 
   // // Sidoc
-  { id: 89, name: "Barra Corrugada", image: sidoc1,secondImage: sidoc4, description: "Varilla 6 mts, 9 mts y 12 mts: 1/4, 3/8, 1/2, 5/8, 3/4" },
+  { id: 89, name: "Varilla Corrugada", image: sidoc1,secondImage: sidoc4, description: "Varilla 6 mts, 9 mts y 12 mts: 1/4, 3/8, 1/2, 5/8, 3/4" },
   { id: 90, name: "Chipa Corrugada", image: sidoc2,secondImage: sidoc5, description: "Chipa: 1/4, 3/8, 1/2, 5/8" },
   { id: 91, name: "Malla Electrosoldada", image: sidoc3,secondImage: sidoc6, description: "Malla electrosoldada 15x15 de 6 mts: 4 mm 5 mm, Rollo Malla electrosoldada 15x15 de 18 mts: 3.5 mm 4 mm" },
+  { id: 282, name: "Alambre Negro", image: sidoc7, description: "1 kg, 2 kg, 3 kg, 5 kg" },
+  { id: 283, name: "Alambre Galvanisado", image: sidoc8, description: "1 kg, 2 kg, 3 kg, 5kg" },
 
   // Supermastick
   { id: 92, name: "Cuñete 28 kg", image: Supermastick1 },

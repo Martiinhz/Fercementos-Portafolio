@@ -36,7 +36,7 @@ const CategoryMenu = () => {
             <Link to="/cementos-agregados">Cementos y agregados</Link>
           </h3>
           <ul className="mr-[7rem]">
-            <li className='pb-1 hover:text-[#ACC90F]'><a href="/cementos-agregados/cementos">Cementos</a></li>
+            <li className='pb-1 hover:text-[#ACC90F]'><Link to="/cementos-agregados/cementos">Cementos</Link></li>
             <li className='pb-1 hover:text-[#ACC90F]'><a href="/cementos-agregados/cales">Cales</a></li>
             <li className='pb-1 hover:text-[#ACC90F]'><a href="/cementos-agregados/triturado">Triturado</a></li>
             <li className='pb-1 hover:text-[#ACC90F]'><a href="/cementos-agregados/arena">Arena</a></li>

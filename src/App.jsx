@@ -12,6 +12,13 @@ import Granos from './Components/Pages/CementsAggregates/Granos';
 import Gravilla from './Components/Pages/CementsAggregates/Gravilla';
 import Cales from './Components/Pages/CementsAggregates/Cales';
 import Triturado from './Components/Pages/CementsAggregates/Triturado';
+import Hierro from './Components/Pages/Hierros/Hierro';
+import VarillaCorrugada from './Components/Pages/Hierros/VarillaCorrugada';
+import Alambres from './Components/Pages/Hierros/Alambres';
+import Chipa from './Components/Pages/Hierros/Chipa';
+import Malla from './Components/Pages/Hierros/Malla'
+
+
 
 
 
@@ -35,7 +42,13 @@ const AppRoutes = ({ searchTerm, setSearchTerm }) => {
     {path: "/cementos-agregados/granos",element: <Granos /> },
     {path: "/cementos-agregados/gravilla", element: <Gravilla/>},
     {path: "/cementos-agregados/cales", element: <Cales/>},
-    {path: "/cementos-agregados/triturado", element: <Triturado/>}
+    {path: "/cementos-agregados/triturado", element: <Triturado/>},
+    {path: "/hierro", element: <Hierro/>},
+    {path: "/hierro/varilla-corrugada", element: <VarillaCorrugada/>},
+    {path: "/hierro/chipa", element: <Chipa/>},
+    {path: "/hierro/alambres", element: <Alambres/>},
+    {path: "/hierro/mallas", element: <Malla/>}
+    
     
   ]);
 }
