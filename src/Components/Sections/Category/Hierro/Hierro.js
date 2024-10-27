@@ -5,7 +5,7 @@ import hierro4 from "../../../../assets/Productos/Sidoc/1.png"
 import hierro5 from "../../../../assets/Productos/Sidoc/2.png"
 import hierro6 from "../../../../assets/Productos/Sidoc/3.png"
 import hierro7 from "../../../../assets/Productos/Sidoc/AlambreNegro.png"
-import hierro8 from "../../../../assets/Productos/Sidoc/AlambreGris.png"
+import hierro8 from "../../../../assets/Productos/Sidoc/ALambreGris.png"
 const Hierro = [
 
     { id: 1, name: "Varilla Corrugada", image: hierro1, secondImage: hierro4, description: "Varilla 6 mts, 9 mts y 12 mts: 1/4, 3/8, 1/2, 5/8, 3/4" },

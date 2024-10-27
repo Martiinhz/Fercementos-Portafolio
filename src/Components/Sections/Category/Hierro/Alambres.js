@@ -1,5 +1,5 @@
 import alambre1 from '../../../../assets/Productos/Sidoc/AlambreNegro.png'
-import alambre2 from '../../../../assets/Productos/Sidoc/AlambreGris.png'
+import alambre2 from '../../../../assets/Productos/Sidoc/ALambreGris.png'
 
 const Alambres = [
 
