@@ -18,11 +18,6 @@ import Alambres from './Components/Pages/Hierros/Alambres';
 import Chipa from './Components/Pages/Hierros/Chipa';
 import Malla from './Components/Pages/Hierros/Malla'
 
-
-
-
-
-
 const MainLayout = ({ searchTerm, setSearchTerm }) => (
   <>
     <Header onSearch={setSearchTerm} />

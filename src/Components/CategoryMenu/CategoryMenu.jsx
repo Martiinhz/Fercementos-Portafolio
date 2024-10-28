@@ -38,23 +38,23 @@ const CategoryMenu = () => {
           <ul className="mr-[7rem]">
             <li className='pb-1 hover:text-[#ACC90F]'><Link to="/cementos-agregados/cementos">Cementos</Link></li>
             <li className='pb-1 hover:text-[#ACC90F]'><Link to="/cementos-agregados/cales">Cales</Link></li>
-            <li className='pb-1 hover:text-[#ACC90F]'><a href="/cementos-agregados/triturado">Triturado</a></li>
-            <li className='pb-1 hover:text-[#ACC90F]'><a href="/cementos-agregados/arena">Arena</a></li>
-            <li className='pb-1 hover:text-[#ACC90F]'><a href="/cementos-agregados/granos">Granos</a></li>
-            <li className='pb-1 hover:text-[#ACC90F]'><a href="/cementos-agregados/gravilla">Gravilla</a></li>
+            <li className='pb-1 hover:text-[#ACC90F]'><Link to="/cementos-agregados/triturado">Triturado</Link></li>
+            <li className='pb-1 hover:text-[#ACC90F]'><Link to="/cementos-agregados/arena">Arena</Link></li>
+            <li classNme='pb-1 hover:text-[#CC90F]'><Link to="/cementos-agregados/granos">Granos</Link></li>
+            <li className='pb-1 hover:text-[#ACC90F]'><Link to="/cementos-agregados/gravilla">Gravilla</Link></li>
           </ul>
         </div>
 
         {/* Hierro */}
         <div className="mb-6 flex flex-col justify-center items-center">
           <h3 className="text-lg font-semibold text-black mb-2 hover:text-[#ACC90F] mr-[8.5rem]">
-            <a href="/hierro">Hierro</a>
+            <Link to="/hierro">Hierro</Link>
           </h3>
           <ul className="mr-[4rem]">
-            <li className='pb-1 hover:text-[#ACC90F]'><a href="/hierro/varilla-corrugada">Varilla corrugada</a></li>
-            <li className='pb-1 hover:text-[#ACC90F]'><a href="/hierro/chipa">Chipa</a></li>
-            <li className='pb-1 hover:text-[#ACC90F]'><a href="/hierro/alambres">Alambres</a></li>
-            <li className='pb-1 hover:text-[#ACC90F]'><a href="/hierro/mallas">Mallas</a></li>
+            <li className='pb-1 hover:text-[#ACC90F]'><Link to="/hierro/varilla-corrugada">Varilla corrugada</Link></li>
+            <li className='pb-1 hover:text-[#ACC90F]'><Link to="/hierro/chipa">Chipa</Link></li>
+            <li className='pb-1 hover:text-[#ACC90F]'><Link to="/hierro/alambres">Alambres</Link></li>
+            <li className='pb-1 hover:text-[#ACC90F]'><Link to="/hierro/mallas">Mallas</Link></li>
           </ul>
         </div>
 
