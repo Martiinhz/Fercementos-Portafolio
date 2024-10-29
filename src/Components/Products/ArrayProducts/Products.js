@@ -627,9 +627,9 @@ export const products = [
   // LadrilleraSantafe
   { id: 276, name: "Bloquelon placa facil", image: santafe1 },
   { id: 277, name: "Perfil entrepiso negro", image: santafe2, description: "3 mts, 6 mts, 7 mts, 9 mts, 10 mts" },
-  { id: 278, name: "Ladrillo", image: santafe3, description: "Ladrillo Portante 306 Capuchino H" },
-  { id: 279, name: "Ladrillo", image: santafe4, description: "Ladrillo Gran Formato Cobrizo" },
-  { id: 280, name: "Ladrillo", image: santafe5, description: "Ladrillo Gran Formato Cocoa" },
-  { id: 281, name: "Ladrillo", image: santafe6, description: "Ladrillo Gran Formato Terracota" }
+  { id: 278, name: "Ladrillo Portante", image: santafe3, description: "Ladrillo Portante 306 Capuchino H" },
+  { id: 279, name: "Ladrillo Gran", image: santafe4, description: "Ladrillo Gran Formato Cobrizo" },
+  { id: 280, name: "Ladrillo Gran", image: santafe5, description: "Ladrillo Gran Formato Cocoa" },
+  { id: 281, name: "Ladrillo Gran", image: santafe6, description: "Ladrillo Gran Formato Terracota" }
 
 ];

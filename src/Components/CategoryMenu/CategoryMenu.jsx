@@ -10,9 +10,13 @@ const CategoryMenu = () => {
     setIsOpen(!isOpen);
   };
 
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+  
   return (
     <div className="w-full lg:w-1/4 p-4 flex flex-col items-center">
-      
+
       {/* Botón de Categorías para pantallas pequeñas y medianas */}
       <h2 className="text-xl font-bold mb-4 pt-[20px] lg:hidden">
         <button onClick={toggleMenu} className="flex items-center">
@@ -33,52 +37,52 @@ const CategoryMenu = () => {
         {/* Cementos y agregados */}
         <div className="mb-6 flex flex-col justify-center items-center">
           <h3 className="text-lg font-semibold text-black mb-2 hover:text-[#ACC90F]">
-            <Link to="/cementos-agregados">Cementos y agregados</Link>
+            <Link to="/cementos-agregados" onClick={scrollToTop}>Cementos y agregados</Link>
           </h3>
           <ul className="mr-[7rem]">
-            <li className='pb-1 hover:text-[#ACC90F]'><Link to="/cementos-agregados/cementos">Cementos</Link></li>
-            <li className='pb-1 hover:text-[#ACC90F]'><Link to="/cementos-agregados/cales">Cales</Link></li>
-            <li className='pb-1 hover:text-[#ACC90F]'><Link to="/cementos-agregados/triturado">Triturado</Link></li>
-            <li className='pb-1 hover:text-[#ACC90F]'><Link to="/cementos-agregados/arena">Arena</Link></li>
-            <li classNme='pb-1 hover:text-[#CC90F]'><Link to="/cementos-agregados/granos">Granos</Link></li>
-            <li className='pb-1 hover:text-[#ACC90F]'><Link to="/cementos-agregados/gravilla">Gravilla</Link></li>
+            <li className='pb-1 hover:text-[#ACC90F]'><Link to="/cementos-agregados/cementos"onClick={scrollToTop}>Cementos</Link></li>
+            <li className='pb-1 hover:text-[#ACC90F]'><Link to="/cementos-agregados/cales"onClick={scrollToTop}>Cales</Link></li>
+            <li className='pb-1 hover:text-[#ACC90F]'><Link to="/cementos-agregados/triturado"onClick={scrollToTop}>Triturado</Link></li>
+            <li className='pb-1 hover:text-[#ACC90F]'><Link to="/cementos-agregados/arena"onClick={scrollToTop}>Arena</Link></li>
+            <li className='pb-1 hover:text-[#ACC90F]'><Link to="/cementos-agregados/granos"onClick={scrollToTop}>Granos</Link></li>
+            <li className='pb-1 hover:text-[#ACC90F]'><Link to="/cementos-agregados/gravilla"onClick={scrollToTop}>Gravilla</Link></li>
           </ul>
         </div>
 
         {/* Hierro */}
         <div className="mb-6 flex flex-col justify-center items-center">
           <h3 className="text-lg font-semibold text-black mb-2 hover:text-[#ACC90F] mr-[8.5rem]">
-            <Link to="/hierro">Hierro</Link>
+            <Link to="/hierro"onClick={scrollToTop}>Hierro</Link>
           </h3>
           <ul className="mr-[4rem]">
-            <li className='pb-1 hover:text-[#ACC90F]'><Link to="/hierro/varilla-corrugada">Varilla corrugada</Link></li>
-            <li className='pb-1 hover:text-[#ACC90F]'><Link to="/hierro/chipa">Chipa</Link></li>
-            <li className='pb-1 hover:text-[#ACC90F]'><Link to="/hierro/alambres">Alambres</Link></li>
-            <li className='pb-1 hover:text-[#ACC90F]'><Link to="/hierro/mallas">Mallas</Link></li>
+            <li className='pb-1 hover:text-[#ACC90F]'><Link to="/hierro/varilla-corrugada"onClick={scrollToTop}>Varilla corrugada</Link></li>
+            <li className='pb-1 hover:text-[#ACC90F]'><Link to="/hierro/chipa"onClick={scrollToTop}>Chipa</Link></li>
+            <li className='pb-1 hover:text-[#ACC90F]'><Link to="/hierro/alambres"onClick={scrollToTop}>Alambres</Link></li>
+            <li className='pb-1 hover:text-[#ACC90F]'><Link to="/hierro/mallas"onClick={scrollToTop}>Mallas</Link></li>
           </ul>
         </div>
 
         {/* Ladrillo */}
         <div className="mb-6 flex flex-col justify-center items-center">
           <h3 className="text-lg font-semibold text-black mb-2 hover:text-[#ACC90F] mr-[8rem]">
-            <a href="/ladrillo">Ladrillo</a>
+            <a href="/ladrillo"onClick={scrollToTop}>Ladrillo</a>
           </h3>
         </div>
 
         {/* Pintura y acabados */}
         <div className="mb-6 flex flex-col justify-center items-center">
           <h3 className="text-lg font-semibold text-black mb-2 hover:text-[#ACC90F] mr-[2rem]">
-            <a href="/pintura-acabados">Pintura y acabados</a>
+            <Link to="/pintura-acabados" onClick={scrollToTop}>Pintura y acabados</Link>
           </h3>
           <ul className="ml-[14px]">
-            <li className='pb-1 hover:text-[#ACC90F]'><a href="/pintura-acabados/interior">Pintura para interior</a></li>
-            <li className='pb-1 hover:text-[#ACC90F]'><a href="/pintura-acabados/exterior">Pintura para exterior</a></li>
-            <li className='pb-1 hover:text-[#ACC90F]'><a href="/pintura-acabados/esmalte">Esmalte</a></li>
-            <li className='pb-1 hover:text-[#ACC90F]'><a href="/pintura-acabados/estucos">Estucos</a></li>
-            <li className='pb-1 hover:text-[#ACC90F]'><a href="/pintura-acabados/rellenos">Rellenos</a></li>
-            <li className='pb-1 hover:text-[#ACC90F]'><a href="/pintura-acabados/pegantes">Pegantes</a></li>
-            <li className='pb-1 hover:text-[#ACC90F]'><a href="/pintura-acabados/boquillas">Boquillas</a></li>
-            <li className='pb-1 hover:text-[#ACC90F]'><a href="/pintura-acabados/brochas-rodillos-espatulas">Brochas, rodillos y espátulas</a></li>
+            <li className='pb-1 hover:text-[#ACC90F]'><Link to="/pintura-acabados/interior"onClick={scrollToTop}>Pintura para interior</Link></li>
+            <li className='pb-1 hover:text-[#ACC90F]'><Link to="/pintura-acabados/exterior"onClick={scrollToTop}>Pintura para exterior</Link></li>
+            <li className='pb-1 hover:text-[#ACC90F]'><Link to="/pintura-acabados/esmalte"onClick={scrollToTop}>Esmalte</Link></li>
+            <li className='pb-1 hover:text-[#ACC90F]'><Link to="/pintura-acabados/estucos"onClick={scrollToTop}>Estucos</Link></li>
+            <li className='pb-1 hover:text-[#ACC90F]'><Link to="/pintura-acabados/rellenos"onClick={scrollToTop}>Rellenos</Link></li>
+            <li className='pb-1 hover:text-[#ACC90F]'><Link to="/pintura-acabados/pegantes"onClick={scrollToTop}>Pegantes</Link></li>
+            <li className='pb-1 hover:text-[#ACC90F]'><Link to="/pintura-acabados/boquillas"onClick={scrollToTop}>Boquillas</Link></li>
+            <li className='pb-1 hover:text-[#ACC90F]'><Link to="/pintura-acabados/brochas-rodillos-espatulas"onClick={scrollToTop}>Brochas, rodillos y espátulas</Link></li>
           </ul>
         </div>
 

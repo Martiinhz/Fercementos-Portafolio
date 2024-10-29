@@ -16,7 +16,20 @@ import Hierro from './Components/Pages/Hierros/Hierro';
 import VarillaCorrugada from './Components/Pages/Hierros/VarillaCorrugada';
 import Alambres from './Components/Pages/Hierros/Alambres';
 import Chipa from './Components/Pages/Hierros/Chipa';
-import Malla from './Components/Pages/Hierros/Malla'
+import Malla from './Components/Pages/Hierros/Malla';
+import Ladrillos from './Components/Pages/Ladrillos/Ladrillo';
+import PinturaAcabados from './Components/Pages/PinturaAcabados/PinturaAcabados';
+import Exterior from './Components/Pages/PinturaAcabados/Exterior';
+import Interior from './Components/Pages/PinturaAcabados/Interior';
+import Esmalte from './Components/Pages/PinturaAcabados/Esmalte';
+import Relleno from './Components/Pages/PinturaAcabados/Relleno';
+import Estuco from './Components/Pages/PinturaAcabados/Estuco';
+import Pegantes from './Components/Pages/PinturaAcabados/Pegante';
+import Boquillas from './Components/Pages/PinturaAcabados/Boquilla';
+
+
+
+
 
 const MainLayout = ({ searchTerm, setSearchTerm }) => (
   <>
@@ -42,8 +55,16 @@ const AppRoutes = ({ searchTerm, setSearchTerm }) => {
     {path: "/hierro/varilla-corrugada", element: <VarillaCorrugada/>},
     {path: "/hierro/chipa", element: <Chipa/>},
     {path: "/hierro/alambres", element: <Alambres/>},
-    {path: "/hierro/mallas", element: <Malla/>}
-    
+    {path: "/hierro/mallas", element: <Malla/>},
+    {path: "/ladrillo", element: <Ladrillos/>},
+    {path: "/pintura-acabados", element: <PinturaAcabados/>},
+    {path: "/pintura-acabados/interior", element: <Interior/>},
+    {path: "/pintura-acabados/exterior", element: <Exterior/>},
+    {path: "/pintura-acabados/esmalte", element: <Esmalte/>},
+    {path: "/pintura-acabados/estucos", element: <Estuco/>},
+    {path: "/pintura-acabados/rellenos", element: <Relleno/>},
+    {path: "/pintura-acabados/pegantes", element: <Pegantes/>},
+    {path: "/pintura-acabados/boquillas", element: <Boquillas/>}
     
   ]);
 }

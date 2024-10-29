@@ -1,15 +1,15 @@
 import React, { useEffect, useState } from 'react';
-import BackgroundImage from '../../../assets/fondo1.png';
+import BackgroundImage from '../../../assets/fondo4.jpg';
 import Header from '../../Layouts/Header/Header';
 import Pagination from '../../Pagination/Pagination';
 import { motion } from 'framer-motion';
 import CategoryMenu from '../../CategoryMenu/CategoryMenu';
-import Triturado from '../../Sections/Category/CementosAgregados/Triturado'
+import PituraAcabados from '../../Sections/Category/Ladrillo/Ladrillo'
 import Footer from '../../Layouts/Footer/Footer';
 
 
 const CementsAggre = ({ searchTerm= ""}) => {
-    const [filteredProducts, setFilteredProducts] = useState(Triturado);
+    const [filteredProducts, setFilteredProducts] = useState(PituraAcabados);
     const [currentPage, setCurrentPage] = useState(1);
     const [selectedProduct, setSelectedProduct] = useState(null);
     const [activeImage, setActiveImage] = useState(null);
@@ -18,7 +18,7 @@ const CementsAggre = ({ searchTerm= ""}) => {
     
     useEffect(() => {
         setFilteredProducts(
-          Triturado.filter((product) =>
+            PituraAcabados.filter((product) =>
             product.name.toLowerCase().includes(searchTerm.toLowerCase())
           )
         );
@@ -67,7 +67,7 @@ const CementsAggre = ({ searchTerm= ""}) => {
             >
                 <div className="absolute inset-0 bg-black opacity-50"></div>
                 <h1 className="relative text-white text-4xl font-bold p-4 rounded-lg z-10">
-                    Triturado
+                Ladrillos
                 </h1>
             </div>
 
