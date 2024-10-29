@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import BackgroundImage from '../../../assets/fondo.jpg';
+import BackgroundImage from '../../../assets/Fondo.jpg';
 import Header from '../../Layouts/Header/Header';
 import Pagination from '../../Pagination/Pagination';
 import { motion } from 'framer-motion';

@@ -43,7 +43,6 @@ const MainLayout = ({ searchTerm, setSearchTerm }) => (
 const AppRoutes = ({ searchTerm, setSearchTerm }) => {
   return useRoutes([
     {path: "/",element: <MainLayout searchTerm={searchTerm} setSearchTerm={setSearchTerm} />},
-  
     {path: "/cementos-agregados", element: <CementsAggre searchTerm={searchTerm} /> },
     {path: "/cementos-agregados/cementos",element: <Cementos /> },
     {path: "/cementos-agregados/arena",element: <Arenas /> },
@@ -65,7 +64,6 @@ const AppRoutes = ({ searchTerm, setSearchTerm }) => {
     {path: "/pintura-acabados/rellenos", element: <Relleno/>},
     {path: "/pintura-acabados/pegantes", element: <Pegantes/>},
     {path: "/pintura-acabados/boquillas", element: <Boquillas/>}
-    
   ]);
 }
 
