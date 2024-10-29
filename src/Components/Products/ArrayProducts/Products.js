@@ -81,7 +81,7 @@ import argos6 from '../../../assets/Productos/Argos/CementoBlancox20.png'
 import argos7 from '../../../assets/Productos/Argos/CementoBlancox5.png'
 import argos8 from '../../../assets/Productos/Argos/CementoBlancox1.png'
 import argos9 from '../../../assets/Productos/Argos/CalHidratadax10.png'
-import argos10 from '../../../assets/Productos/Argos/Boquilla.png'
+import argos10 from '../../../assets/Productos/Argos/boquilla.png'
 import argos11 from '../../../assets/Productos/Argos/Pegante.png'
 
 // Gyplac

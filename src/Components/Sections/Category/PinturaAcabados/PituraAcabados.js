@@ -34,7 +34,7 @@ import impadoc9 from '../../../../assets/Productos/Impadoc/EstucoTiempo.png'
 import impadoc10 from '../../../../assets/Productos/Impadoc/EstucoPanelSecadoRapido.png'
 import impadoc11 from '../../../../assets/Productos/Impadoc/Boquilla2k.png'
 import impadoc12 from '../../../../assets/Productos/Impadoc/Boquilla5k.png'
-import argos1 from '../../../../assets/Productos/Argos/Boquilla.png'
+import argos1 from '../../../../assets/Productos/Argos/boquilla.png'
 import argos2 from '../../../../assets/Productos/Argos/Pegante.png'
 
 
