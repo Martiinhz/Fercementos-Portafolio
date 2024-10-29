@@ -81,6 +81,8 @@ import argos6 from '../../../assets/Productos/Argos/CementoBlancox20.png'
 import argos7 from '../../../assets/Productos/Argos/CementoBlancox5.png'
 import argos8 from '../../../assets/Productos/Argos/CementoBlancox1.png'
 import argos9 from '../../../assets/Productos/Argos/CalHidratadax10.png'
+import argos10 from '../../../assets/Productos/Argos/Boquilla.png'
+import argos11 from '../../../assets/Productos/Argos/Pegante.png'
 
 // Gyplac
 import gyplac1 from '../../../assets/Productos/Gyplac/PlacaYeso.png'
@@ -97,6 +99,8 @@ import impadoc7 from '../../../assets/Productos/Impadoc/Impatextura.png'
 import impadoc8 from '../../../assets/Productos/Impadoc/ImpaboquilaBlanca.png'
 import impadoc9 from '../../../assets/Productos/Impadoc/EstucoTiempo.png'
 import impadoc10 from '../../../assets/Productos/Impadoc/EstucoPanelSecadoRapido.png'
+import impadoc11 from '../../../assets/Productos/Impadoc/Boquilla2k.png'
+import impadoc12 from '../../../assets/Productos/Impadoc/Boquilla5k.png'
 
 // Imsa
 import imsa1 from '../../../assets/Productos/Imsa/CarretillaConstructura.png'
@@ -350,9 +354,9 @@ export const products = [
 
   // Ajover
   { id: 8, name: "Teja Ajover Ajozinc", image: ajover1, secondImage: ajover37, description: "Policarbonato" },
-  { id: 9, name: "Teja Policarbonato Cristal", image: ajover2, secondImage: ajover38},
-  { id: 10, name: "Teja Ajonit Heavy Duty", image: ajover3, secondImage: ajover39},
-  { id: 11, name: "Teja Ajozinc Translucida", image: ajover4, secondImage: ajover40},
+  { id: 9, name: "Teja Policarbonato Cristal", image: ajover2, secondImage: ajover38 },
+  { id: 10, name: "Teja Ajonit Heavy Duty", image: ajover3, secondImage: ajover39 },
+  { id: 11, name: "Teja Ajozinc Translucida", image: ajover4, secondImage: ajover40 },
   { id: 12, name: "Teja de Zinc Calibre 34 y 35", image: ajover5 },
   { id: 13, name: "Perfil 40X80", image: ajover6, description: "4x8 CL 20 Y CL 18 X 6 MTS, CL 16" },
   { id: 14, name: "Ladrillo Calao", image: ajover7 },
@@ -396,6 +400,8 @@ export const products = [
   { id: 48, name: "Cemento Blanco x 5 kg", image: argos7 },
   { id: 49, name: "Cemento Blanco x 1 kg", image: argos8 },
   { id: 50, name: "Cal Hidratada x 10 kg", image: argos9 },
+  { id: 286, name: "Boquilla Argos 2kg", image: argos10, description: "" },
+  { id: 287, name: "Pegante Para ceramica interior", image: argos11},
 
 
   // Gyplac
@@ -413,6 +419,9 @@ export const products = [
   { id: 60, name: "Impaboquilla Blanca y Beige x 2 kg", image: impadoc8 },
   { id: 61, name: "Estuco Panel tiempo extendido x 25 kl", image: impadoc9 },
   { id: 62, name: "Estuco Panel Secado Rapido x 25 kl", image: impadoc10 },
+  { id: 284, name: "Boquilla Concolor 2kg", image: impadoc11, description: "" },
+  { id: 285, name: "Boquilla Concolor 5kg", image: impadoc12, description: "" },
+
 
   // Imsa
   { id: 63, name: "Carretilla Constructora", image: imsa1 },
@@ -445,9 +454,9 @@ export const products = [
   { id: 88, name: "Pintura Para Tráfico", image: pintuland24, link: "https://pintuland.com.co/wp-content/uploads/2022/08/Carta_De_Colores_Pintuland_Web.pdf" },
 
   // // Sidoc
-  { id: 89, name: "Varilla Corrugada", image: sidoc1,secondImage: sidoc4, description: "Varilla 6 mts, 9 mts y 12 mts: 1/4, 3/8, 1/2, 5/8, 3/4" },
-  { id: 90, name: "Chipa Corrugada", image: sidoc2,secondImage: sidoc5, description: "Chipa: 1/4, 3/8, 1/2, 5/8" },
-  { id: 91, name: "Malla Electrosoldada", image: sidoc3,secondImage: sidoc6, description: "Malla electrosoldada 15x15 de 6 mts: 4 mm 5 mm, Rollo Malla electrosoldada 15x15 de 18 mts: 3.5 mm 4 mm" },
+  { id: 89, name: "Varilla Corrugada", image: sidoc1, secondImage: sidoc4, description: "Varilla 6 mts, 9 mts y 12 mts: 1/4, 3/8, 1/2, 5/8, 3/4" },
+  { id: 90, name: "Chipa Corrugada", image: sidoc2, secondImage: sidoc5, description: "Chipa: 1/4, 3/8, 1/2, 5/8" },
+  { id: 91, name: "Malla Electrosoldada", image: sidoc3, secondImage: sidoc6, description: "Malla electrosoldada 15x15 de 6 mts: 4 mm 5 mm, Rollo Malla electrosoldada 15x15 de 18 mts: 3.5 mm 4 mm" },
   { id: 282, name: "Alambre Negro", image: sidoc7, description: "1 kg, 2 kg, 3 kg, 5 kg" },
   { id: 283, name: "Alambre Galvanisado", image: sidoc8, description: "1 kg, 2 kg, 3 kg, 5kg" },
 
@@ -458,7 +467,7 @@ export const products = [
   { id: 95, name: "1/4 Galón 1.4 kg", image: Supermastick4 },
 
   // Superboard
-  { id: 96, name: "Superboard", image: super1, secondImage: super13},
+  { id: 96, name: "Superboard", image: super1, secondImage: super13 },
   { id: 97, name: "Paral 89", image: super2 },
   { id: 98, name: "Canal 90", image: super3 },
   { id: 99, name: "Paral 59", image: super4 },
@@ -539,10 +548,10 @@ export const products = [
   { id: 181, name: "Canaleta sin adhesivo", image: celta57 },
   { id: 182, name: "Canaleta con Adhesivo", image: celta58 },
   { id: 183, name: "Curvas 90-SCH40", image: celta59 },
-  { id: 184, name: "Tubería Duraconduit", image: celta60, secondImage: celta141},
-  { id: 185, name: "Soldadura PVC color azul", image: celta61, secondImage: celta142},
-  { id: 186, name: "Soldadura liquida CPVC ", image: celta62, secondImage: celta143},
-  { id: 187, name: "Acondicionador", image: celta63, secondImage: celta144},
+  { id: 184, name: "Tubería Duraconduit", image: celta60, secondImage: celta141 },
+  { id: 185, name: "Soldadura PVC color azul", image: celta61, secondImage: celta142 },
+  { id: 186, name: "Soldadura liquida CPVC ", image: celta62, secondImage: celta143 },
+  { id: 187, name: "Acondicionador", image: celta63, secondImage: celta144 },
   { id: 188, name: "Tubos S4", image: celta64, secondImage: celta145 },
   { id: 189, name: "Tubos S8", image: celta65, secondImage: celta146 },
   { id: 190, name: "Lubricante", image: celta66 },
@@ -585,15 +594,15 @@ export const products = [
   { id: 237, name: "Soporte de bajante", image: celta103 },
   { id: 238, name: "Unión bajante", image: celta104 },
   { id: 239, name: "Codo bajante 90°", image: celta105 },
-  { id: 240, name: "Ventilación corriente", image: celta106, secondImage: celta146},
+  { id: 240, name: "Ventilación corriente", image: celta106, secondImage: celta146 },
   { id: 241, name: "Ventilación persiana", image: celta107, secondImage: celta147 },
   { id: 242, name: "Ventilación europea", image: celta108, secondImage: celta148 },
-  { id: 243, name: "Tapa registro corriente", image: celta109, secondImage: celta149},
-  { id: 244, name: "Caja para registro y Gas", image: celta110, secondImage: celta150},
-  { id: 245, name: "Caja llaves lavadora", image: celta111, secondImage: celta151},
+  { id: 243, name: "Tapa registro corriente", image: celta109, secondImage: celta149 },
+  { id: 244, name: "Caja para registro y Gas", image: celta110, secondImage: celta150 },
+  { id: 245, name: "Caja llaves lavadora", image: celta111, secondImage: celta151 },
   { id: 246, name: "Lavamanos lavaplatos con válvulas de regulación", image: celta112 },
   { id: 247, name: "Sanitario con válvulas de regulación", image: celta113 },
-  {id: 248, name: "Válvula de regulación sencilla para acople", image: celta114},
+  { id: 248, name: "Válvula de regulación sencilla para acople", image: celta114 },
   { id: 249, name: "Válvula de regulación", image: celta115 },
   { id: 250, name: "Acoples con válvula de regulación para lavamanos", image: celta116 },
   { id: 251, name: "Lavamanos lavaplatos sin válvula", image: celta117 },

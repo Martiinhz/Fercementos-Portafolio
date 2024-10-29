@@ -32,6 +32,10 @@ import impadoc7 from '../../../../assets/Productos/Impadoc/Impatextura.png'
 import impadoc8 from '../../../../assets/Productos/Impadoc/ImpaboquilaBlanca.png'
 import impadoc9 from '../../../../assets/Productos/Impadoc/EstucoTiempo.png'
 import impadoc10 from '../../../../assets/Productos/Impadoc/EstucoPanelSecadoRapido.png'
+import impadoc11 from '../../../../assets/Productos/Impadoc/Boquilla2k.png'
+import impadoc12 from '../../../../assets/Productos/Impadoc/Boquilla5k.png'
+import argos1 from '../../../../assets/Productos/Argos/Boquilla.png'
+import argos2 from '../../../../assets/Productos/Argos/Pegante.png'
 
 
 const PinturaAcabados = [
@@ -70,6 +74,11 @@ const PinturaAcabados = [
     { id: 60, name: "Impaboquilla Blanca y Beige x 2 kg", image: impadoc8 },
     { id: 61, name: "Estuco Panel tiempo extendido x 25 kl", image: impadoc9 },
     { id: 62, name: "Estuco Panel Secado Rapido x 25 kl", image: impadoc10 },
+    { id: 284, name: "Boquilla Concolor 2kg", image: impadoc11, description: "" },
+    { id: 285, name: "Boquilla Concolor 5kg", image: impadoc12, description: "" },
+    { id: 287, name: "Pegante Para ceramica interior", image: argos1 },
+    { id: 286, name: "Boquilla Argos 2kg", image: argos2, description: "" },
+
 ];
 
 export default PinturaAcabados;

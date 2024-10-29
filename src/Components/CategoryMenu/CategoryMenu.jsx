@@ -65,7 +65,7 @@ const CategoryMenu = () => {
         {/* Ladrillo */}
         <div className="mb-6 flex flex-col justify-center items-center">
           <h3 className="text-lg font-semibold text-black mb-2 hover:text-[#ACC90F] mr-[8rem]">
-            <a href="/ladrillo"onClick={scrollToTop}>Ladrillo</a>
+            <Link to="/ladrillo"onClick={scrollToTop}>Ladrillo</Link>
           </h3>
         </div>
 
