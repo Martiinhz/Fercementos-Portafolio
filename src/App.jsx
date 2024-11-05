@@ -33,6 +33,7 @@ import Claraboya from './Components/Pages/Cubiertas/Claraboya';
 import Cinta from './Components/Pages/Cubiertas/Cinta';
 import Bloquelon from './Components/Pages/Cubiertas/Bloquelon';
 import Colonial from './Components/Pages/Cubiertas/TejaColonial';
+import Tanques from './Components/Pages/Cubiertas/Tanques';
 
 
 
@@ -75,7 +76,8 @@ const AppRoutes = ({ searchTerm, setSearchTerm }) => {
     {path: "/cubiertas-placas/claraboyas", element: <Claraboya/>},
     {path: "/cubiertas-placas/cinta-asfaltica", element: <Cinta/>},
     {path: "/cubiertas-placas/bloquelon", element: <Bloquelon/>},
-    {path: "/cubiertas-placas/teja-colonial", element: <Colonial/>}
+    {path: "/cubiertas-placas/teja-colonial", element: <Colonial/>},
+    {path: "/cubiertas-placas/tanques", element: <Tanques/>}
   ]);
 }
 

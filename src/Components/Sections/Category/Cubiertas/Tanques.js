@@ -1,4 +1,10 @@
-
+import acuaviva1 from '../../../../assets/Productos/Acuaviva/Tanque250.png'
+import acuaviva2 from '../../../../assets/Productos/Acuaviva/Tanque500.png'
+import acuaviva4 from '../../../../assets/Productos/Acuaviva/Tanque1000.png'
+import acuaviva5 from '../../../../assets/Productos/Acuaviva/Tanque2000.png'
+import acuaviva6 from '../../../../assets/Productos/Acuaviva/Tanque5000.png'
+import acuaviva7 from '../../../../assets/Productos/Acuaviva/Tanque6000.png'
+import acuaviva8 from '../../../../assets/Productos/Acuaviva/1.png'
 
 const Tanques = [
 

@@ -4,7 +4,7 @@ import Header from '../../Layouts/Header/Header';
 import Pagination from '../../Pagination/Pagination';
 import { motion } from 'framer-motion';
 import CategoryMenu from '../../CategoryMenu/CategoryMenu';
-import CementosAgregados from '../../Sections/Category/Cubiertas/Bloquelon';
+import CementosAgregados from '../../Sections/Category/Cubiertas/Tanques';
 import Footer from '../../Layouts/Footer/Footer';
 
 
@@ -67,7 +67,7 @@ const CementsAggre = ({ searchTerm= ""}) => {
             >
                 <div className="absolute inset-0 bg-black opacity-50"></div>
                 <h1 className="relative text-white text-4xl sm:text-3xl font-bold p-4 rounded-lg z-10 sm:ml-16">
-                Bloquelón – Perfil entrepiso
+               Tanques
                 </h1>
             </div>
 
