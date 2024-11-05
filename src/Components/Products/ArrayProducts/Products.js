@@ -333,14 +333,61 @@ import proteja3 from '../../../assets/Productos/Proteja/3.png'
 import proteja4 from '../../../assets/Productos/Proteja/4.png'
 import proteja5 from '../../../assets/Productos/Proteja/5.png'
 import proteja6 from '../../../assets/Productos/Proteja/6.png'
+import proteja7 from '../../../assets/Productos/Proteja/7.png'
+import proteja8 from '../../../assets/Productos/Proteja/8.png'
+import proteja9 from '../../../assets/Productos/Proteja/9.png'
 
 // LadrilleraSantafe
-import santafe1 from '../../../assets/Productos/LadrilleraSantafe/1.png'
+import santafe1 from '../../../assets/Productos/LadrilleraSantafe/Bloquelon.png'
 import santafe2 from '../../../assets/Productos/LadrilleraSantafe/2.png'
 import santafe3 from '../../../assets/Productos/LadrilleraSantafe/3.png'
 import santafe4 from '../../../assets/Productos/LadrilleraSantafe/4.png'
 import santafe5 from '../../../assets/Productos/LadrilleraSantafe/5.png'
 import santafe6 from '../../../assets/Productos/LadrilleraSantafe/6.png'
+import santafe7 from '../../../assets/Productos/LadrilleraSantafe/7.png'
+
+// Brochas,espatulas y rodillos
+import brocha1 from '../../..//assets/Productos/Brochas/1.png'
+import brocha2 from '../../../assets/Productos/Brochas/2.png'
+import brocha3 from '../../../assets/Productos/Brochas/3.png'
+import brocha4 from '../../../assets/Productos/Brochas/4.png'
+import brocha5 from '../../../assets/Productos/Brochas/5.png'
+import brocha6 from '../../../assets/Productos/Brochas/6.png'
+import brocha7 from '../../../assets/Productos/Brochas/7.png'
+import brocha8 from '../../../assets/Productos/Brochas/8.png'
+import brocha9 from '../../../assets/Productos/Brochas/9.png'
+import brocha10 from '../../../assets/Productos/Brochas/10.png'
+import brocha11 from '../../../assets/Productos/Brochas/11.png'
+import brocha12 from '../../../assets/Productos/Brochas/12.png'
+import brocha13 from '../../../assets/Productos/Brochas/13.png'
+import brocha14 from '../../../assets/Productos/Brochas/14.png'
+import brocha15 from '../../../assets/Productos/Brochas/15.png'
+import brocha16 from '../../../assets/Productos/Brochas/16.png'
+import brocha17 from '../../../assets/Productos/Brochas/17.png'
+import brocha18 from '../../../assets/Productos/Brochas/18.png'
+import brocha19 from '../../../assets/Productos/Brochas/19.png'
+import brocha20 from '../../../assets/Productos/Brochas/20.png'
+import brocha21 from '../../../assets/Productos/Brochas/21.png'
+import brocha22 from '../../../assets/Productos/Brochas/22.png'
+import brocha23 from '../../../assets/Productos/Brochas/23.png'
+import brocha24 from '../../../assets/Productos/Brochas/24.png'
+import brocha25 from '../../../assets/Productos/Brochas/25.png'
+import brocha26 from '../../../assets/Productos/Brochas/26.png'
+import brocha27 from '../../../assets/Productos/Brochas/27.png'
+import rodillo1 from '../../../assets/Productos/Rodillos/1.png'
+import rodillo2 from '../../../assets/Productos/Rodillos/2.png'
+import rodillo3 from '../../../assets/Productos/Rodillos/3.png'
+import rodillo4 from '../../../assets/Productos/Rodillos/4.png'
+import rodillo5 from '../../../assets/Productos/Rodillos/5.png'
+import rodillo6 from '../../../assets/Productos/Rodillos/6.png'
+import rodillo7 from '../../../assets/Productos/Rodillos/7.png'
+import rodillo8 from '../../../assets/Productos/Rodillos/8.png'
+import espatula1 from '../../../assets/Productos/Espatulas/1.png'
+import espatula2 from '../../../assets/Productos/Espatulas/2.png'
+import espatula3 from '../../../assets/Productos/Espatulas/3.png'
+import espatula4 from '../../../assets/Productos/Espatulas/4.png'
+import espatula5 from '../../../assets/Productos/Espatulas/5.png'
+import espatula6 from '../../../assets/Productos/Espatulas/6.png'
 
 
 export const products = [
@@ -401,7 +448,7 @@ export const products = [
   { id: 49, name: "Cemento Blanco x 1 kg", image: argos8 },
   { id: 50, name: "Cal Hidratada x 10 kg", image: argos9 },
   { id: 286, name: "Boquilla Argos 2kg", image: argos10, description: "" },
-  { id: 287, name: "Pegante Para ceramica interior", image: argos11},
+  { id: 287, name: "Pegante Para ceramica interior", image: argos11 },
 
 
   // Gyplac
@@ -632,13 +679,61 @@ export const products = [
   { id: 273, name: "Caballate tipo nuevo", image: proteja3 },
   { id: 274, name: "Caballate tipo viejo", image: proteja4 },
   { id: 275, name: "Limatesa limahoya teja", image: proteja5 },
+  { id: 286, name: "Teja Colonial", image: proteja7 },
+  { id: 287, name: "Cinta Asfaltica Alumban", image: proteja8 },
+  { id: 288, name: "Cinta Asfaltica Sika", image: proteja9 },
+
 
   // LadrilleraSantafe
-  { id: 276, name: "Bloquelon placa facil", image: santafe1 },
+  { id: 276, name: "Bloquelon placa facil", image: santafe1, secondImage: santafe7 },
   { id: 277, name: "Perfil entrepiso negro", image: santafe2, description: "3 mts, 6 mts, 7 mts, 9 mts, 10 mts" },
   { id: 278, name: "Ladrillo Portante", image: santafe3, description: "Ladrillo Portante 306 Capuchino H" },
   { id: 279, name: "Ladrillo Gran", image: santafe4, description: "Ladrillo Gran Formato Cobrizo" },
   { id: 280, name: "Ladrillo Gran", image: santafe5, description: "Ladrillo Gran Formato Cocoa" },
-  { id: 281, name: "Ladrillo Gran", image: santafe6, description: "Ladrillo Gran Formato Terracota" }
+  { id: 281, name: "Ladrillo Gran", image: santafe6, description: "Ladrillo Gran Formato Terracota" },
+
+
+  // Brochas,espatulas y rodillos
+  { id: 289, name: "Brocha Monofilamento 1 Pulgada", image: brocha1 },
+  { id: 290, name: "Brocha Monofilamento", image: brocha2 },
+  { id: 291, name: "Brocha Monofilamento", image: brocha3 },
+  { id: 292, name: "Brocha Monofilamento", image: brocha4 },
+  { id: 293, name: "Brocha Monofilamento", image: brocha5 },
+  { id: 294, name: "Brocha Monofilamento", image: brocha6 },
+  { id: 295, name: "Brocha Monofilamento", image: brocha7 },
+  { id: 296, name: "Brocha Monofilamento", image: brocha8 },
+  { id: 297, name: "Brocha Monofilamento", image: brocha9 },
+  { id: 298, name: "Brocha Popular", image: brocha10 },
+  { id: 299, name: "Brocha Popular", image: brocha11 },
+  { id: 300, name: "Brocha Popular", image: brocha12 },
+  { id: 301, name: "Brocha Popular", image: brocha13 },
+  { id: 302, name: "Brocha Popular", image: brocha14 },
+  { id: 303, name: "Brocha Popular", image: brocha15 },
+  { id: 304, name: "Brocha Popular", image: brocha16 },
+  { id: 305, name: "Brocha Popular", image: brocha17 },
+  { id: 306, name: "Brocha Popular", image: brocha18 },
+  { id: 307, name: "Brocha Profesional", image: brocha19 },
+  { id: 308, name: "Brocha Profesional", image: brocha20 },
+  { id: 309, name: "Brocha Profesional", image: brocha21 },
+  { id: 310, name: "Brocha Profesional", image: brocha22 },
+  { id: 311, name: "Brocha Profesional", image: brocha23 },
+  { id: 312, name: "Brocha Profesional", image: brocha24 },
+  { id: 313, name: "Brocha Profesional", image: brocha25 },
+  { id: 314, name: "Brocha Profesional", image: brocha26 },
+  { id: 315, name: "Brocha Profesional", image: brocha27 },
+  { id: 316, name: "Rodillo", image: rodillo1 },
+  { id: 317, name: "Rodillo", image: rodillo2 },
+  { id: 318, name: "Rodillo", image: rodillo3 },
+  { id: 319, name: "Rodillo", image: rodillo4 },
+  { id: 320, name: "Rodillo", image: rodillo5 },
+  { id: 321, name: "Rodillo", image: rodillo6 },
+  { id: 322, name: "Rodillo", image: rodillo7 },
+  { id: 323, name: "Rodillo", image: rodillo8 },
+  { id: 324, name: "Espatula", image: espatula1 },
+  { id: 325, name: "Espatula", image: espatula2 },
+  { id: 326, name: "Espatula", image: espatula3 },
+  { id: 327, name: "Espatula", image: espatula4 },
+  { id: 328, name: "Espatula", image: espatula5 },
+  { id: 329, name: "Espatula", image: espatula6 },
 
 ];

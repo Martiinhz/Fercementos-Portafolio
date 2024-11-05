@@ -26,8 +26,13 @@ import Relleno from './Components/Pages/PinturaAcabados/Relleno';
 import Estuco from './Components/Pages/PinturaAcabados/Estuco';
 import Pegantes from './Components/Pages/PinturaAcabados/Pegante';
 import Boquillas from './Components/Pages/PinturaAcabados/Boquilla';
-
-
+import Brochas from './Components/Pages/PinturaAcabados/Brocha';
+import Cubiertas from './Components/Pages/Cubiertas/Cubierta';
+import Teja from './Components/Pages/Cubiertas/Teja';
+import Claraboya from './Components/Pages/Cubiertas/Claraboya';
+import Cinta from './Components/Pages/Cubiertas/Cinta';
+import Bloquelon from './Components/Pages/Cubiertas/Bloquelon';
+import Colonial from './Components/Pages/Cubiertas/TejaColonial';
 
 
 
@@ -63,7 +68,14 @@ const AppRoutes = ({ searchTerm, setSearchTerm }) => {
     {path: "/pintura-acabados/estucos", element: <Estuco/>},
     {path: "/pintura-acabados/rellenos", element: <Relleno/>},
     {path: "/pintura-acabados/pegantes", element: <Pegantes/>},
-    {path: "/pintura-acabados/boquillas", element: <Boquillas/>}
+    {path: "/pintura-acabados/boquillas", element: <Boquillas/>},
+    {path: "/pintura-acabados/brochas-rodillos-espatulas", element: <Brochas/>},
+    {path: "/cubiertas-placas", element: <Cubiertas/>},
+    {path: "/cubiertas-placas/teja-fibrocemento", element: <Teja/>},
+    {path: "/cubiertas-placas/claraboyas", element: <Claraboya/>},
+    {path: "/cubiertas-placas/cinta-asfaltica", element: <Cinta/>},
+    {path: "/cubiertas-placas/bloquelon", element: <Bloquelon/>},
+    {path: "/cubiertas-placas/teja-colonial", element: <Colonial/>}
   ]);
 }
 
