@@ -89,17 +89,17 @@ const CategoryMenu = () => {
         {/* Cubiertas, placas, impermeabilizantes y tanques */}
         <div className="mb-6 flex flex-col justify-center items-center">
           <h3 className="text-lg font-semibold text-black mb-2 hover:text-[#ACC90F]">
-            <a href="/cubiertas-placas">Cubiertas, placas, impermeabilizantes y tanques</a>
+            <Link to="/cubiertas-placas">Cubiertas, placas, impermeabilizantes y tanques</Link>
           </h3>
           <ul className="ml-[1.5rem]">
-            <li className='pb-1 hover:text-[#ACC90F]'><a href="/cubiertas-placas/teja-fibrocemento">Teja proteja fibrocemento</a></li>
-            <li className='pb-1 hover:text-[#ACC90F]'><a href="/cubiertas-placas/claraboyas">Claraboyas</a></li>
-            <li className='pb-1 hover:text-[#ACC90F]'><a href="/cubiertas-placas/teja-colonial">Teja colonial</a></li>
-            <li className='pb-1 hover:text-[#ACC90F]'><a href="/cubiertas-placas/teja-pvc">Tejas PVC</a></li>
-            <li className='pb-1 hover:text-[#ACC90F]'><a href="/cubiertas-placas/cinta-asfaltica">Cinta asfáltica</a></li>
-            <li className='pb-1 hover:text-[#ACC90F]'><a href="/cubiertas-placas/tanques">Tanques</a></li>
-            <li className='pb-1 hover:text-[#ACC90F]'><a href="/cubiertas-placas/bloquelon">Bloquelón – Perfil entrepiso</a></li>
-            <li className='pb-1 hover:text-[#ACC90F]'><a href="/cubiertas-placas/bloquelon">Perfilería entrepiso y cubiertas</a></li>
+            <li className='pb-1 hover:text-[#ACC90F]'><Link to="/cubiertas-placas/teja-fibrocemento">Teja proteja fibrocemento</Link></li>
+            <li className='pb-1 hover:text-[#ACC90F]'><Link to="/cubiertas-placas/claraboyas">Claraboyas</Link></li>
+            <li className='pb-1 hover:text-[#ACC90F]'><Link to="/cubiertas-placas/teja-colonial">Teja colonial</Link></li>
+            <li className='pb-1 hover:text-[#ACC90F]'><Link to="/cubiertas-placas/teja-pvc">Tejas PVC</Link></li>
+            <li className='pb-1 hover:text-[#ACC90F]'><Link to="/cubiertas-placas/cinta-asfaltica">Cinta asfáltica</Link></li>
+            <li className='pb-1 hover:text-[#ACC90F]'><Link to="/cubiertas-placas/tanques">Tanques</Link></li>
+            <li className='pb-1 hover:text-[#ACC90F]'><Link to="/cubiertas-placas/bloquelon">Bloquelón – Perfil entrepiso</Link></li>
+            <li className='pb-1 hover:text-[#ACC90F]'><Link to="/cubiertas-placas/bloquelon">Perfilería entrepiso y cubiertas</Link></li>
           </ul>
         </div>
 
