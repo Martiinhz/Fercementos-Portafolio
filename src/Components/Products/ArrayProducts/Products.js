@@ -141,6 +141,7 @@ import sidoc5 from '../../../assets/Productos/Sidoc/2.png'
 import sidoc6 from '../../../assets/Productos/Sidoc/3.png'
 import sidoc7 from '../../../assets/Productos/Sidoc/AlambreNegro.png'
 import sidoc8 from '../../../assets/Productos/Sidoc/ALambreGris.png'
+import sidoc9 from '../../../assets/Productos/Sidoc/MallaGallina.png'
 
 
 // SuperMastick
@@ -506,6 +507,7 @@ export const products = [
   { id: 91, name: "Malla Electrosoldada", image: sidoc3, secondImage: sidoc6, description: "Malla electrosoldada 15x15 de 6 mts: 4 mm 5 mm, Rollo Malla electrosoldada 15x15 de 18 mts: 3.5 mm 4 mm" },
   { id: 282, name: "Alambre Negro", image: sidoc7, description: "1 kg, 2 kg, 3 kg, 5 kg" },
   { id: 283, name: "Alambre Galvanisado", image: sidoc8, description: "1 kg, 2 kg, 3 kg, 5kg" },
+  { id: 330, name: "Malla Gallinero", image: sidoc9, description: "malla gallinero hexagonal standard 1 1/4', x 36 m el corral" },
 
   // Supermastick
   { id: 92, name: "Cuñete 28 kg", image: Supermastick1 },
