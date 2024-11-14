@@ -109,12 +109,12 @@ const CategoryMenu = () => {
             <a href="/construccion-seco">Construcción en seco</a>
           </h3>
           <ul className="ml-[2rem]">
-            <li className='pb-1 hover:text-[#ACC90F]'><a href="/construccion-seco/placa-yeso">Placa yeso drywall</a></li>
-            <li className='pb-1 hover:text-[#ACC90F]'><a href="/construccion-seco/perfileria-drywall">Perfilería Drywall</a></li>
-            <li className='pb-1 hover:text-[#ACC90F]'><a href="/construccion-seco/placa-superboard">Placa superboard fibrocemento</a></li>
-            <li className='pb-1 hover:text-[#ACC90F]'><a href="/construccion-seco/masillas">Masillas</a></li>
-            <li className='pb-1 hover:text-[#ACC90F]'><a href="/construccion-seco/esquineros">Esquineros perforados</a></li>
-            <li className='pb-1 hover:text-[#ACC90F]'><a href="/construccion-seco/tornilleria">Tornillería Drywall</a></li>
+            <li className='pb-1 hover:text-[#ACC90F]'><a href="/construccion-seco/placa-yeso"onClick={scrollToTop}>Placa yeso drywall</a></li>
+            <li className='pb-1 hover:text-[#ACC90F]'><a href="/construccion-seco/perfileria-drywall"onClick={scrollToTop}>Perfilería Drywall</a></li>
+            <li className='pb-1 hover:text-[#ACC90F]'><a href="/construccion-seco/placa-superboard"onClick={scrollToTop}>Placa superboard fibrocemento</a></li>
+            <li className='pb-1 hover:text-[#ACC90F]'><a href="/construccion-seco/masillas"onClick={scrollToTop}>Masillas</a></li>
+            <li className='pb-1 hover:text-[#ACC90F]'><a href="/construccion-seco/esquineros"onClick={scrollToTop}>Esquineros perforados</a></li>
+            <li className='pb-1 hover:text-[#ACC90F]'><a href="/construccion-seco/tornilleria"onClick={scrollToTop}>Tornillería Drywall</a></li>
           </ul>
         </div>
 

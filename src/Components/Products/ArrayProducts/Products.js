@@ -70,6 +70,7 @@ import ajover37 from '../../../assets/Productos/Ajover/2.png'
 import ajover38 from '../../../assets/Productos/Ajover/3.png'
 import ajover39 from '../../../assets/Productos/Ajover/4.png'
 import ajover40 from '../../../assets/Productos/Ajover/5.png'
+import ajover41 from '../../../assets/Productos/Ajover/EsquineroPerforado.png'
 
 // Argos
 import argos1 from '../../../assets/Productos/Argos/Cementox50.png'
@@ -437,7 +438,7 @@ export const products = [
   { id: 41, name: "Malla Hexagonal", image: ajover34, description: "(1.8 MTS ALTO X 36 MTS LARGO X 11/4 HUECO)" },
   { id: 124, name: "Piedra Blanca x 23 kl y 40 kl", image: ajover35 },
   { id: 282, name: "Material de rio", image: ajover36, description: "Arena Media, Arena Gruesa, Triturado de 1/2, Por metro cubico y por estopas (40 kg)" },
-
+  { id: 330, name: "Esquinaro Plastico", image: ajover41, description: "Esquinero Plastico Perforado Drywall" },
   // Argos
   { id: 42, name: "Cemento Gris x 50 kg", image: argos1 },
   { id: 43, name: "Cemento Gris x 25 kg", image: argos2 },

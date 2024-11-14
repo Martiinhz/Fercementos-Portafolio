@@ -34,7 +34,13 @@ import Cinta from './Components/Pages/Cubiertas/Cinta';
 import Bloquelon from './Components/Pages/Cubiertas/Bloquelon';
 import Colonial from './Components/Pages/Cubiertas/TejaColonial';
 import Tanques from './Components/Pages/Cubiertas/Tanques';
-
+import Construccion from './Components/Pages/Construccion/Construccion';
+import PlacaYeso from './Components/Pages/Construccion/PlacaYeso';
+import Perfileria from './Components/Pages/Construccion/Perfileria';
+import PlacaSuper from './Components/Pages/Construccion/PlacaSuper';
+import Masillas from './Components/Pages/Construccion/Masillas';
+import Esquinaros from './Components/Pages/Construccion/Esquinero';
+import Tornilleria from './Components/Pages/Construccion/Tornilleria';
 
 
 const MainLayout = ({ searchTerm, setSearchTerm }) => (
@@ -77,7 +83,15 @@ const AppRoutes = ({ searchTerm, setSearchTerm }) => {
     {path: "/cubiertas-placas/cinta-asfaltica", element: <Cinta/>},
     {path: "/cubiertas-placas/bloquelon", element: <Bloquelon/>},
     {path: "/cubiertas-placas/teja-colonial", element: <Colonial/>},
-    {path: "/cubiertas-placas/tanques", element: <Tanques/>}
+    {path: "/cubiertas-placas/tanques", element: <Tanques/>},
+    {path: "/construccion-seco", element: <Construccion/>},
+    {path: "/construccion-seco/placa-yeso", element: <PlacaYeso/>},
+    {path: "/construccion-seco/perfileria-drywall", element: <Perfileria/>},
+    {path: "/construccion-seco/placa-superboard", element: <PlacaSuper/>},
+    {path: "/construccion-seco/masillas", element: <Masillas/>},
+    {path: "/construccion-seco/esquineros", element: <Esquinaros/>},
+    {path: "/construccion-seco/tornilleria", element: <Tornilleria/>}
+    
   ]);
 }
 
