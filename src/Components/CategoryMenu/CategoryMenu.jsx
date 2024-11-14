@@ -106,15 +106,15 @@ const CategoryMenu = () => {
         {/* Construcción en seco */}
         <div className="mb-6 flex flex-col justify-center items-center">
           <h3 className="text-lg font-semibold text-black mb-2 hover:text-[#ACC90F] mr-[1rem]">
-            <a href="/construccion-seco">Construcción en seco</a>
+            <Link to="/construccion-seco">Construcción en seco</Link>
           </h3>
           <ul className="ml-[2rem]">
-            <li className='pb-1 hover:text-[#ACC90F]'><a href="/construccion-seco/placa-yeso"onClick={scrollToTop}>Placa yeso drywall</a></li>
-            <li className='pb-1 hover:text-[#ACC90F]'><a href="/construccion-seco/perfileria-drywall"onClick={scrollToTop}>Perfilería Drywall</a></li>
-            <li className='pb-1 hover:text-[#ACC90F]'><a href="/construccion-seco/placa-superboard"onClick={scrollToTop}>Placa superboard fibrocemento</a></li>
-            <li className='pb-1 hover:text-[#ACC90F]'><a href="/construccion-seco/masillas"onClick={scrollToTop}>Masillas</a></li>
-            <li className='pb-1 hover:text-[#ACC90F]'><a href="/construccion-seco/esquineros"onClick={scrollToTop}>Esquineros perforados</a></li>
-            <li className='pb-1 hover:text-[#ACC90F]'><a href="/construccion-seco/tornilleria"onClick={scrollToTop}>Tornillería Drywall</a></li>
+            <li className='pb-1 hover:text-[#ACC90F]'><Link to="/construccion-seco/placa-yeso"onClick={scrollToTop}>Placa yeso drywall</Link></li>
+            <li className='pb-1 hover:text-[#ACC90F]'><Link to="/construccion-seco/perfileria-drywall"onClick={scrollToTop}>Perfilería Drywall</Link></li>
+            <li className='pb-1 hover:text-[#ACC90F]'><Link to="/construccion-seco/placa-superboard"onClick={scrollToTop}>Placa superboard fibrocemento</Link></li>
+            <li className='pb-1 hover:text-[#ACC90F]'><Link to="/construccion-seco/masillas"onClick={scrollToTop}>Masillas</Link></li>
+            <li className='pb-1 hover:text-[#ACC90F]'><Link to="/construccion-seco/esquineros"onClick={scrollToTop}>Esquineros perforados</Link></li>
+            <li className='pb-1 hover:text-[#ACC90F]'><Link to="/construccion-seco/tornilleria"onClick={scrollToTop}>Tornillería Drywall</Link></li>
           </ul>
         </div>
 
