@@ -106,7 +106,7 @@ const CategoryMenu = () => {
         {/* Construcción en seco */}
         <div className="mb-6 flex flex-col justify-center items-center">
           <h3 className="text-lg font-semibold text-black mb-2 hover:text-[#ACC90F] mr-[1rem]">
-            <Link to="/construccion-seco">Construcción en seco</Link>
+            <Link to="/construccion-seco" onClick={scrollToTop}>Construcción en seco</Link>
           </h3>
           <ul className="ml-[2rem]">
             <li className='pb-1 hover:text-[#ACC90F]'><Link to="/construccion-seco/placa-yeso"onClick={scrollToTop}>Placa yeso drywall</Link></li>
@@ -121,29 +121,29 @@ const CategoryMenu = () => {
         {/* Tubería y accesorios */}
         <div className="mb-6 flex flex-col justify-center items-center">
           <h3 className="text-lg font-semibold text-black mb-2 hover:text-[#ACC90F] mr-[1.5rem]">
-            <a href="/tuberia-accesorios"onClick={scrollToTop}>Tubería y accesorios</a>
+            <Link to="/tuberia-accesorios"onClick={scrollToTop}>Tubería y accesorios</Link>
           </h3>
           <ul className="mr-[1rem]">
-            <li className='pb-1 hover:text-[#ACC90F]'><a href="/tuberia-accesorios/sanitaria"onClick={scrollToTop}>Tubería Sanitaria</a></li>
-            <li className='pb-1 hover:text-[#ACC90F]'><a href="/tuberia-accesorios/cpvc"onClick={scrollToTop}>Tubería CPVC</a></li>
-            <li className='pb-1 hover:text-[#ACC90F]'><a href="/tuberia-accesorios/presion"onClick={scrollToTop}>Tubería Presión</a></li>
-            <li className='pb-1 hover:text-[#ACC90F]'><a href="/tuberia-accesorios/conduit"onClick={scrollToTop}>Tubería Conduit</a></li>
-            <li className='pb-1 hover:text-[#ACC90F]'><a href="/tuberia-accesorios/duraconduit"onClick={scrollToTop}>Tubería Duraconduit</a></li>
-            <li className='pb-1 hover:text-[#ACC90F]'><a href="/tuberia-accesorios/durafort"onClick={scrollToTop}>Tubería Durafort</a></li>
-            <li className='pb-1 hover:text-[#ACC90F]'><a href="/tuberia-accesorios/soldaduras"onClick={scrollToTop}>Soldaduras PVC y CPVC</a></li>
+            <li className='pb-1 hover:text-[#ACC90F]'><Link to="/tuberia-accesorios/sanitaria"onClick={scrollToTop}>Tubería Sanitaria</Link></li>
+            <li className='pb-1 hover:text-[#ACC90F]'><Link to="/tuberia-accesorios/cpvc"onClick={scrollToTop}>Tubería CPVC</Link></li>
+            <li className='pb-1 hover:text-[#ACC90F]'><Link to="/tuberia-accesorios/presion"onClick={scrollToTop}>Tubería Presión</Link></li>
+            <li className='pb-1 hover:text-[#ACC90F]'><Link to="/tuberia-accesorios/conduit"onClick={scrollToTop}>Tubería Conduit</Link></li>
+            <li className='pb-1 hover:text-[#ACC90F]'><Link to="/tuberia-accesorios/duraconduit"onClick={scrollToTop}>Tubería Duraconduit</Link></li>
+            <li className='pb-1 hover:text-[#ACC90F]'><Link to="/tuberia-accesorios/durafort"onClick={scrollToTop}>Tubería Durafort</Link></li>
+            <li className='pb-1 hover:text-[#ACC90F]'><Link to="/tuberia-accesorios/soldaduras"onClick={scrollToTop}>Soldaduras PVC y CPVC</Link></li>
           </ul>
         </div>
 
         {/* Ferretería */}
         <div className="mb-6 flex flex-col justify-center items-center">
           <h3 className="text-lg font-semibold text-black mb-2 hover:text-[#ACC90F] mr-[6.5rem]">
-            <a href="/ferreteria"onClick={scrollToTop}>Ferretería</a>
+            <Link to="/ferreteria"onClick={scrollToTop}>Ferretería</Link>
           </h3>
           <ul className="mr-[5.5rem]">
-            <li className='pb-1 hover:text-[#ACC90F]'><a href="/ferreteria/discos"onClick={scrollToTop}>Discos</a></li>
-            <li className='pb-1 hover:text-[#ACC90F]'><a href="/ferreteria/herramientas"onClick={scrollToTop}>Herramientas</a></li>
-            <li className='pb-1 hover:text-[#ACC90F]'><a href="/ferreteria/guantes"onClick={scrollToTop}>Guantes</a></li>
-            <li className='pb-1 hover:text-[#ACC90F]'><a href="/ferreteria/minerales"onClick={scrollToTop}>Minerales</a></li>
+            <li className='pb-1 hover:text-[#ACC90F]'><Link to="/ferreteria/discos"onClick={scrollToTop}>Discos</Link></li>
+            <li className='pb-1 hover:text-[#ACC90F]'><Link to="/ferreteria/herramientas"onClick={scrollToTop}>Herramientas</Link></li>
+            <li className='pb-1 hover:text-[#ACC90F]'><Link to="/ferreteria/guantes"onClick={scrollToTop}>Guantes</Link></li>
+            <li className='pb-1 hover:text-[#ACC90F]'><Link to="/ferreteria/minerales"onClick={scrollToTop}>Minerales</Link></li>
           </ul>
         </div>
 
