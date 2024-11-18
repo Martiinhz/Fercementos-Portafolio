@@ -13,16 +13,9 @@ import disco12 from '../../../../assets/Productos/Ferreteria/disco12.png'
 import disco13 from '../../../../assets/Productos/Ferreteria/disco13.png'
 import disco14 from '../../../../assets/Productos/Ferreteria/disco14.png'
 import disco15 from '../../../../assets/Productos/Ferreteria/disco15.png'
-import ajover25 from '../../../../assets/Productos/Ajover/BlancoDeZinc.png'
-import ajover26 from '../../../../assets/Productos/Ajover/MineralAlemanAmarillo.png'
-import ajover27 from '../../../../assets/Productos/Ajover/MineralAlemanAzul.png'
-import ajover28 from '../../../../assets/Productos/Ajover/MineralAlemanRojo.png'
-import ajover29 from '../../../../assets/Productos/Ajover/MineralAlemanNegro.png'
-import ajover30 from '../../../../assets/Productos/Ajover/MineralAlemanVerde.png'
-import herramienta1 from '../../../../assets/Productos/Ferreteria/hombresolo1.png'
-import guante1 from '../../../../assets/Productos/Ferreteria/guantes1.png'
 
-const Ferreteria = [
+const Discos = [
+    
     { id: 1, name: "Disco1", image: disco1 },
     { id: 2, name: "Disco2", image: disco2 },
     { id: 3, name: "Disco3", image: disco3 },
@@ -38,15 +31,6 @@ const Ferreteria = [
     { id: 13, name: "Disco13", image: disco13 },
     { id: 14, name: "Disco14", image: disco14 },
     { id: 15, name: "Disco15", image: disco15 },
-    { id: 1, name: "Hombresolo", image: herramienta1 },
-    { id: 1, name: "Guantes", image: guante1 },
-    { id: 16, name: "Blanco de Zinc x lb", image: ajover25 },
-    { id: 17, name: "Mineral Aleman Amarillo x lb", image: ajover26 },
-    { id: 18, name: "Mineral Aleman Azul x lb", image: ajover27 },
-    { id: 19, name: "Mineral Aleman Rojo x lb", image: ajover28 },
-    { id: 20, name: "Mineral Aleman Negro x lb", image: ajover29 },
-    { id: 21, name: "Mineral Aleman Verde x lb", image: ajover30 },
 ];
 
-
-export default Ferreteria;
+export default Discos;

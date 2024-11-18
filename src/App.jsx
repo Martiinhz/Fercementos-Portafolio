@@ -49,6 +49,11 @@ import Conduit from './Components/Pages/Tuberia/Conduit';
 import Soldadura from './Components/Pages/Tuberia/Soldadura';
 import Duraconduit from './Components/Pages/Tuberia/DuraConduit';
 import Durafort from './Components/Pages/Tuberia/DuraFort';
+import Ferreteria from './Components/Pages/Ferreteria/Ferreteria';
+import Minerales from './Components/Pages/Ferreteria/Minerales';
+import Guantes from './Components/Pages/Ferreteria/Guantes';
+import Herramientas from './Components/Pages/Ferreteria/Herramientas';
+import Discos from './Components/Pages/Ferreteria/Discos';
 
 
 const MainLayout = ({ searchTerm, setSearchTerm }) => (
@@ -106,7 +111,12 @@ const AppRoutes = ({ searchTerm, setSearchTerm }) => {
     {path: "/tuberia-accesorios/conduit", element: <Conduit/>},
     {path: "/tuberia-accesorios/soldaduras", element: <Soldadura/>},
     {path: "/tuberia-accesorios/duraconduit", element: <Duraconduit/>},
-    {path: "/tuberia-accesorios/durafort", element: <Durafort/>}
+    {path: "/tuberia-accesorios/durafort", element: <Durafort/>},
+    {path: "/ferreteria", element: <Ferreteria/>,},
+    {path: "/ferreteria/minerales", element: <Minerales/>},
+    {path: "/ferreteria/guantes", element: <Guantes/>},
+    {path: "/ferreteria/herramientas", element: <Herramientas/>},
+    {path: "/ferreteria/discos", element: <Discos/>}
     
   ]);
 }
