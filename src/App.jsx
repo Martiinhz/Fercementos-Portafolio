@@ -41,6 +41,14 @@ import PlacaSuper from './Components/Pages/Construccion/PlacaSuper';
 import Masillas from './Components/Pages/Construccion/Masillas';
 import Esquinaros from './Components/Pages/Construccion/Esquinero';
 import Tornilleria from './Components/Pages/Construccion/Tornilleria';
+import Tuberia from './Components/Pages/Tuberia/Tuberia';
+import Sanitaria from './Components/Pages/Tuberia/Sanitaria';
+import TuberiaCpvc from './Components/Pages/Tuberia/TuberiaCpvc';
+import Presion from './Components/Pages/Tuberia/Presion';
+import Conduit from './Components/Pages/Tuberia/Conduit';
+import Soldadura from './Components/Pages/Tuberia/Soldadura';
+import Duraconduit from './Components/Pages/Tuberia/DuraConduit';
+import Durafort from './Components/Pages/Tuberia/DuraFort';
 
 
 const MainLayout = ({ searchTerm, setSearchTerm }) => (
@@ -90,7 +98,15 @@ const AppRoutes = ({ searchTerm, setSearchTerm }) => {
     {path: "/construccion-seco/placa-superboard", element: <PlacaSuper/>},
     {path: "/construccion-seco/masillas", element: <Masillas/>},
     {path: "/construccion-seco/esquineros", element: <Esquinaros/>},
-    {path: "/construccion-seco/tornilleria", element: <Tornilleria/>}
+    {path: "/construccion-seco/tornilleria", element: <Tornilleria/>},
+    {path: "/tuberia-accesorios", element: <Tuberia/>},
+    {path: "/tuberia-accesorios/sanitaria", element: <Sanitaria/>},
+    {path: "/tuberia-accesorios/cpvc", element: <TuberiaCpvc/>},
+    {path: "/tuberia-accesorios/presion", element: <Presion/>},
+    {path: "/tuberia-accesorios/conduit", element: <Conduit/>},
+    {path: "/tuberia-accesorios/soldaduras", element: <Soldadura/>},
+    {path: "/tuberia-accesorios/duraconduit", element: <Duraconduit/>},
+    {path: "/tuberia-accesorios/durafort", element: <Durafort/>}
     
   ]);
 }
