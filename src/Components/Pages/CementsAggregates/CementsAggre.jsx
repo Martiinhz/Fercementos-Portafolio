@@ -7,23 +7,21 @@ import CategoryMenu from '../../CategoryMenu/CategoryMenu';
 import CementosAgregados from '../../Sections/Category/CementosAgregados/CementosAgregados';
 import Footer from '../../Layouts/Footer/Footer';
 
-
-const CementsAggre = ({ searchTerm= ""}) => {
+const CementsAggre = ({ searchTerm = "" }) => {
     const [filteredProducts, setFilteredProducts] = useState(CementosAgregados);
     const [currentPage, setCurrentPage] = useState(1);
     const [selectedProduct, setSelectedProduct] = useState(null);
     const [activeImage, setActiveImage] = useState(null);
     const productsPerPage = 20;
 
-    
     useEffect(() => {
         setFilteredProducts(
-          CementosAgregados.filter((product) =>
-            product.name.toLowerCase().includes(searchTerm.toLowerCase())
-          )
+            CementosAgregados.filter((product) =>
+                product.name.toLowerCase().includes(searchTerm.toLowerCase())
+            )
         );
-        setCurrentPage(1); 
-      }, [searchTerm]);
+        setCurrentPage(1);
+    }, [searchTerm]);
 
     const indexOfLastProduct = currentPage * productsPerPage;
     const indexOfFirstProduct = indexOfLastProduct - productsPerPage;
@@ -52,11 +50,6 @@ const CementsAggre = ({ searchTerm= ""}) => {
         setSelectedProduct(null);
         setActiveImage(null);
     };
-
-    const handleImageClick = (image) => {
-        setActiveImage(image);
-    };
- 
 
     return (
         <>
@@ -120,61 +113,83 @@ const CementsAggre = ({ searchTerm= ""}) => {
 
                     {selectedProduct && (
                         <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
-                            <div className="bg-white p-6 rounded-lg w-full max-w-lg lg:max-w-2xl xl:max-w-4xl">
-                                <h2 className="text-xl font-bold mb-4 text-center">{selectedProduct.name}</h2>
-
-                                <div className="flex flex-col lg:flex-row items-center">
+                            <div className="bg-white p-6 rounded-lg w-full max-w-lg lg:max-w-4xl flex flex-col lg:flex-row relative">
+                                {/* Imagen del producto */}
+                                <div className="lg:w-1/2 flex justify-center items-center">
                                     <img
                                         src={activeImage}
                                         alt={selectedProduct.name}
-                                        className="w-full h-[300px] object-contain mb-4 mx-auto sm:h-[100px] lg:h-[400px]"
+                                        className="w-full h-[300px] object-contain mb-4 lg:mb-0 sm:h-[400px] lg:h-[500px]"
                                     />
+                                </div>
+
+                                {/* Especificaciones del producto */}
+                                <div className="lg:w-1/2 lg:pl-6">
+                                    <h2 className="text-xl font-bold mb-4 text-center lg:text-left">
+                                        {selectedProduct.name}
+                                    </h2>
+
+                                    {selectedProduct.description && (
+                                        <div className="bg-gray-100 p-4 rounded-lg shadow-md mb-4">
+                                            <h3 className="text-lg font-semibold mb-2">Descripción</h3>
+                                            <p className="text-gray-700 mb-4 text-center">{selectedProduct.description}</p>
+                                        </div>
+                                    )}
+                                    {selectedProduct.SecondDescription && (
+                                        <div className="bg-gray-100 p-4 rounded-lg shadow-md mb-4">
+                                            <h3 className="text-lg font-semibold mb-2">Especificaciones</h3>
+                                            <ul className="list-disc list-inside text-gray-700">
+                                                {selectedProduct.SecondDescription.map((spec, index) => (
+                                                    <li key={index}>{spec}</li>
+                                                ))}
+                                            </ul>
+                                        </div>
+                                    )}
+
+                                    {selectedProduct.link && (
+                                        <a
+                                            href={selectedProduct.link}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="bg-[#ACC90F] hover:bg-[#adc90fbb] text-white px-4 py-2 rounded w-full block text-center mb-4"
+                                        >
+                                            Ver más
+                                        </a>
+                                    )}
+
+                                    <button
+                                        className="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600 w-full"
+                                        onClick={handleCloseModal}
+                                    >
+                                        Cerrar
+                                    </button>
 
                                     {selectedProduct.secondImage && (
-                                        <div className="flex lg:flex-col lg:ml-4 mt-4 lg:mt-0">
-                                            <img
-                                                src={selectedProduct.image}
-                                                alt={selectedProduct.name}
-                                                onClick={() => handleImageClick(selectedProduct.image)}
-                                                className={`w-20 h-20 object-contain cursor-pointer mb-2 ${activeImage === selectedProduct.image ? 'border-2 border-blue-500' : ''}`}
-                                            />
+                                        <div className="hidden lg:flex justify-center mt-4">
                                             <img
                                                 src={selectedProduct.secondImage}
-                                                alt={`Second view of ${selectedProduct.name}`}
-                                                onClick={() => handleImageClick(selectedProduct.secondImage)}
-                                                className={`w-20 h-20 object-contain cursor-pointer ${activeImage === selectedProduct.secondImage ? 'border-2 border-blue-500' : ''}`}
+                                                alt="Logo decorativo"
+                                                className="w-24 h-24 object-contain mt-[2rem]"
                                             />
                                         </div>
                                     )}
                                 </div>
 
-                                {selectedProduct.description && (
-                                    <p className="text-gray-700 mb-4 text-center">{selectedProduct.description}</p>
+                                {selectedProduct.secondImage && (
+                                    <div className="absolute top-2 right-2 lg:hidden">
+                                        <img
+                                            src={selectedProduct.secondImage}
+                                            alt="Logo decorativo"
+                                            className="w-12 h-12 object-contain"
+                                        />
+                                    </div>
                                 )}
-
-                                {selectedProduct.link && (
-                                    <a
-                                        href={selectedProduct.link}
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        className="bg-[#ACC90F] hover:bg-[#adc90fbb] text-white px-4 py-2 rounded w-full block text-center mb-4"
-                                    >
-                                        Ver más
-                                    </a>
-                                )}
-
-                                <button
-                                    className="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600 w-full"
-                                    onClick={handleCloseModal}
-                                >
-                                    Cerrar
-                                </button>
                             </div>
                         </div>
                     )}
                 </div>
             </div>
-            <Footer/>
+            <Footer />
         </>
     );
 };

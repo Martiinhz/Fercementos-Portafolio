@@ -9,13 +9,14 @@ import argos7 from '../../../../assets/Productos/Ajover/GranoNegro2.png'
 
 
 const Granos = [
-    { id: 1, name: "Grano Blanco #00 ", image: argos1 },
-    { id: 2, name: "Grano Blanco #1", image: argos2 },
-    { id: 3, name: "Grano Blanco #2", image: argos3 },
-    { id: 4, name: "Grano Café 1", image: argos4 },
-    { id: 5, name: "Grano Café 2", image: argos5 },
-    { id: 6, name: "Grano Negro 1", image: argos6 },
-    { id: 7, name: "Grano Negro 2", image: argos7 },
+    { id: 11, name: "Grano Blanco #00 x 23 kg", image: argos1, description: "los granos de agregados son como los 'ladrillos' que, junto con el cemento, forman el concreto. Su tamaño, forma y limpieza son fundamentales para obtener un concreto de buena calidad y duradero." },
+    { id: 12, name: "Grano Blanco #1 x 23 kg", image: argos2, description: "los granos de agregados son como los 'ladrillos' que, junto con el cemento, forman el concreto. Su tamaño, forma y limpieza son fundamentales para obtener un concreto de buena calidad y duradero." },
+    { id: 13, name: "Grano Blanco #2 x 23 kg", image: argos3, description: "los granos de agregados son como los ladrillos que, junto con el cemento, forman el concreto. Su tamaño, forma y limpieza son fundamentales para obtener un concreto de buena calidad y duradero." },
+    { id: 14, name: "Grano Café 1 x 23 kg", image: argos4, description: "los granos de agregados son como los 'ladrillos' que, junto con el cemento, forman el concreto. Su tamaño, forma y limpieza son fundamentales para obtener un concreto de buena calidad y duradero." },
+    { id: 15, name: "Grano Café 2 x 23 kg", image: argos5, description: "los granos de agregados son como los 'ladrillos' que, junto con el cemento, forman el concreto. Su tamaño, forma y limpieza son fundamentales para obtener un concreto de buena calidad y duradero." },
+    { id: 16, name: "Grano Negro 1 x 23 kg", image: argos6, description: "los granos de agregados son como los 'ladrillos' que, junto con el cemento, forman el concreto. Su tamaño, forma y limpieza son fundamentales para obtener un concreto de buena calidad y duradero." },
+    { id: 17, name: "Grano Negro 2 x 23 kg", image: argos7, description: "los granos de agregados son como los 'ladrillos' que, junto con el cemento, forman el concreto. Su tamaño, forma y limpieza son fundamentales para obtener un concreto de buena calidad y duradero." },
+    
 
 ];
 

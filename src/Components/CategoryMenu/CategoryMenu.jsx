@@ -42,7 +42,6 @@ const CategoryMenu = () => {
           <ul className="mr-[7rem]">
             <li className='pb-1 hover:text-[#ACC90F]'><Link to="/cementos-agregados/cementos"onClick={scrollToTop}>Cementos</Link></li>
             <li className='pb-1 hover:text-[#ACC90F]'><Link to="/cementos-agregados/cales"onClick={scrollToTop}>Cales</Link></li>
-            <li className='pb-1 hover:text-[#ACC90F]'><Link to="/cementos-agregados/triturado"onClick={scrollToTop}>Triturado</Link></li>
             <li className='pb-1 hover:text-[#ACC90F]'><Link to="/cementos-agregados/arena"onClick={scrollToTop}>Arena</Link></li>
             <li className='pb-1 hover:text-[#ACC90F]'><Link to="/cementos-agregados/granos"onClick={scrollToTop}>Granos</Link></li>
             <li className='pb-1 hover:text-[#ACC90F]'><Link to="/cementos-agregados/gravilla"onClick={scrollToTop}>Gravilla</Link></li>

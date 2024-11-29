@@ -75,15 +75,12 @@ import ajover41 from '../../../assets/Productos/Ajover/EsquineroPerforado.png'
 // Argos
 import argos1 from '../../../assets/Productos/Argos/Cementox50.png'
 import argos2 from '../../../assets/Productos/Argos/Cementox25.png'
-import argos3 from '../../../assets/Productos/Argos/Cementox5.png'
-import argos4 from '../../../assets/Productos/Argos/Cementox1.png'
 import argos5 from '../../../assets/Productos/Argos/CementoBlancox40.png'
 import argos6 from '../../../assets/Productos/Argos/CementoBlancox20.png'
-import argos7 from '../../../assets/Productos/Argos/CementoBlancox5.png'
-import argos8 from '../../../assets/Productos/Argos/CementoBlancox1.png'
 import argos9 from '../../../assets/Productos/Argos/CalHidratadax10.png'
 import argos10 from '../../../assets/Productos/Argos/boquilla.png'
 import argos11 from '../../../assets/Productos/Argos/Pegante.png'
+import argos12 from '../../../assets/Productos/Argos/Estructural.png'
 
 // Gyplac
 import gyplac1 from '../../../assets/Productos/Gyplac/PlacaYeso.png'
@@ -442,15 +439,12 @@ export const products = [
   // Argos
   { id: 42, name: "Cemento Gris x 50 kg", image: argos1 },
   { id: 43, name: "Cemento Gris x 25 kg", image: argos2 },
-  { id: 44, name: "Cemento Gris x 5 kg", image: argos3 },
-  { id: 45, name: "Cemento Gris x 1 kg", image: argos4 },
   { id: 46, name: "Cemento Blanco x 40 kg", image: argos5 },
   { id: 47, name: "Cemento Blanco x 20 kg", image: argos6 },
-  { id: 48, name: "Cemento Blanco x 5 kg", image: argos7 },
-  { id: 49, name: "Cemento Blanco x 1 kg", image: argos8 },
   { id: 50, name: "Cal Hidratada x 10 kg", image: argos9 },
   { id: 286, name: "Boquilla Argos 2kg", image: argos10, description: "" },
   { id: 287, name: "Pegante Para ceramica interior", image: argos11 },
+  { id: 303, name: "Cemento Estructural 42.5kg", image: argos12},
 
 
   // Gyplac

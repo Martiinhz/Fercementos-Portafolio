@@ -8,22 +8,22 @@ import Arenas from '../../Sections/Category/CementosAgregados/Arenas'
 import Footer from '../../Layouts/Footer/Footer';
 
 
-const CementsAggre = ({ searchTerm= ""}) => {
+const CementsAggre = ({ searchTerm = "" }) => {
     const [filteredProducts, setFilteredProducts] = useState(Arenas);
     const [currentPage, setCurrentPage] = useState(1);
     const [selectedProduct, setSelectedProduct] = useState(null);
     const [activeImage, setActiveImage] = useState(null);
     const productsPerPage = 20;
 
-    
+
     useEffect(() => {
         setFilteredProducts(
-          Arenas.filter((product) =>
-            product.name.toLowerCase().includes(searchTerm.toLowerCase())
-          )
+            Arenas.filter((product) =>
+                product.name.toLowerCase().includes(searchTerm.toLowerCase())
+            )
         );
-        setCurrentPage(1); 
-      }, [searchTerm]);
+        setCurrentPage(1);
+    }, [searchTerm]);
 
     const indexOfLastProduct = currentPage * productsPerPage;
     const indexOfFirstProduct = indexOfLastProduct - productsPerPage;
@@ -56,7 +56,7 @@ const CementsAggre = ({ searchTerm= ""}) => {
     const handleImageClick = (image) => {
         setActiveImage(image);
     };
- 
+
 
     return (
         <>
@@ -119,62 +119,94 @@ const CementsAggre = ({ searchTerm= ""}) => {
                     </div>
 
                     {selectedProduct && (
-                        <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
-                            <div className="bg-white p-6 rounded-lg w-full max-w-lg lg:max-w-2xl xl:max-w-4xl">
-                                <h2 className="text-xl font-bold mb-4 text-center">{selectedProduct.name}</h2>
+    <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
+        <div className="bg-white p-6 rounded-lg w-full max-w-lg lg:max-w-4xl flex flex-col lg:flex-row relative">
+            {/* Imagen del producto */}
+            <div className="lg:w-1/2 flex justify-center items-center">
+                <img
+                    src={activeImage}
+                    alt={selectedProduct.name}
+                    className="w-full h-[300px] object-contain mb-4 lg:mb-0 sm:h-[400px] lg:h-[500px]"
+                />
+            </div>
 
-                                <div className="flex flex-col lg:flex-row items-center">
-                                    <img
-                                        src={activeImage}
-                                        alt={selectedProduct.name}
-                                        className="w-full h-[300px] object-contain mb-4 mx-auto sm:h-[100px] lg:h-[400px]"
-                                    />
+            {/* Detalles del producto */}
+            <div className="lg:w-1/2 lg:pl-6">
+                <h2 className="text-xl font-bold mb-4 text-center lg:text-left">{selectedProduct.name}</h2>
+                
+                {/* Especificaciones si existen */}
+                {selectedProduct.description && (
+                    <div className="bg-gray-100 p-4 rounded-lg shadow-md mb-4">
+                        <h3 className="text-lg font-semibold mb-2">Especificaciones</h3>
+                        <ul className="list-disc list-inside text-gray-700">
+                            {Array.isArray(selectedProduct.description)
+                                ? selectedProduct.description.map((spec, index) => <li key={index}>{spec}</li>)
+                                : <li>{selectedProduct.description}</li>}
+                        </ul>
+                    </div>
+                )}
 
-                                    {selectedProduct.secondImage && (
-                                        <div className="flex lg:flex-col lg:ml-4 mt-4 lg:mt-0">
-                                            <img
-                                                src={selectedProduct.image}
-                                                alt={selectedProduct.name}
-                                                onClick={() => handleImageClick(selectedProduct.image)}
-                                                className={`w-20 h-20 object-contain cursor-pointer mb-2 ${activeImage === selectedProduct.image ? 'border-2 border-blue-500' : ''}`}
-                                            />
-                                            <img
-                                                src={selectedProduct.secondImage}
-                                                alt={`Second view of ${selectedProduct.name}`}
-                                                onClick={() => handleImageClick(selectedProduct.secondImage)}
-                                                className={`w-20 h-20 object-contain cursor-pointer ${activeImage === selectedProduct.secondImage ? 'border-2 border-blue-500' : ''}`}
-                                            />
-                                        </div>
-                                    )}
-                                </div>
+                {/* Segunda descripción si existe */}
+                {selectedProduct.SecondDescription && (
+                    <div className="bg-gray-100 p-4 rounded-lg shadow-md mb-4">
+                        <h3 className="text-lg font-semibold mb-2">Detalles Adicionales</h3>
+                        <ul className="list-disc list-inside text-gray-700">
+                            {selectedProduct.SecondDescription.map((spec, index) => (
+                                <li key={index}>{spec}</li>
+                            ))}
+                        </ul>
+                    </div>
+                )}
 
-                                {selectedProduct.description && (
-                                    <p className="text-gray-700 mb-4 text-center">{selectedProduct.description}</p>
-                                )}
+                {/* Enlace al producto si existe */}
+                {selectedProduct.link && (
+                    <a
+                        href={selectedProduct.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="bg-[#ACC90F] hover:bg-[#adc90fbb] text-white px-4 py-2 rounded w-full block text-center mb-4"
+                    >
+                        Ver más
+                    </a>
+                )}
 
-                                {selectedProduct.link && (
-                                    <a
-                                        href={selectedProduct.link}
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        className="bg-[#ACC90F] hover:bg-[#adc90fbb] text-white px-4 py-2 rounded w-full block text-center mb-4"
-                                    >
-                                        Ver más
-                                    </a>
-                                )}
+                {/* Botón de cerrar */}
+                <button
+                    className="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600 w-full mt-4"
+                    onClick={handleCloseModal}
+                >
+                    Cerrar
+                </button>
 
-                                <button
-                                    className="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600 w-full"
-                                    onClick={handleCloseModal}
-                                >
-                                    Cerrar
-                                </button>
-                            </div>
-                        </div>
-                    )}
+                {/* Logo decorativo (abajo del botón de cerrar en pantallas grandes) */}
+                {selectedProduct.secondImage && (
+                    <div className="hidden lg:flex justify-center mt-4">
+                        <img
+                            src={selectedProduct.secondImage}
+                            alt="Logo decorativo"
+                            className="w-24 h-24 object-contain mt-[2rem]"
+                        />
+                    </div>
+                )}
+            </div>
+
+            {/* Logo decorativo (esquina superior derecha en móviles) */}
+            {selectedProduct.secondImage && (
+                <div className="absolute top-2 right-2 lg:hidden">
+                    <img
+                        src={selectedProduct.secondImage}
+                        alt="Logo decorativo"
+                        className="w-12 h-12 object-contain"
+                    />
+                </div>
+            )}
+        </div>
+    </div>
+)}
+
                 </div>
             </div>
-            <Footer/>
+            <Footer />
         </>
     );
 };
