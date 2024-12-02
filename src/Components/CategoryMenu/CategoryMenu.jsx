@@ -146,6 +146,8 @@ const CategoryMenu = () => {
             <li className='pb-1 hover:text-[#ACC90F]'><Link to="/ferreteria/herramientas"onClick={scrollToTop}>Herramientas</Link></li>
             <li className='pb-1 hover:text-[#ACC90F]'><Link to="/ferreteria/guantes"onClick={scrollToTop}>Guantes</Link></li>
             <li className='pb-1 hover:text-[#ACC90F]'><Link to="/ferreteria/minerales"onClick={scrollToTop}>Minerales</Link></li>
+            <li className='pb-1 hover:text-[#ACC90F]'><Link to="/ferreteria/carretillas"onClick={scrollToTop}>Carretillas</Link></li>
+            <li className='pb-1 hover:text-[#ACC90F]'><Link to="/ferreteria/otros"onClick={scrollToTop}>Otros</Link></li>
           </ul>
         </div>
 

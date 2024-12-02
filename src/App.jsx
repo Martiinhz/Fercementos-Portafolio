@@ -59,6 +59,7 @@ import Discos from './Components/Pages/Ferreteria/Discos';
 import TejaPvc from './Components/Pages/Cubiertas/TejaPVC';
 import CeltaConstruccion from './Components/Pages/Tuberia/Construccion'
 import Complementarios from './Components/Pages/Tuberia/Complementarios';
+import Carretillas from './Components/Pages/Ferreteria/Carretillas';
 
 const MainLayout = ({ searchTerm, setSearchTerm }) => (
   <>
@@ -123,7 +124,8 @@ const AppRoutes = ({ searchTerm, setSearchTerm }) => {
     {path: "/ferreteria/minerales", element: <Minerales/>},
     {path: "/ferreteria/guantes", element: <Guantes/>},
     {path: "/ferreteria/herramientas", element: <Herramientas/>},
-    {path: "/ferreteria/discos", element: <Discos/>}
+    {path: "/ferreteria/discos", element: <Discos/>},
+    {path: "/ferreteria/carretillas", element: <Carretillas/>}
     
     
   ]);

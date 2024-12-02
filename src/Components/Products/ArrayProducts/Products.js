@@ -101,8 +101,8 @@ import impadoc11 from '../../../assets/Productos/Impadoc/Boquilla2k.png'
 import impadoc12 from '../../../assets/Productos/Impadoc/Boquilla5k.png'
 
 // Imsa
-import imsa1 from '../../../assets/Productos/Imsa/CarretillaConstructura.png'
-import imsa2 from '../../../assets/Productos/Imsa/CarretillaFinquera.png'
+import imsa1 from '../../../assets/Productos/Imsa/1.png'
+import imsa2 from '../../../assets/Productos/Imsa/2.png'
 
 // Pintuland
 import pintuland1 from '../../../assets/Productos/Pintuland/SuperLavable.png'
