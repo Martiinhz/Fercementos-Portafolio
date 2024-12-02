@@ -98,7 +98,7 @@ const CategoryMenu = () => {
             <li className='pb-1 hover:text-[#ACC90F]'><Link to="/cubiertas-placas/cinta-asfaltica"onClick={scrollToTop}>Cinta asfáltica</Link></li>
             <li className='pb-1 hover:text-[#ACC90F]'><Link to="/cubiertas-placas/tanques"onClick={scrollToTop}>Tanques</Link></li>
             <li className='pb-1 hover:text-[#ACC90F]'><Link to="/cubiertas-placas/bloquelon"onClick={scrollToTop}>Bloquelón – Perfil entrepiso</Link></li>
-            <li className='pb-1 hover:text-[#ACC90F]'><Link to="/cubiertas-placas/bloquelon"onClick={scrollToTop}>Perfilería entrepiso y cubiertas</Link></li>
+
           </ul>
         </div>
 

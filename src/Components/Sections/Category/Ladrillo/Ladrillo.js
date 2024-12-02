@@ -1,10 +1,8 @@
 import ajover7 from '../../../../assets/Productos/Ajover/LadrilloCalao.png'
 import ajover8 from '../../../../assets/Productos/Ajover/LadrilloFarol.png'
-import ajover9 from '../../../../assets/Productos/Ajover/LadrilloToleto.png'
 import santafe3 from '../../../../assets/Productos/LadrilleraSantafe/3.png'
 import santafe4 from '../../../../assets/Productos/LadrilleraSantafe/4.png'
-import santafe5 from '../../../../assets/Productos/LadrilleraSantafe/5.png'
-import santafe6 from '../../../../assets/Productos/LadrilleraSantafe/6.png'
+
 
 
 const Ladrillos = [

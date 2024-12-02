@@ -5,6 +5,7 @@ import Header from './Components/Layouts/Header/Header';
 import { SectionOne } from './Components/Sections/SectionOne/SectionOne';
 import ProductGrid from './Components/Products/VariousProducts/VariousProducts';
 import Footer from './Components/Layouts/Footer/Footer';
+import BotonFlotante from './Components/FloatingButton/FloatingButton'
 import  CementsAggre  from './Components/Pages/CementsAggregates/CementsAggre';
 import Cementos from './Components/Pages/CementsAggregates/Cements';
 import Arenas from './Components/Pages/CementsAggregates/Arenas'
@@ -54,6 +55,7 @@ import Minerales from './Components/Pages/Ferreteria/Minerales';
 import Guantes from './Components/Pages/Ferreteria/Guantes';
 import Herramientas from './Components/Pages/Ferreteria/Herramientas';
 import Discos from './Components/Pages/Ferreteria/Discos';
+import TejaPvc from './Components/Pages/Cubiertas/TejaPVC';
 
 
 const MainLayout = ({ searchTerm, setSearchTerm }) => (
@@ -96,6 +98,7 @@ const AppRoutes = ({ searchTerm, setSearchTerm }) => {
     {path: "/cubiertas-placas/cinta-asfaltica", element: <Cinta/>},
     {path: "/cubiertas-placas/bloquelon", element: <Bloquelon/>},
     {path: "/cubiertas-placas/teja-colonial", element: <Colonial/>},
+    {path: "/cubiertas-placas/teja-pvc", element: <TejaPvc/>},
     {path: "/cubiertas-placas/tanques", element: <Tanques/>},
     {path: "/construccion-seco", element: <Construccion/>},
     {path: "/construccion-seco/placa-yeso", element: <PlacaYeso/>},
@@ -129,6 +132,7 @@ function App() {
     <div className="bg-[#EEEEEE] min-h-screen">
       {/* Las rutas se manejarán dentro de AppRoutes */}
       <AppRoutes searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
+      <BotonFlotante pdfUrl="https://media.proteja.com.co/pd55131/original/-1744642624/ft_perfil10_proteja_febrero2024_v1.pdf" />
     </div>
   );
 }

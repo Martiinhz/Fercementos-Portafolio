@@ -3,8 +3,27 @@ import proteja9 from '../../../../assets/Productos/Proteja/9.png'
 
 const Cinta = [
 
-    { id: 1, name: "Cinta Asfaltica Alumban", image: proteja8 },
-    { id: 2, name: "Cinta Asfaltica Sika", image: proteja9 },
+    {
+        id: 7, name: "Cinta Asfaltica Sika", image: proteja8, secondDescription: [
+            {
+                title: "Largo", values: ["10cm"]
+            },
+            {
+                title: "Ancho", values: ["10m"]
+            }
+        ]
+    },
+
+    {
+        id: 8, name: "Cinta Asfaltica Alumban", image: proteja9, secondDescription: [
+            {
+                title: "Largo", values: ["10cm"]
+            },
+            {
+                title: "Ancho", values: ["10m"]
+            }
+        ]
+    },
 ];
 
 export default Cinta;
