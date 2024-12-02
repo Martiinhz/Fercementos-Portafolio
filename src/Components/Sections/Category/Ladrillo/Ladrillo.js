@@ -8,13 +8,13 @@ import santafe6 from '../../../../assets/Productos/LadrilleraSantafe/6.png'
 
 
 const Ladrillos = [
-    { id: 14, name: "Ladrillo Calao", image: ajover7 },
-    { id: 15, name: "Ladrillo Farol", image: ajover8 },
-    { id: 16, name: "Ladrillo Toleto", image: ajover9 },
-    { id: 278, name: "Ladrillo Portante", image: santafe3, description: "Ladrillo Portante 306 Capuchino H" },
-    { id: 279, name: "Ladrillo Gran", image: santafe4, description: "Ladrillo Gran Formato Cobrizo" },
-    { id: 280, name: "Ladrillo Gran", image: santafe5, description: "Ladrillo Gran Formato Cocoa" },
-    { id: 281, name: "Ladrillo Gran", image: santafe6, description: "Ladrillo Gran Formato Terracota" }
+    { id: 14, name: "Ladrillo Calado", image: ajover7, secondDescription:[{title: "Medidas", values: ["10 19 cm x 10 cm x 19 cm 25 u/m2 4 kilos"]}]},
+    { id: 15, name: "Ladrillo Farol", image: ajover8, secondDescription: [{title: "Medidas", values: ["30 cm x 10 cm x 20 cm 15u/m2 5 kilos"]}]}, 
+    { id: 278, name: "Ladrillo Portante", image: santafe3, description: "Ladrillo Portante 306 Capuchino H", link: "https://www.santafe.com.co/wp-content/uploads/2021/11/FT-LPOR306CPH-LPOR306MCPH-1.pdf"},
+
+    { id: 279, name: "Ladrillo Gran Formato", image: santafe4, secondDescription: [
+    {title: "Ladrillos Colores", values:["Ladrillo Gran Formato Cobrizo", "Ladrillo Gran Formato Cocoa", "Ladrillo Gran Formato Terracota"]}],
+    link: "https://www.santafe.com.co/wp-content/uploads/2021/11/FT-LTGFCB115V2.pdf" },
 ];
 
 export default Ladrillos;
