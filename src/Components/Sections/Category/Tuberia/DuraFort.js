@@ -92,7 +92,7 @@ const Durafort = [
     {
         id: 73, name: "Codo 90°", image: celta73, secondImage: LogoCelta,secondDescription: [
             {
-
+                title: "Diametro pulg.",  values: ["4-110 mm ", "6-160 mm", "8-200 mm", "10-250 mm", "12-315 mm"]
             }
         ]
     },
