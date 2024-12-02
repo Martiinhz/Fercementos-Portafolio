@@ -4,7 +4,7 @@ import celta63 from '../../../../assets/Productos/Celta/63.png'
 import celta142 from '../../../../assets/Productos/Celta/SoldaduraAzul.png'
 import celta143 from '../../../../assets/Productos/Celta/SoldaduraRoja.png'
 import celta144 from '../../../../assets/Productos/Celta/Acondicionador.png'
-import LogoCelta from '../../../../assets/Productos/Celta/LogoCelta.png'
+import LogoCelta from '../../../../assets/Productos/Celta/logoCelta.png'
 
 const Soldadura = [
 

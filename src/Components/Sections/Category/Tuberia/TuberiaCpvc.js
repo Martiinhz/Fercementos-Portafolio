@@ -9,7 +9,7 @@ import celta43 from '../../../../assets/Productos/Celta/43.png'
 import celta44 from '../../../../assets/Productos/Celta/44.png'
 import celta45 from '../../../../assets/Productos/Celta/45.png'
 import celta46 from '../../../../assets/Productos/Celta/46.png'
-import LogoCelta from '../../../../assets/Productos/Celta/LogoCelta.png'
+import LogoCelta from '../../../../assets/Productos/Celta/logoCelta.png'
 
 const TuberiaCpvc = [
 

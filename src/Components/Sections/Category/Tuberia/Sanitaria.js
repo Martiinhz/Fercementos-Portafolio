@@ -20,7 +20,7 @@ import celta33 from '../../../../assets/Productos/Celta/33.png'
 import celta34 from '../../../../assets/Productos/Celta/34.png'
 import celta35 from '../../../../assets/Productos/Celta/35.png'
 import celta138 from '../../../../assets/Productos/Celta/TuberiaSanitario.png'
-import LogoCelta from '../../../../assets/Productos/Celta/LogoCelta.png'
+import LogoCelta from '../../../../assets/Productos/Celta/logoCelta.png'
 
 const Sanitaria = [
     

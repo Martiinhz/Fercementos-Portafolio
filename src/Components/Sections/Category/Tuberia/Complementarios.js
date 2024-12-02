@@ -29,7 +29,7 @@ import celta133 from '../../../../assets/Productos/Celta/133.png'
 import celta134 from '../../../../assets/Productos/Celta/134.png'
 import celta135 from '../../../../assets/Productos/Celta/135.png'
 import celta136 from '../../../../assets/Productos/Celta/136.png'
-import LogoCelta from '../../../../assets/Productos/Celta/LogoCelta.png'
+import LogoCelta from '../../../../assets/Productos/Celta/logoCelta.png'
 
 const Complementarios = [
     

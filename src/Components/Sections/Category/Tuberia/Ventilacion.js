@@ -1,4 +1,4 @@
-import LogoCelta from '../../../../assets/Productos/Celta/LogoCelta.png'
+import LogoCelta from '../../../../assets/Productos/Celta/logoCelta.png'
 import celta154 from '../../../../assets/Productos/Celta/Ventilacion.png'
 
 const Ventilacion = [

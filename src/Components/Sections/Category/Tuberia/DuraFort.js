@@ -14,7 +14,7 @@ import celta76 from '../../../../assets/Productos/Celta/76.png'
 import celta77 from '../../../../assets/Productos/Celta/77.png'
 import celta145 from '../../../../assets/Productos/Celta/Alcantarillado.png'
 import celta146 from '../../../../assets/Productos/Celta/tubos8.png'
-import LogoCelta from '../../../../assets/Productos/Celta/LogoCelta.png'
+import LogoCelta from '../../../../assets/Productos/Celta/logoCelta.png'
 
 const Durafort = [
 

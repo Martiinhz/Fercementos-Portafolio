@@ -26,7 +26,7 @@ import celta102 from '../../../../assets/Productos/Celta/102.png'
 import celta103 from '../../../../assets/Productos/Celta/103.png'
 import celta104 from '../../../../assets/Productos/Celta/104.png'
 import celta105 from '../../../../assets/Productos/Celta/105.png'
-import LogoCelta from '../../../../assets/Productos/Celta/LogoCelta.png'
+import LogoCelta from '../../../../assets/Productos/Celta/logoCelta.png'
 
 const Contruccion = [
 

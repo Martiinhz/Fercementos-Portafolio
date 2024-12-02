@@ -151,7 +151,7 @@ import celta150 from '../../../../assets/Productos/Celta/Caja0.png'
 import celta151 from '../../../../assets/Productos/Celta/Caja1.png'
 import celta152 from '../../../../assets/Productos/Celta/137.png'
 import celta153 from '../../../../assets/Productos/Celta/138.png'
-import LogoCelta from '../../../../assets/Productos/Celta/LogoCelta.png'
+import LogoCelta from '../../../../assets/Productos/Celta/logoCelta.png'
 import celta154 from '../../../../assets/Productos/Celta/Ventilacion.png'
 
 const Tuberia = [

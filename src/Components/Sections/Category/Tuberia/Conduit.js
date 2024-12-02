@@ -11,7 +11,7 @@ import celta56 from '../../../../assets/Productos/Celta/56.png'
 import celta57 from '../../../../assets/Productos/Celta/57.png'
 import celta58 from '../../../../assets/Productos/Celta/58.png'
 import celta140 from '../../../../assets/Productos/Celta/TuberiaElectrico.png'
-import LogoCelta from '../../../../assets/Productos/Celta/LogoCelta.png'
+import LogoCelta from '../../../../assets/Productos/Celta/logoCelta.png'
 
 const Conduit = [
 

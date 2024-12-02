@@ -13,7 +13,7 @@ import celta12 from '../../../../assets/Productos/Celta/12.png'
 import celta13 from '../../../../assets/Productos/Celta/13.png'
 import celta14 from '../../../../assets/Productos/Celta/14.png'
 import celta137 from '../../../../assets/Productos/Celta/TuberiaPresion.png'
-import LogoCelta from '../../../../assets/Productos/Celta/LogoCelta.png'
+import LogoCelta from '../../../../assets/Productos/Celta/logoCelta.png'
 
 const Presion = [
 

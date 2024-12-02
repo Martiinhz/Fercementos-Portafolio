@@ -2,7 +2,7 @@ import celta59 from '../../../../assets/Productos/Celta/59.png'
 import celta60 from '../../../../assets/Productos/Celta/60.png'
 import celta152 from '../../../../assets/Productos/Celta/137.png'
 import celta153 from '../../../../assets/Productos/Celta/138.png'
-import LogoCelta from '../../../../assets/Productos/Celta/LogoCelta.png'
+import LogoCelta from '../../../../assets/Productos/Celta/logoCelta.png'
 
 const Duraconduit = [
 
