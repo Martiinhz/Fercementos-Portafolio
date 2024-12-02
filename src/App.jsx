@@ -43,6 +43,7 @@ import Masillas from './Components/Pages/Construccion/Masillas';
 import Esquinaros from './Components/Pages/Construccion/Esquinero';
 import Tornilleria from './Components/Pages/Construccion/Tornilleria';
 import Tuberia from './Components/Pages/Tuberia/Tuberia';
+import Ventilacion from './Components/Pages/Tuberia/Ventilacion';
 import Sanitaria from './Components/Pages/Tuberia/Sanitaria';
 import TuberiaCpvc from './Components/Pages/Tuberia/TuberiaCpvc';
 import Presion from './Components/Pages/Tuberia/Presion';
@@ -56,7 +57,8 @@ import Guantes from './Components/Pages/Ferreteria/Guantes';
 import Herramientas from './Components/Pages/Ferreteria/Herramientas';
 import Discos from './Components/Pages/Ferreteria/Discos';
 import TejaPvc from './Components/Pages/Cubiertas/TejaPVC';
-
+import CeltaConstruccion from './Components/Pages/Tuberia/Construccion'
+import Complementarios from './Components/Pages/Tuberia/Complementarios';
 
 const MainLayout = ({ searchTerm, setSearchTerm }) => (
   <>
@@ -76,7 +78,6 @@ const AppRoutes = ({ searchTerm, setSearchTerm }) => {
     {path: "/cementos-agregados/granos",element: <Granos /> },
     {path: "/cementos-agregados/gravilla", element: <Gravilla/>},
     {path: "/cementos-agregados/cales", element: <Cales/>},
-
     {path: "/hierro", element: <Hierro/>},
     {path: "/hierro/varilla-corrugada", element: <VarillaCorrugada/>},
     {path: "/hierro/chipa", element: <Chipa/>},
@@ -108,6 +109,7 @@ const AppRoutes = ({ searchTerm, setSearchTerm }) => {
     {path: "/construccion-seco/esquineros", element: <Esquinaros/>},
     {path: "/construccion-seco/tornilleria", element: <Tornilleria/>},
     {path: "/tuberia-accesorios", element: <Tuberia/>},
+    {path: "/tuberia-accesorios/ventilacion", element: <Ventilacion/>},
     {path: "/tuberia-accesorios/sanitaria", element: <Sanitaria/>},
     {path: "/tuberia-accesorios/cpvc", element: <TuberiaCpvc/>},
     {path: "/tuberia-accesorios/presion", element: <Presion/>},
@@ -115,6 +117,8 @@ const AppRoutes = ({ searchTerm, setSearchTerm }) => {
     {path: "/tuberia-accesorios/soldaduras", element: <Soldadura/>},
     {path: "/tuberia-accesorios/duraconduit", element: <Duraconduit/>},
     {path: "/tuberia-accesorios/durafort", element: <Durafort/>},
+    {path: "/tuberia-accesorios/construccion", element: <CeltaConstruccion/>},
+    {path: "/tuberia-accesorios/complementarios", element: <Complementarios/>},
     {path: "/ferreteria", element: <Ferreteria/>,},
     {path: "/ferreteria/minerales", element: <Minerales/>},
     {path: "/ferreteria/guantes", element: <Guantes/>},

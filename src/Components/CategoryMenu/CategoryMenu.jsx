@@ -123,6 +123,7 @@ const CategoryMenu = () => {
             <Link to="/tuberia-accesorios"onClick={scrollToTop}>Tubería y accesorios</Link>
           </h3>
           <ul className="mr-[1rem]">
+          <li className='pb-1 hover:text-[#ACC90F]'><Link to="/tuberia-accesorios/ventilacion"onClick={scrollToTop}>Tubería Ventilacion</Link></li>
             <li className='pb-1 hover:text-[#ACC90F]'><Link to="/tuberia-accesorios/sanitaria"onClick={scrollToTop}>Tubería Sanitaria</Link></li>
             <li className='pb-1 hover:text-[#ACC90F]'><Link to="/tuberia-accesorios/cpvc"onClick={scrollToTop}>Tubería CPVC</Link></li>
             <li className='pb-1 hover:text-[#ACC90F]'><Link to="/tuberia-accesorios/presion"onClick={scrollToTop}>Tubería Presión</Link></li>
@@ -130,6 +131,8 @@ const CategoryMenu = () => {
             <li className='pb-1 hover:text-[#ACC90F]'><Link to="/tuberia-accesorios/duraconduit"onClick={scrollToTop}>Tubería Duraconduit</Link></li>
             <li className='pb-1 hover:text-[#ACC90F]'><Link to="/tuberia-accesorios/durafort"onClick={scrollToTop}>Tubería Durafort</Link></li>
             <li className='pb-1 hover:text-[#ACC90F]'><Link to="/tuberia-accesorios/soldaduras"onClick={scrollToTop}>Soldaduras PVC y CPVC</Link></li>
+            <li className='pb-1 hover:text-[#ACC90F]'><Link to="/tuberia-accesorios/construccion"onClick={scrollToTop}>Construccion</Link></li>
+            <li className='pb-1 hover:text-[#ACC90F]'><Link to="/tuberia-accesorios/complementarios"onClick={scrollToTop}>Complementarios</Link></li>
           </ul>
         </div>
 

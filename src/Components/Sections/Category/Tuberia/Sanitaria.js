@@ -20,30 +20,180 @@ import celta33 from '../../../../assets/Productos/Celta/33.png'
 import celta34 from '../../../../assets/Productos/Celta/34.png'
 import celta35 from '../../../../assets/Productos/Celta/35.png'
 import celta138 from '../../../../assets/Productos/Celta/TuberiaSanitario.png'
+import LogoCelta from '../../../../assets/Productos/Celta/LogoCelta.png'
 
 const Sanitaria = [
     
-    { id: 15, name: "Tubería Sanitaria", image: celta15, secondImage: celta138 },
-    { id: 16, name: "Unión", image: celta16 },
-    { id: 17, name: "Buje soldado", image: celta17 },
-    { id: 18, name: "Codo CxE 90°", image: celta18 },
-    { id: 19, name: "Sifón con registro", image: celta19 },
-    { id: 20, name: "Sifón", image: celta20 },
-    { id: 21, name: "Codo CxC 45°", image: celta21 },
-    { id: 22, name: "Codo CxE 45°", image: celta22 },
-    { id: 23, name: "Codo CxC 22.5°", image: celta23 },
-    { id: 24, name: "Tee doble", image: celta24 },
-    { id: 25, name: "Tee doble reducida", image: celta25 },
-    { id: 26, name: "Yee sencilla", image: celta26 },
-    { id: 27, name: "Codo CxE 22.5°", image: celta27 },
-    { id: 28, name: "Codo reventilado", image: celta28 },
-    { id: 29, name: "Junta de expansión / Unión reparacion", image: celta29 },
-    { id: 30, name: "Yee reducida", image: celta30 },
-    { id: 31, name: "Yee doble", image: celta31 },
-    { id: 32, name: "Yee doble reducida", image: celta32 },
-    { id: 33, name: "Adaptador de limpieza", image: celta33 },
-    { id: 34, name: "Tee sencilla", image: celta34 },
-    { id: 35, name: "Tee reducida", image: celta35 },
+    { id: 15222, name: "Tubería Sanitaria tramos de 6 m", image: celta15, secondImage: LogoCelta, secondDescription: [
+        {
+            title: "Diametro Pulg.", values: ["1.1/2", "2", "3", "4", "6"]
+        }
+    ]},
+    { id: 15111, name: "Tubería Sanitaria linea azul super tramos de 6 m", image: celta15, secondImage: LogoCelta,secondDescription: [
+        {
+            title: "Diametro Pulg.", values: ["1.1/2", "2", "3", "4"]
+        }
+    ] },
+    { id: 1333, name: "Tubería Sanitaria linea azul tramos de 6 m", image: celta15, secondImage: LogoCelta, secondDescription: [
+        {
+            title: "Diametro pulg.", values: ["1.1/2", "2", "3", "4"]
+        }
+    ] },
+    {
+        id: 16, name: "Unión", image: celta16,secondImage: LogoCelta, secondDescription: [
+            {
+                title: "Diametro Pulg.", values: ["1.1/2", "2", "3", "4", "6", "8"]
+            },
+            {
+                values: ["*10"]
+            }
+        ]
+    },
+    {
+        id: 17, name: "Buje soldado", image: celta17,secondImage: LogoCelta, secondDescription: [
+            {
+                title: "Diametro Pulg", values: ["2x1.1/2", "3x1.1/2", "3x2", "4x2", "4x3", "6x4"]
+            },
+            {
+                values: ["*8x4", "8x6", "*10x6", "*10x8"]
+            }
+        ]
+    },
+    {
+        id: 18, name: "Codo CxE 90°", image: celta18,secondImage: LogoCelta, secondDescription: [
+            {
+                title: "Diametro Pulg.", values: ["1.1/2", "2", "3", "4", "6", "8"]
+            },
+            {
+                values: ["*10"]
+            }
+        ]
+    },
+    {
+        id: 19, name: "Sifón con registro", image: celta19,secondImage: LogoCelta, secondDescription: [
+            {
+                title: "Diametro Pulg.", values: ["1.1/2", "2"]
+            }
+        ]
+    },
+    {
+        id: 20, name: "Sifón", image: celta20,secondImage: LogoCelta, secondDescription: [
+            {
+                title: "Diametro Pulg.", values: ["2", "3", "4"]
+            }
+        ]
+    },
+    {
+        id: 21, name: "Codo CxC 45°", image: celta21,secondImage: LogoCelta, secondDescription: [
+            {
+                title: "Diametro Pulg.", values: ["1.1/2", "2", "3", "4", "6", "8"]
+            },
+            {
+                values: ["*10"]
+            }
+        ]
+    },
+    {
+        id: 22, name: "Codo CxE 45°", image: celta22,secondImage: LogoCelta, secondDescription: [
+            {
+                title: "Diametro Pulg.", values: ["1.1/2", "2", "3", "4", "6", "*8"]
+            },
+            {
+                values: ["*10"]
+            }
+        ]
+    },
+    {
+        id: 23, name: "Codo CxC 22.5°", image: celta23,secondImage: LogoCelta, secondDescription: [
+            {
+                title: "Diametro Pulg.", values: ["2", "3", "4"]
+            }
+        ]
+    },
+    {
+        id: 24, name: "Tee doble", image: celta24,secondImage: LogoCelta, secondDescription: [
+            {
+                title: "Diametro Pulg.", values: ["1.1/2", "2", "3", "4"]
+            }
+        ]
+    },
+    {
+        id: 25, name: "Tee doble reducida", image: celta25,secondImage: LogoCelta, secondDescription: [
+            {
+                title: "Diametro Pulg", values: ["2x1.1/2", "3x2", "4x2", "4x3"]
+            }
+        ]
+    },
+    {
+        id: 26, name: "Yee sencilla", image: celta26,secondImage: LogoCelta, secondDescription: [
+            {
+                title: "Diametro Pulg", values: ["2", "3", "4", "6", "*8", "*10"]
+            }
+        ]
+    },
+    {
+        id: 27, name: "Codo CxE 22.5°", image: celta27,secondImage: LogoCelta, secondDescription: [
+            {
+                title: "Diametro Pulg", values: ["2", "3", "4"]
+            }
+        ]
+    },
+    // { id: 28, name: "Codo reventilado", image: celta28 },
+    {
+        id: 29, name: "Junta de expansión / Unión reparacion", image: celta29,secondImage: LogoCelta, secondDescription: [
+            {
+                title: "Diametro Pulg.", values: ["*3", "*4", "3", "4"]
+            }
+        ]
+    },
+    {
+        id: 30, name: "Yee reducida", image: celta30, secondImage: LogoCelta,secondDescription: [
+            {
+                title: "Diametro Pulg.", values: ["3x2", "4x2", "4x3", "6x4", "*8x4", "*8x6"]
+            },
+            {
+                values: ["*10x4", "*10x6", "*10x8"]
+            }
+        ]
+    },
+    {
+        id: 31, name: "Yee doble", image: celta31,secondImage: LogoCelta, secondDescription: [
+            {
+                title: "Diametro Pulg.", values: ["2", "3", "4"]
+            }
+        ]
+    },
+    {
+        id: 32, name: "Yee doble reducida", image: celta32, secondImage: LogoCelta,secondDescription: [
+            {
+                title: "Diametro Pulg.", values: ["3x2", "4x2", "4x3"]
+            }
+        ]
+    },
+    {
+        id: 33, name: "Adaptador de limpieza", image: celta33,secondImage: LogoCelta, secondDescription: [
+            {
+                title: "Diametro Pulg.", values: ["2", "3", "4", "6", "*8", "*10"]
+            }
+        ]
+    },
+    {
+        id: 34, name: "Tee sencilla", image: celta34, secondImage: LogoCelta,secondDescription: [
+            {
+                title: "Diametro Pulg.", values: ["1.1/2", "2", "3", "4", "6", "*8"]
+            },
+            {
+                values: ["*10"]
+            }
+        ]
+    },
+    {
+        id: 35, name: "Tee reducida", image: celta35,secondImage: LogoCelta, secondDescription: [
+            {
+                title: "Diametro Pulg.", values: ["2x1.1/2", "3x2", "4x2", "4x3", "6x4"]
+            }
+        ]
+    },
 ];
 
 export default Sanitaria;

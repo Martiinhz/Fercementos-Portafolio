@@ -11,21 +11,84 @@ import celta56 from '../../../../assets/Productos/Celta/56.png'
 import celta57 from '../../../../assets/Productos/Celta/57.png'
 import celta58 from '../../../../assets/Productos/Celta/58.png'
 import celta140 from '../../../../assets/Productos/Celta/TuberiaElectrico.png'
+import LogoCelta from '../../../../assets/Productos/Celta/LogoCelta.png'
 
 const Conduit = [
 
-    { id: 47, name: "Conduit tramos de 3 m", image: celta47, secondImage: celta140 },
-    { id: 48, name: "Curvas CxE 90°", image: celta48 },
-    { id: 49, name: "Adaptador caja conduit", image: celta49 },
-    { id: 50, name: "Caja eléctrica rectangular", image: celta50 },
-    { id: 51, name: "Suplemento caja doble", image: celta51 },
-    { id: 52, name: "Caja eléctrica octagonal", image: celta52 },
-    { id: 53, name: "Caja eléctrica doble", image: celta53 },
-    { id: 54, name: "Tapa caja doble", image: celta54 },
-    { id: 55, name: "Unión conduit", image: celta55 },
-    { id: 56, name: "Adaptador terminal", image: celta56 },
-    { id: 57, name: "Canaleta sin adhesivo", image: celta57 },
-    { id: 58, name: "Canaleta con Adhesivo", image: celta58 },
+    { id: 47, name: "Conduit tramos de 3 m", image: celta47,secondImage: LogoCelta, secondImage: LogoCelta , secondDescription: [
+        {
+            title: "Diametro Pulg.", values: ["1/2", "3/4", "1", "1.1/4", "1.1/2", "2"]
+        }
+    ]},
+
+    {
+        id: 48, name: "Curvas CxE 90°", image: celta48, secondImage: LogoCelta,secondDescription: [
+            {
+                title: "Diametro Pulg.", values: ["1/2", "3/4", "1", "1.1/4", "1.1/2", "2"]
+            }
+        ]
+    },
+    {
+        id: 49, name: "Adaptador caja conduit", image: celta49, secondImage: LogoCelta,secondDescription: [
+            {
+                title: "Diametro Pulg.", values: ["1/2", "3/4", "1"]
+            }
+        ]
+    },
+    {
+        id: 50, name: "Caja eléctrica rectangular", image: celta50,secondImage: LogoCelta, secondDescription: [
+            {
+                title: "Dimension mm", values: ["103x60x45"]
+            }
+        ]
+    },
+    {
+        id: 51, name: "Suplemento caja doble", image: celta51, secondImage: LogoCelta,secondDescription: [
+            {
+                title: "Dimension mm", values: ["107x107"]
+            }
+        ]
+    },
+    {
+        id: 52, name: "Caja eléctrica octagonal", image: celta52,secondImage: LogoCelta, secondDescription: [
+            {
+                title: "Dimension mm", values: ["100x100x47"]
+            }
+        ]
+    },
+    {
+        id: 53, name: "Caja eléctrica doble", image: celta53,secondImage: LogoCelta, secondDescription: [
+            {
+                title: "Dimension mm", values: ["107x107x48"]
+            }
+        ]
+    },
+    {
+        id: 54, name: "Tapa caja doble", image: celta54,secondImage: LogoCelta, secondDescription: [
+            {
+                title: "Dimension mm", values: ["107x107"]
+            }
+        ]
+    },
+    {
+        id: 55, name: "Unión conduit", image: celta55,secondImage: LogoCelta, secondDescription: [
+            {
+                title: "Diametro Pulg.", values: ["1/2", "3/4", "1"]
+            }
+        ]
+    },
+    {
+        id: 56, name: "Adaptador terminal", image: celta56,secondImage: LogoCelta, secondDescription: [
+            {
+                title: "Diametro Pulg.", values: ["1/2", "3/4", "1", "1.1/4", "1.1/2", "2"]
+            },
+            {
+                values: ["3*"]
+            }
+        ]
+    },
+    { id: 57, name: "Canaleta sin adhesivo", image: celta57,secondImage: LogoCelta },
+    { id: 58, name: "Canaleta con Adhesivo", image: celta58 ,secondImage: LogoCelta},
     
 ];
 

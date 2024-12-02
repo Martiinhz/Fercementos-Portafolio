@@ -4,7 +4,7 @@ import Header from '../../Layouts/Header/Header';
 import Pagination from '../../Pagination/Pagination';
 import { motion } from 'framer-motion';
 import CategoryMenu from '../../CategoryMenu/CategoryMenu';
-import CementosAgregados from '../../Sections/Category/Tuberia/Sanitaria';
+import CementosAgregados from '../../Sections/Category/Tuberia/Ventilacion';
 import Footer from '../../Layouts/Footer/Footer';
 
 const CementsAggre = ({ searchTerm = "" }) => {
@@ -60,7 +60,7 @@ const CementsAggre = ({ searchTerm = "" }) => {
             >
                 <div className="absolute inset-0 bg-black opacity-50"></div>
                 <h1 className="relative text-white text-4xl font-bold p-4 rounded-lg z-10 sm:ml-16">
-                Tuberia Sanitaria
+                Tuberia Ventilacion
                 </h1>
             </div>
 
