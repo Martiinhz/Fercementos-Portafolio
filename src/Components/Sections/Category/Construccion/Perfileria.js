@@ -8,14 +8,54 @@ import super8 from '../../../../assets/Productos/Superboard/Angulo.png'
 
 const Perfileria = [
 
-    { id: 3, name: "Paral 89", image: super2 },
-    { id: 4, name: "Canal 90", image: super3 },
-    { id: 5, name: "Paral 59", image: super4 },
-    { id: 6, name: "Canal 60", image: super5 },
-    { id: 7, name: "Omega", image: super6 },
-    { id: 8, name: "Vigueta", image: super7 },
-    { id: 9, name: "Ángulo", image: super8 },
+    { id: 3, name: "Paral 89", image: super2,  secondDescription:[
+        {
+            title: "Longitud", values: ["2.44 Metros"]
+        }
+    ]
 
+     },
+    { id: 4, name: "Canal 90", image: super3,  secondDescription:[
+        {
+            title: "Longitud", values: ["2.44 Metros"]
+        }
+    ]
+
+     },
+    { id: 5, name: "Paral 59", image: super4,  secondDescription:[
+        {
+            title: "Longitud", values: ["2.44 Metros"]
+        }
+    ]
+
+    },
+    { id: 6, name: "Canal 60", image: super5,  secondDescription:[
+        {
+            title: "Longitud", values: ["2.44 Metros"]
+        }
+    ]
+
+    },
+    { id: 7, name: "Omega", image: super6,  secondDescription:[
+        {
+            title: "Longitud", values: ["2.44 Metros"]
+        }
+    ]
+
+    },
+    { id: 8, name: "Vigueta", image: super7,  secondDescription:[
+        {
+            title: "Longitud", values: ["2.44 Metros"]
+        }
+    ]
+
+    },
+    { id: 9, name: "Ángulo", image: super8,  secondDescription:[
+        {
+            title: "Longitud", values: ["2.44 Metros"]
+        }
+    ]
+    }
 ];
 
 export default Perfileria;
