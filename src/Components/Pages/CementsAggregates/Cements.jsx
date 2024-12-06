@@ -153,7 +153,7 @@ const CementsAggre = ({ searchTerm = "" }) => {
                                             rel="noopener noreferrer"
                                             className="bg-[#ACC90F] hover:bg-[#adc90fbb] text-white px-4 py-2 rounded w-full block text-center mb-4"
                                         >
-                                            Ver más
+                                            Ficha Tecnica
                                         </a>
                                     )}
 

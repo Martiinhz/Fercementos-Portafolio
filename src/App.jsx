@@ -60,6 +60,8 @@ import TejaPvc from './Components/Pages/Cubiertas/TejaPVC';
 import CeltaConstruccion from './Components/Pages/Tuberia/Construccion'
 import Complementarios from './Components/Pages/Tuberia/Complementarios';
 import Carretillas from './Components/Pages/Ferreteria/Carretillas';
+import Especializada from './Components/Pages/PinturaAcabados/Especializado';
+import OtrosHerramientas from './Components/Pages/Ferreteria/Otros'
 
 const MainLayout = ({ searchTerm, setSearchTerm }) => (
   <>
@@ -93,6 +95,7 @@ const AppRoutes = ({ searchTerm, setSearchTerm }) => {
     {path: "/pintura-acabados/rellenos", element: <Relleno/>},
     {path: "/pintura-acabados/pegantes", element: <Pegantes/>},
     {path: "/pintura-acabados/boquillas", element: <Boquillas/>},
+    {path: "/pintura-acabados/especializada", element: <Especializada/>},
     {path: "/pintura-acabados/brochas-rodillos-espatulas", element: <Brochas/>},
     {path: "/cubiertas-placas", element: <Cubiertas/>},
     {path: "/cubiertas-placas/teja-fibrocemento", element: <Teja/>},
@@ -125,8 +128,8 @@ const AppRoutes = ({ searchTerm, setSearchTerm }) => {
     {path: "/ferreteria/guantes", element: <Guantes/>},
     {path: "/ferreteria/herramientas", element: <Herramientas/>},
     {path: "/ferreteria/discos", element: <Discos/>},
-    {path: "/ferreteria/carretillas", element: <Carretillas/>}
-    
+    {path: "/ferreteria/carretillas", element: <Carretillas/>},
+    {path: "/ferreteria/otros", element: <OtrosHerramientas/>}
     
   ]);
 }

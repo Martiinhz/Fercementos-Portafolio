@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
-import BackgroundImage from '../../../assets/Fondo.jpg';
+import BackgroundImage from '../../../assets/fondo8.png';
 import Header from '../../Layouts/Header/Header';
 import Pagination from '../../Pagination/Pagination';
 import { motion } from 'framer-motion';
 import CategoryMenu from '../../CategoryMenu/CategoryMenu';
-import CementosAgregados from '../../Sections/Category/PinturaAcabados/Exterior';
+import CementosAgregados from '../../Sections/Category/Ferreteria/Otros';
 import Footer from '../../Layouts/Footer/Footer';
 
 const CementsAggre = ({ searchTerm = "" }) => {
@@ -60,7 +60,7 @@ const CementsAggre = ({ searchTerm = "" }) => {
             >
                 <div className="absolute inset-0 bg-black opacity-50"></div>
                 <h1 className="relative text-white text-4xl font-bold p-4 rounded-lg z-10 sm:ml-16">
-                    Pintura para exterior
+                   Otros
                 </h1>
             </div>
 
@@ -132,7 +132,7 @@ const CementsAggre = ({ searchTerm = "" }) => {
                                     {selectedProduct.description && (
                                         <div className="bg-gray-100 p-4 rounded-lg shadow-md mb-4">
                                             <h3 className="text-lg font-semibold mb-2">Descripción</h3>
-                                            <p className="text-gray-700 mb-4 text-center">{selectedProduct.description}</p>
+                                            <p className="text-gray-700 mb-4 ">{selectedProduct.description}</p>
                                         </div>
                                     )}
                                     {selectedProduct.secondDescription && (
@@ -167,6 +167,16 @@ const CementsAggre = ({ searchTerm = "" }) => {
                                             Colores
                                         </a>
                                     )}
+                                    {selectedProduct.seconDlink && (
+                                        <a
+                                            href={selectedProduct.seconDlink}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="bg-[#ACC90F] hover:bg-[#adc90fbb] text-white px-4 py-2 rounded w-full block text-center mb-4"
+                                        >
+                                            Ficha Tecnica
+                                        </a>
+                                    )}
 
                                     <button
                                         className="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600 w-full"
@@ -176,11 +186,11 @@ const CementsAggre = ({ searchTerm = "" }) => {
                                     </button>
 
                                     {selectedProduct.secondImage && (
-                                        <div className="hidden lg:flex justify-center mt-4">
+                                        <div className="hidden lg:flex justify-center mt-1">
                                             <img
                                                 src={selectedProduct.secondImage}
                                                 alt="Logo decorativo"
-                                                className="w-[150px] h-[150px] object-contain mt-[1rem]"
+                                                className="w-[200px] h-[200px] object-contain mt-[1rem]"
                                             />
                                         </div>
                                     )}

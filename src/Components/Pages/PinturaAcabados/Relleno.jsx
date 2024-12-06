@@ -132,7 +132,7 @@ const CementsAggre = ({ searchTerm = "" }) => {
                                     {selectedProduct.description && (
                                         <div className="bg-gray-100 p-4 rounded-lg shadow-md mb-4">
                                             <h3 className="text-lg font-semibold mb-2">Descripción</h3>
-                                            <p className="text-gray-700 mb-4 text-center">{selectedProduct.description}</p>
+                                            <p className="text-gray-700 mb-4 ">{selectedProduct.description}</p>
                                         </div>
                                     )}
                                     {selectedProduct.secondDescription && (
@@ -167,6 +167,16 @@ const CementsAggre = ({ searchTerm = "" }) => {
                                             Colores
                                         </a>
                                     )}
+                                    {selectedProduct.seconDlink && (
+                                        <a
+                                            href={selectedProduct.seconDlink}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="bg-[#ACC90F] hover:bg-[#adc90fbb] text-white px-4 py-2 rounded w-full block text-center mb-4"
+                                        >
+                                            Ficha Tecnica
+                                        </a>
+                                    )}
 
                                     <button
                                         className="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600 w-full"
@@ -180,7 +190,7 @@ const CementsAggre = ({ searchTerm = "" }) => {
                                             <img
                                                 src={selectedProduct.secondImage}
                                                 alt="Logo decorativo"
-                                                className="w-24 h-24 object-contain mt-[2rem]"
+                                                className="w-[150px] h-[150px] object-contain mt-[1rem]"
                                             />
                                         </div>
                                     )}

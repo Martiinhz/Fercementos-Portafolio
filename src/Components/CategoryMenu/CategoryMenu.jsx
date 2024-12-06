@@ -81,6 +81,7 @@ const CategoryMenu = () => {
             <li className='pb-1 hover:text-[#ACC90F]'><Link to="/pintura-acabados/rellenos"onClick={scrollToTop}>Rellenos</Link></li>
             <li className='pb-1 hover:text-[#ACC90F]'><Link to="/pintura-acabados/pegantes"onClick={scrollToTop}>Pegantes</Link></li>
             <li className='pb-1 hover:text-[#ACC90F]'><Link to="/pintura-acabados/boquillas"onClick={scrollToTop}>Boquillas</Link></li>
+            <li className='pb-1 hover:text-[#ACC90F]'><Link to="/pintura-acabados/especializada"onClick={scrollToTop}>Pintura Especializada</Link></li>
             <li className='pb-1 hover:text-[#ACC90F]'><Link to="/pintura-acabados/brochas-rodillos-espatulas"onClick={scrollToTop}>Brochas, rodillos y espátulas</Link></li>
           </ul>
         </div>
@@ -131,7 +132,7 @@ const CategoryMenu = () => {
             <li className='pb-1 hover:text-[#ACC90F]'><Link to="/tuberia-accesorios/duraconduit"onClick={scrollToTop}>Tubería Duraconduit</Link></li>
             <li className='pb-1 hover:text-[#ACC90F]'><Link to="/tuberia-accesorios/durafort"onClick={scrollToTop}>Tubería Durafort</Link></li>
             <li className='pb-1 hover:text-[#ACC90F]'><Link to="/tuberia-accesorios/soldaduras"onClick={scrollToTop}>Soldaduras PVC y CPVC</Link></li>
-            <li className='pb-1 hover:text-[#ACC90F]'><Link to="/tuberia-accesorios/construccion"onClick={scrollToTop}>Construccion</Link></li>
+            <li className='pb-1 hover:text-[#ACC90F]'><Link to="/tuberia-accesorios/construccion"onClick={scrollToTop}>Canales y Bajantes</Link></li>
             <li className='pb-1 hover:text-[#ACC90F]'><Link to="/tuberia-accesorios/complementarios"onClick={scrollToTop}>Complementarios</Link></li>
           </ul>
         </div>

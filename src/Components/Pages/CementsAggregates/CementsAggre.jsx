@@ -132,13 +132,13 @@ const CementsAggre = ({ searchTerm = "" }) => {
                                     {selectedProduct.description && (
                                         <div className="bg-gray-100 p-4 rounded-lg shadow-md mb-4">
                                             <h3 className="text-lg font-semibold mb-2">Descripción</h3>
-                                            <p className="text-gray-700 mb-4 text-center">{selectedProduct.description}</p>
+                                            <p className="text-gray-700 mb-4">{selectedProduct.description}</p>
                                         </div>
                                     )}
                                     {selectedProduct.SecondDescription && (
                                         <div className="bg-gray-100 p-4 rounded-lg shadow-md mb-4">
                                             <h3 className="text-lg font-semibold mb-2">Especificaciones</h3>
-                                            <ul className="list-disc list-inside text-gray-700">
+                                            <ul className="list-disc text-gray-700 ml-3">
                                                 {selectedProduct.SecondDescription.map((spec, index) => (
                                                     <li key={index}>{spec}</li>
                                                 ))}
@@ -153,7 +153,7 @@ const CementsAggre = ({ searchTerm = "" }) => {
                                             rel="noopener noreferrer"
                                             className="bg-[#ACC90F] hover:bg-[#adc90fbb] text-white px-4 py-2 rounded w-full block text-center mb-4"
                                         >
-                                            Ver más
+                                            Ficha Tecnica
                                         </a>
                                     )}
 

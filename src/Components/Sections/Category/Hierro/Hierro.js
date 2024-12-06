@@ -1,50 +1,123 @@
 import hierro1 from "../../../../assets/Productos/Sidoc/Barracorrugada.png"
 import hierro2 from "../../../../assets/Productos/Sidoc/ChipaCorrugada.png"
 import hierro3 from "../../../../assets/Productos/Sidoc/MallaElectrosoldada.png"
-import hierro4 from "../../../../assets/Productos/Sidoc/1.png"
-import hierro5 from "../../../../assets/Productos/Sidoc/2.png"
-import hierro6 from "../../../../assets/Productos/Sidoc/3.png"
 import hierro7 from "../../../../assets/Productos/Sidoc/AlambreNegro.png"
 import hierro8 from "../../../../assets/Productos/Sidoc/ALambreGris.png"
 const Hierro = [
     {
         id: 1,
-        name: "Varilla Corrugada",
+        name: "Varilla Corrugada 6 Metros",
         image: hierro1,
         secondDescription: [
             {
-                title: "Varilla",
-                values: ["6 mts, 9 mts y 12 mts: 1/4, 3/8, 1/2, 5/8, 3/4"],
+                title: "Medida",
+                values: ["9mm", "11mm", "12mm"],
+            },
+        ],
+    },
+    {
+        id: 1,
+        name: "Varilla Corrugada 9 Metros",
+        image: hierro1,
+        secondDescription: [
+            {
+                title: "Medida",
+                values: ["9mm", "11mm", "12mm", "1/4", "1/2", "3/4", "3/8", "5/8", "7/8"],
+            },
+
+        ],
+    },
+    {
+        id: 1,
+        name: "Varilla Corrugada 12 Metros",
+        image: hierro1,
+        secondDescription: [
+            {
+                title: "Medida",
+                values: ["9mm", "11mm", "12mm", "1/4", "1/2", "3/4", "3/8", "5/8", "7/8"],
             },
         ],
     },
 
     {
-        id: 2, name: "Chipa Corrugada", image: hierro2,
+        id: 2, name: "Chipa Corrugad x kilo", image: hierro2,
         secondDescription: [
             {
-                title: "Chipa:", values: ["1/4, 3/8, 1/2, 5/8 pulgadas"]
+                title: "Chipa x kilo", values: ["1/4, 3/8 pulgadas"]
             }]
     },
 
     {
-        id: 3,
+        id: 1,
         name:
-            "Malla Electrosoldada",
+            "Malla Electrosoldada 4mm",
         image: hierro3,
         secondDescription: [
             {
-                title: "Malla electrosoldada", values: ["15x15 de 6 mts: 4 mm 5 mm"],
+                title: "Medidas", values: ["15x15 6 metro x 2.35 metros"],
                 
             },
+          
+        ]
+    },
+    {
+        id: 2,
+        name:
+            "Malla Electrosoldada 6mm",
+        image: hierro3,
+        secondDescription: [
             {
-                title: "Rollo Malla electrosoldada", values: ["15x15 de 18 mts: 3.5 mm 4 mm"],
-            }
+                title: "Medidas", values: ["15x15 6 metro x 2.35 metros"],
+                
+            },
+           
+        ]
+    },
+    {
+        id: 3,
+        name:
+            "Malla Electrosoldada  5mm",
+        image: hierro3,
+        secondDescription: [
+            {
+                title: "Medidas", values: ["15x15 6 metro x 2.35 metros"],
+                
+            },
+           
+        ]
+    },
+    {
+        id: 4,
+        name:
+            "Malla Electrosoldada 6.5 mm",
+        image: hierro3,
+        secondDescription: [
+            {
+                title: "Medidas", values: ["15x15 6 metro x 2.35 metros"],
+                
+            },
+          
+        ]
+    },
+    {
+        id: 5,
+        name:
+            "Rollo malla electrosolada de 3.5 mm ",
+        image: hierro3,
+        secondDescription: [
+            {
+                title: "Medidas", values: ["18 metros x 2.35 metros"],
+                
+            },
         ]
     },
 
-    { id: 4, name: "Alambre Negro 18", image: hierro7, secondDescription: [{ values: ["1 kg, 2 kg, 3 kg, 5 kg"]}] },
-    { id: 5, name: "Alambre Galvanisado", image: hierro8, secondDescription: [{values: ["1 kg, 2 kg, 3 kg, 5kg"]}] }
+    { id: 4, name: "Alambre Negro 18", image: hierro7, secondDescription: [{title: "Kilos", values: [("Apeticion del cliente")]},
+    {
+        title: "Rollo", values: ["25 Kilos"]
+    }
+] },
+    { id: 5, name: "Alambre Galvanisado x kilo", image: hierro8, secondDescription: [{title: "Calibres",values: ["12", "14", "18"]}] }
 ];
 
 export default Hierro;
