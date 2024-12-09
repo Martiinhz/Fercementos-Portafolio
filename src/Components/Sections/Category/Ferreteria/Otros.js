@@ -8,6 +8,9 @@ import logoloctite from '../../../../assets/Productos/Ferreteria/logoloctite.png
 import logosiste from '../../../../assets/Productos/Ferreteria/logosiste.png'
 import logopatex from '../../../../assets/Productos/Ferreteria/logopantex.png'
 import logotangit from '../../../../assets/Productos/Ferreteria/logotangit.png'
+import yeso1 from '../../../../assets/Productos/Ajover/CaolinPVC.png'
+import yeso2 from '../../../../assets/Productos/Ajover/YesoMaestro.png'
+import yeso3 from '../../../../assets/Productos/Ajover/YesoPijao.png'
 
 const Otros = [
     
@@ -17,6 +20,10 @@ const Otros = [
     { id: 111, name: "Pattex: No mas clavos 353 g", image: henkel4, secondImage:logopatex },
     { id: 112, name: "Pattex: No mas clavos 113 g", image: henkel5, secondImage:logopatex },
     { id: 123, name: "Pattex: No mas clavos Blanco", image: henkel6, secondImage:logopatex },
+    { id: 36, name: "Caolin PVC x 25 kg", image: yeso1, description: "Material obtenido a través de procesos industriales controlados que le permite tener una alta estabilidad en su desempeño y propiedades especificas para diferentes industrias y aplicaciones" },
+    { id: 37, name: "Yeso Maestro x 25 kg", image: yeso2, description: "Yeso de alta calidad, uniforme, fácil aplicación, excelente acabado, proporciona una textura lisa, alta duresa y gran adherencia al revoque."},
+    { id: 38, name: "Yeso Pijao x 25 kg", image: yeso3, description: "Yeso de alta calidad, uniforme, fácil aplicación, excelente acabado, proporciona una textura lisa, alta duresa y gran adherencia al revoque." },
+
 ]
 
 export default Otros;

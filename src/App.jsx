@@ -141,7 +141,7 @@ function App() {
     <div className="bg-[#EEEEEE] min-h-screen">
       {/* Las rutas se manejarán dentro de AppRoutes */}
       <AppRoutes searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
-      <BotonFlotante pdfUrl="https://media.proteja.com.co/pd55131/original/-1744642624/ft_perfil10_proteja_febrero2024_v1.pdf" />
+      <BotonFlotante pdfUrl="https://drive.google.com/file/d/1AgrVNQkDbeByUuvL_jgv8mMTrtj_QAbN/view?usp=sharing" />
     </div>
   );
 }
