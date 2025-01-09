@@ -65,10 +65,8 @@ import OtrosHerramientas from './Components/Pages/Ferreteria/Otros'
 
 const MainLayout = ({ searchTerm, setSearchTerm }) => (
   <>
-    <Header onSearch={setSearchTerm} />
-    <SectionOne />
     <ProductGrid searchTerm={searchTerm} />
-    <Footer />
+    
   </>
 );
 
