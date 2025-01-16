@@ -121,7 +121,7 @@ import proteja5 from '../../../assets/Productos/Proteja/5.png'
 import proteja7 from '../../../assets/Productos/Proteja/7.png'
 import proteja8 from '../../../assets/Productos/Proteja/8.png'
 import proteja9 from '../../../assets/Productos/Proteja/9.png'
-import logoTeja from '../../../assets/Productos/proteja/logo.png'
+import logoteja from '../../../assets/Productos/Proteja/logo.png'
 import acuaviva1 from '../../../assets/Productos/Acuaviva/Tanque250.png'
 import acuaviva2 from '../../../assets/Productos/Acuaviva/Tanque500.png'
 import acuaviva4 from '../../../assets/Productos/Acuaviva/Tanque1000.png'
@@ -647,7 +647,7 @@ const Products = [
 
             // Cubiertas
     
-             { id: 110, name: "Teja proteja perfil #7 ", image: proteja1,secondImage: logoTeja, thirdDescription:[
+             { id: 110, name: "Teja proteja perfil #7 ", image: proteja1,secondImage: logoteja, thirdDescription:[
                         {
                             title: "Nombre", values: ["No 4", "No 5", "No 6", "No 8", "No 10", "No 12"],
                         },
@@ -661,7 +661,7 @@ const Products = [
                     ], link: "https://media.proteja.com.co/pd55130/original/-977337359/ft_perfil7_proteja_febrero2024_v1.pdf"
                 },
                 {
-                    id: 111, name: "Claraboya ", image: proteja2,secondImage: logoTeja, thirdDescription: [
+                    id: 111, name: "Claraboya ", image: proteja2,secondImage: logoteja, thirdDescription: [
                         {
                             title: "Nombre", values: ["No 5","No 6"]
                         },
@@ -674,9 +674,9 @@ const Products = [
                         }
                     ]
                 },
-                { id: 112, name: "Caballate tipo nuevo", image: proteja3,secondImage: logoTeja, description: "Caballete de poca altura, se coloca en la cumbrera de una cubierta a dos o más aguas. Disponible para pendientes de techo de 15° y de 36% (20°) y 47% (25°) sobre pedido. Debe ser asegurado con 4 tornillos, 2 por cada lado en la segunda y quinta onda. Tener en cuenta la aplicación de un sellante debajo de la cabeza del tornillo, no silicona." },
-                { id: 113, name: "Caballate tipo viejo", image: proteja4, secondImage: logoTeja,description: "Se utiliza como cierre de una cubierta en su línea de caballetes, al inicio y al final. Disponible para pendientes de techo de 27% (15°). Debe ser asegurado con tornillos." },
-                { id: 114, name: "Limatesa limahoya teja", image: proteja5, secondImage: logoTeja,description: "Pieza de unión entre dos pendientes de una cubierta que forma un ángulo saliente y entrante. Debe ser asegurado con tornillos tipo paleta o amarras." },
+                { id: 112, name: "Caballate tipo nuevo", image: proteja3,secondImage: logoteja, description: "Caballete de poca altura, se coloca en la cumbrera de una cubierta a dos o más aguas. Disponible para pendientes de techo de 15° y de 36% (20°) y 47% (25°) sobre pedido. Debe ser asegurado con 4 tornillos, 2 por cada lado en la segunda y quinta onda. Tener en cuenta la aplicación de un sellante debajo de la cabeza del tornillo, no silicona." },
+                { id: 113, name: "Caballate tipo viejo", image: proteja4, secondImage: logoteja,description: "Se utiliza como cierre de una cubierta en su línea de caballetes, al inicio y al final. Disponible para pendientes de techo de 27% (15°). Debe ser asegurado con tornillos." },
+                { id: 114, name: "Limatesa limahoya teja", image: proteja5, secondImage: logoteja,description: "Pieza de unión entre dos pendientes de una cubierta que forma un ángulo saliente y entrante. Debe ser asegurado con tornillos tipo paleta o amarras." },
                 {
                     id: 115, name: "Teja Colonial", image: proteja7, secondImage: logoTeja,thirdDescription: [
             
