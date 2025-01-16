@@ -678,7 +678,7 @@ const Products = [
                 { id: 113, name: "Caballate tipo viejo", image: proteja4, secondImage: logoteja,description: "Se utiliza como cierre de una cubierta en su línea de caballetes, al inicio y al final. Disponible para pendientes de techo de 27% (15°). Debe ser asegurado con tornillos." },
                 { id: 114, name: "Limatesa limahoya teja", image: proteja5, secondImage: logoteja,description: "Pieza de unión entre dos pendientes de una cubierta que forma un ángulo saliente y entrante. Debe ser asegurado con tornillos tipo paleta o amarras." },
                 {
-                    id: 115, name: "Teja Colonial", image: proteja7, secondImage: logoTeja,thirdDescription: [
+                    id: 115, name: "Teja Colonial", image: proteja7, secondImage: logoteja,thirdDescription: [
             
                         {
                             title: "Longitu mts", values: ["0.70", "1.60"]
