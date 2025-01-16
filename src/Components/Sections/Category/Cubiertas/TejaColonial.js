@@ -1,9 +1,10 @@
 import teja from '../../../../assets/Productos/Proteja/7.png'
+import logoTeja from '../../../../assets/Productos/Proteja/logo.png'
 
 const Colonial = [
 
     {
-        id: 6, name: "Teja Colonial", image: teja, secondDescription: [
+        id: 6, name: "Teja Colonial", image: teja,secondImage: logoTeja, secondDescription: [
 
             {
                 title: "Longitu m", values: ["0.70", "1.60"]

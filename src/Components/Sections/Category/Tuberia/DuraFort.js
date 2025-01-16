@@ -18,7 +18,7 @@ import LogoCelta from '../../../../assets/Productos/Celta/logoCelta.png'
 
 const Durafort = [
 
-    { id: 64, name: "Tubos S8 tramos por 6m", image: celta64, secondImage: LogoCelta , secondDescription: [
+    { id: 64, name: "Tubos S8 tramos por 6m", image: celta64, link: "https://drive.google.com/file/d/1iRykTcBLori6QSia3pdRhiO5WE7524ij/view?usp=sharing",secondImage: LogoCelta , secondDescription: [
         {
             title: "Diametro Pulg.", values: ["4-110 mm", "6-160 mm", "8-200 mm", "10-250 mm", "12-315 mm", "14-355 mm"]
         },
@@ -26,20 +26,20 @@ const Durafort = [
             values: ["16-400 mm", "18-540 mm", "20-500 mm"]
         }
     ]},
-    { id: 65, name: "Tubos S4 tramos por 6, 5m", image: celta65, secondImage: LogoCelta, secondDescription: [
+    { id: 65, name: "Tubos S4 tramos por 6, 5m", image: celta65, link: "https://drive.google.com/file/d/1iRykTcBLori6QSia3pdRhiO5WE7524ij/view?usp=sharing",secondImage: LogoCelta, secondDescription: [
         {
             title: "Diametro Pulg.", values: ["24", "27", "30", "33", "33", "36"]
         }
     ]},
     {
-        id: 66, name: "Lubricante", image: celta66, secondImage: LogoCelta,secondDescription: [
+        id: 66, name: "Lubricante", image: celta66, link: "https://drive.google.com/file/d/1iRykTcBLori6QSia3pdRhiO5WE7524ij/view?usp=sharing",secondImage: LogoCelta,secondDescription: [
             {
                 title: "Contenido", values: ["500g"]
             }
         ]
     },
     {
-        id: 67, name: "Unión", image: celta67, secondImage: LogoCelta,secondDescription: [
+        id: 67, name: "Unión", image: celta67,link: "https://drive.google.com/file/d/1iRykTcBLori6QSia3pdRhiO5WE7524ij/view?usp=sharing", secondImage: LogoCelta,secondDescription: [
             {
                 title: "Diametro Pulg - mm", values: ["4-110 mm", "6-160 mm", "8-200 mm", "10-250 mm", "12-315 mm", "14-355 mm"]
             },
@@ -49,7 +49,7 @@ const Durafort = [
         ]
     },
     {
-        id: 68, name: "Sillas yee", image: celta68, secondImage: LogoCelta,secondDescription: [
+        id: 68, name: "Sillas yee", image: celta68, link: "https://drive.google.com/file/d/1iRykTcBLori6QSia3pdRhiO5WE7524ij/view?usp=sharing",secondImage: LogoCelta,secondDescription: [
             {
                 title: "Diametro Pulg.", values: ["6x4", "8x4", "8x6", "10x4", "10x6", "12x4"]
             },
@@ -59,7 +59,7 @@ const Durafort = [
         ]
     },
     {
-        id: 69, name: "Hidrosellos Durafort", image: celta69, secondImage: LogoCelta,secondDescription: [
+        id: 69, name: "Hidrosellos Durafort", image: celta69,link: "https://drive.google.com/file/d/1iRykTcBLori6QSia3pdRhiO5WE7524ij/view?usp=sharing", secondImage: LogoCelta,secondDescription: [
             {
                 title: "Diametro Pulg.", values: ["4", "6", "8", "10", "12", "14"]
             },
@@ -69,56 +69,56 @@ const Durafort = [
         ]
     },
     {
-        id: 70, name: "Codo 45°", image: celta70, secondImage: LogoCelta,secondDescription: [
+        id: 70, name: "Codo 45°", image: celta70,link: "https://drive.google.com/file/d/1iRykTcBLori6QSia3pdRhiO5WE7524ij/view?usp=sharing", secondImage: LogoCelta,secondDescription: [
             {
                 title: "Diametro Pulg.", values: ["4-110 mm", "6-160", "8-200 mm", "10-250", "12-315 mm"]
             }
         ]
     },
     {
-        id: 71, name: "Tee", image: celta71,secondImage: LogoCelta, secondDescription: [
+        id: 71, name: "Tee", image: celta71,link: "https://drive.google.com/file/d/1iRykTcBLori6QSia3pdRhiO5WE7524ij/view?usp=sharing",secondImage: LogoCelta, secondDescription: [
             {
                 title: "Diametro Pulg.", values: ["6x6", "8x6"]
             }
         ]
     },
     {
-        id: 72, name: "Yee", image: celta72, secondImage: LogoCelta,secondDescription: [
+        id: 72, name: "Yee", image: celta72, link: "https://drive.google.com/file/d/1iRykTcBLori6QSia3pdRhiO5WE7524ij/view?usp=sharing",secondImage: LogoCelta,secondDescription: [
             {
                 title: "Diametro Pulg.", values: ["6x6", "8x6"]
             }
         ]
     },
     {
-        id: 73, name: "Codo 90°", image: celta73, secondImage: LogoCelta,secondDescription: [
+        id: 73, name: "Codo 90°", image: celta73, link: "https://drive.google.com/file/d/1iRykTcBLori6QSia3pdRhiO5WE7524ij/view?usp=sharing",secondImage: LogoCelta,secondDescription: [
             {
                 title: "Diametro pulg.",  values: ["4-110 mm ", "6-160 mm", "8-200 mm", "10-250 mm", "12-315 mm"]
             }
         ]
     },
     {
-        id: 74, name: "Adaptador durafort - sanitario", image: celta74, secondImage: LogoCelta,secondDescription: [
+        id: 74, name: "Adaptador durafort - sanitario", image: celta74, link: "https://drive.google.com/file/d/1iRykTcBLori6QSia3pdRhiO5WE7524ij/view?usp=sharing",secondImage: LogoCelta,secondDescription: [
             {
                 title: "Diametro Plug.", values: ["4x4", "6x6", "8x6"]
             }
         ]
     },
     {
-        id: 75, name: "Adaptador derivación domiciliaria C x E", image: celta75,secondImage: LogoCelta, secondDescription: [
+        id: 75, name: "Adaptador derivación domiciliaria C x E", image: celta75, link: "https://drive.google.com/file/d/1iRykTcBLori6QSia3pdRhiO5WE7524ij/view?usp=sharing",secondImage: LogoCelta, secondDescription: [
             {
                 title: "Diametro Pulg.", values: ["6"]
             }
         ]
     },
     {
-        id: 76, name: "Adhesivo epóxico durafort", image: celta76,secondImage: LogoCelta, secondDescription: [
+        id: 76, name: "Adhesivo epóxico durafort", image: celta76, link: "https://drive.google.com/file/d/1iRykTcBLori6QSia3pdRhiO5WE7524ij/view?usp=sharing",secondImage: LogoCelta, secondDescription: [
             {
                 title: "Contenido Galon", values: ["1/4", "1/2"]
             }
         ]
     },
     {
-        id: 77, name: "Sillas tee", image: celta77,secondImage: LogoCelta,secondImage: LogoCelta, secondDescription: [
+        id: 77, name: "Sillas tee", image: celta77,secondImage: LogoCelta, link: "https://drive.google.com/file/d/1iRykTcBLori6QSia3pdRhiO5WE7524ij/view?usp=sharing",secondImage: LogoCelta, secondDescription: [
             {
                 title: "Diametro Pulg.", values: ["6x4", "8x4", "8x6", "10x4", "10x6", "12x4"]
             },

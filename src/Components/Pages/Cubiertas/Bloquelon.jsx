@@ -60,7 +60,7 @@ const CementsAggre = ({ searchTerm = "" }) => {
             >
                 <div className="absolute inset-0 bg-black opacity-50"></div>
                 <h1 className="relative text-white text-4xl font-bold p-4 rounded-lg z-10 sm:ml-16">
-                Bloquelón – Perfil entrepiso
+                    Bloquelón – Perfil entrepiso
                 </h1>
             </div>
 
@@ -139,21 +139,45 @@ const CementsAggre = ({ searchTerm = "" }) => {
                                         <div className="bg-gray-100 p-4 rounded-lg shadow-md mb-4">
                                             <h3 className="text-lg font-semibold mb-2">Especificaciones</h3>
                                             <div className='flex justify-around'>
-                                            {selectedProduct.secondDescription.map((spec, index) => (
-                                                <div key={index} className="mb-2">
-                                                    <div className=''>
-                                                    <h4 className="font-medium text-gray-800 ">{spec.title}</h4>
-                                                    <ul className="list-disc list-inside text-gray-700">
-                                                        {spec.values.map((value, i) => (
-                                                            <li key={i}>{value}</li>
-                                                        ))}
-                                                    </ul>
+                                                {selectedProduct.secondDescription.map((spec, index) => (
+                                                    <div key={index} className="mb-2">
+                                                        <div className=''>
+                                                            <h4 className="font-medium text-gray-800 ">{spec.title}</h4>
+                                                            <ul className="list-disc list-inside text-gray-700">
+                                                                {spec.values.map((value, i) => (
+                                                                    <li key={i}>{value}</li>
+                                                                ))}
+                                                            </ul>
+                                                        </div>
+
                                                     </div>
-                                                    
-                                                </div>
-                                            ))}
+                                                ))}
+
                                             </div>
-                                            
+
+                                        </div>
+                                    )}
+
+                                    {selectedProduct.thirdDescription && (
+                                        <div className="bg-gray-100 p-4 rounded-lg shadow-md mb-4">
+                                            <h3 className="text-lg font-semibold mb-2">Especificaciones (10.4 kilos) Peso</h3>
+                                            <div className='flex justify-around'>
+                                                {selectedProduct.thirdDescription.map((spec, index) => (
+                                                    <div key={index} className="mb-2">
+                                                        <div className=''>
+                                                            <h4 className="font-medium text-gray-800 ">{spec.title}</h4>
+                                                            <ul className="list-disc list-inside text-gray-700">
+                                                                {spec.values.map((value, i) => (
+                                                                    <li key={i}>{value}</li>
+                                                                ))}
+                                                            </ul>
+                                                        </div>
+
+                                                    </div>
+                                                ))}
+
+                                            </div>
+
                                         </div>
                                     )}
 
@@ -180,7 +204,7 @@ const CementsAggre = ({ searchTerm = "" }) => {
                                             <img
                                                 src={selectedProduct.secondImage}
                                                 alt="Logo decorativo"
-                                                className="w-24 h-24 object-contain mt-[2rem]"
+                                                className="'w-[200px] h-[200px] object-contain'"
                                             />
                                         </div>
                                     )}

@@ -3,7 +3,7 @@ import alambre2 from '../../../../assets/Productos/Sidoc/ALambreGris.png'
 
 const Alambres = [
 
-    { id: 4, name: "Alambre Negro 18", image: alambre1, secondDescription: [{title: "Kilos", values: [("Apeticion del cliente")]},
+    { id: 4, name: "Alambre Negro 18", image: alambre1, secondDescription: [{title: "Kilos", values: [("A petición del cliente")]},
     {
         title: "Rollo", values: ["25 Kilos"]
     }

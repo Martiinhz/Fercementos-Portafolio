@@ -10,7 +10,7 @@ const VarillaCorrugada = [
         image: barra,
         secondDescription: [
             {
-                title: "Medida",
+                title: "Calibre",
                 values: ["9mm", "11mm", "12mm"],
             },
         ],
@@ -21,7 +21,7 @@ const VarillaCorrugada = [
         image: barra,
         secondDescription: [
             {
-                title: "Medida",
+                title: "Calibre",
                 values: ["9mm", "11mm", "12mm", "1/4", "1/2", "3/4", "3/8", "5/8", "7/8"],
             },
 
@@ -33,7 +33,7 @@ const VarillaCorrugada = [
         image: barra,
         secondDescription: [
             {
-                title: "Medida",
+                title: "Calibre",
                 values: ["9mm", "11mm", "12mm", "1/4", "1/2", "3/4", "3/8", "5/8", "7/8"],
             },
         ],

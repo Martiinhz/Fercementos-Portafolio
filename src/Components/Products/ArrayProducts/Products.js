@@ -34,7 +34,7 @@ import ajover7 from '../../../assets/Productos/Ajover/LadrilloCalao.png'
 import ajover8 from '../../../assets/Productos/Ajover/LadrilloFarol.png'
 import santafe3 from '../../../assets/Productos/LadrilleraSantafe/3.png'
 import santafe4 from '../../../assets/Productos/LadrilleraSantafe/4.png'
-import logoSantafe from '../../../assets/Productos/LadrilleraSantafe/logo.png'
+
 
 
 import pintuland1 from '../../../assets/Productos/Pintuland/SuperLavable.png'
@@ -121,6 +121,7 @@ import proteja5 from '../../../assets/Productos/Proteja/5.png'
 import proteja7 from '../../../assets/Productos/Proteja/7.png'
 import proteja8 from '../../../assets/Productos/Proteja/8.png'
 import proteja9 from '../../../assets/Productos/Proteja/9.png'
+import logoTeja from '../../../assets/Productos/proteja/logo.png'
 import acuaviva1 from '../../../assets/Productos/Acuaviva/Tanque250.png'
 import acuaviva2 from '../../../assets/Productos/Acuaviva/Tanque500.png'
 import acuaviva4 from '../../../assets/Productos/Acuaviva/Tanque1000.png'
@@ -129,11 +130,15 @@ import acuaviva6 from '../../../assets/Productos/Acuaviva/Tanque5000.png'
 import acuaviva7 from '../../../assets/Productos/Acuaviva/Tanque6000.png'
 import santafe1 from '../../../assets/Productos/LadrilleraSantafe/Bloquelon.png'
 import santafe2 from '../../../assets/Productos/LadrilleraSantafe/2.png'
+
 import ajover1 from '../../../assets/Productos/Ajover/TejaAjover5años.png'
 import ajover2 from '../../../assets/Productos/Ajover/TejaPolicarbonato10años.png'
 import ajover3 from '../../../assets/Productos/Ajover/TejaDuty.png'
 import ajover4 from '../../../assets/Productos/Ajover/TejaTraslucida.png'
 import ajover5 from '../../../assets/Productos/Ajover/TejaZing.png'
+
+import santafe from '../../../assets/Productos/LadrilleraSantafe/logo.png'
+import alfa from '../../../assets/Productos/Argos/alfa.png'
 
 const Products = [
 
@@ -207,22 +212,21 @@ const Products = [
   },
 
   {
-    id: 28,
+    id: 32,
     name:
-      "Malla Electrosoldada 4mm",
+      "Rollo malla electrosolada de 3.5 mm ",
     image: hierro3,
     thirdDescription: [
       {
-        title: "Medidas", values: ["15x15 6 metro x 2.35 metros"],
+        title: "Medidas", values: ["18 metros x 2.35 metros"],
 
       },
-
     ]
   },
   {
-    id: 29,
+    id: 28,
     name:
-      "Malla Electrosoldada 6mm",
+      "Malla Electrosoldada 4mm",
     image: hierro3,
     thirdDescription: [
       {
@@ -246,6 +250,20 @@ const Products = [
     ]
   },
   {
+    id: 29,
+    name:
+      "Malla Electrosoldada 6mm",
+    image: hierro3,
+    thirdDescription: [
+      {
+        title: "Medidas", values: ["15x15 6 metro x 2.35 metros"],
+
+      },
+
+    ]
+  },
+  
+  {
     id: 31,
     name:
       "Malla Electrosoldada 6.5 mm",
@@ -258,18 +276,7 @@ const Products = [
 
     ]
   },
-  {
-    id: 32,
-    name:
-      "Rollo malla electrosolada de 3.5 mm ",
-    image: hierro3,
-    thirdDescription: [
-      {
-        title: "Medidas", values: ["18 metros x 2.35 metros"],
-
-      },
-    ]
-  },
+ 
 
   {
     id: 33, name: "Alambre Negro 18", image: hierro7, thirdDescription: [{ title: "Kilos", values: [("Apeticion del cliente")] },
@@ -307,9 +314,9 @@ const Products = [
         }
     ]}, 
     
-    { id: 37, name: "Ladrillo Portante", image: santafe3, secondImage: logoSantafe,description: "Ladrillo Portante 306 Capuchino H", link: "https://www.santafe.com.co/wp-content/uploads/2021/11/FT-LPOR306CPH-LPOR306MCPH-1.pdf"},
+    { id: 37, name: "Ladrillo Portante", image: santafe3, secondImage: santafe,description: "Ladrillo Portante 306 Capuchino H", link: "https://www.santafe.com.co/wp-content/uploads/2021/11/FT-LPOR306CPH-LPOR306MCPH-1.pdf"},
 
-    { id: 38, name: "Ladrillo Gran Formato", image: santafe4, secondImage:logoSantafe ,thirdDescription: [
+    { id: 38, name: "Ladrillo Gran Formato", image: santafe4, secondImage:santafe ,thirdDescription: [
     {title: "Ladrillos Colores", values:["Ladrillo Gran Formato Cobrizo", "Ladrillo Gran Formato Cocoa", "Ladrillo Gran Formato Terracota"]}],
     link: "https://www.santafe.com.co/wp-content/uploads/2021/11/FT-LTGFCB115V2.pdf" },
 
@@ -509,7 +516,7 @@ const Products = [
           },
           { id: 76, name: "Boquilla Argos 2kg", image: argos24,secondImage:logoArgos, link: "https://colombia.argos.co/fichas_tecnicas/ft_boquilla_impermeable_weber_color_2kg.pdf", description: "Boquilla para el llenado de juntas de 2 a 15mm entre piezas de cerámica, porcelanato, gres, piedras naturales en pisos y paredes en zonas interiores y exteriores y zonas húmedas." },
           { id: 77, name: "Pegante Para ceramica interior x 25 kg", image: argos25,secondImage:logoArgos ,description: "Pegante de color gris ideal para instalación derevestimientos cerámicos en interiores enpisos y muros. Apto para baños, cocinas y zonas de lavado." },
-      
+      { id: 52354, name: "Alfaquick Aditivo Concentrado 2KG", image: alfa, link: "https://aunclic.alfa.com.co/staging/doc/225028614-FT.pdf", description: "Es una mezcla concentrada de aditivos de gran desempeño que se adiciona al mortero tradicional hecho en obra, proporcionándole un mayor tiempo de fraguado, excelente manejabilidad, alta adherencia y tiempos de corrección en la instalación de baldosas cerámicas de media y alta absorción en pisos y paredes de zonas interiores."},
           { id: 78, name: "Brocha Monofilamento 1″ pulgada", image: brocha1,secondImage:logoGoya, secondDescription: [
               {
                   title: "Material", values: ["Polipropileno alto impacto, cerda sintética PET"],
@@ -640,41 +647,44 @@ const Products = [
 
             // Cubiertas
     
-             { id: 110, name: "Teja x proteja perfil #7 ", image: proteja1, thirdDescription:[
+             { id: 110, name: "Teja proteja perfil #7 ", image: proteja1,secondImage: logoTeja, thirdDescription:[
                         {
                             title: "Nombre", values: ["No 4", "No 5", "No 6", "No 8", "No 10", "No 12"],
                         },
                         {
-                            title: "Longitud m", values: ["1.220", "1.525", "1.830", "2.440", "3.050", "3.660"],
+                            title: "Longitud mts", values: ["1.220", "1.525", "1.830", "2.440", "3.050", "3.660"],
                         },
                         {
-                            title: "Ancho m", values: ["0.92", "0.92", "0.92", "0.92", "0.92", "0.92"]
+                            title: "Ancho mts", values: ["0.92", "0.92", "0.92", "0.92", "0.92", "0.92"]
                         }
             
                     ], link: "https://media.proteja.com.co/pd55130/original/-977337359/ft_perfil7_proteja_febrero2024_v1.pdf"
                 },
                 {
-                    id: 111, name: "Claraboya #6 ", image: proteja2, thirdDescription: [
+                    id: 111, name: "Claraboya ", image: proteja2,secondImage: logoTeja, thirdDescription: [
                         {
-                            title: "Longitu m", values: ["1.83 m"]
+                            title: "Nombre", values: ["No 5","No 6"]
+                        },
+                        {
+                            title: "Longitu mts", values: ["1.53 m","1.83 m"]
                         },
             
                         {
-                            title: "Ancho m", values: ["0.92"]
+                            title: "Ancho mts", values: ["0.92","0.92"]
                         }
                     ]
                 },
-                { id: 112, name: "Caballate tipo nuevo", image: proteja3, description: "Caballete de poca altura, se coloca en la cumbrera de una cubierta a dos o más aguas. Disponible para pendientes de techo de 15° y de 36% (20°) y 47% (25°) sobre pedido. Debe ser asegurado con 4 tornillos, 2 por cada lado en la segunda y quinta onda. Tener en cuenta la aplicación de un sellante debajo de la cabeza del tornillo, no silicona." },
-                { id: 113, name: "Caballate tipo viejo", image: proteja4, description: "Se utiliza como cierre de una cubierta en su línea de caballetes, al inicio y al final. Disponible para pendientes de techo de 27% (15°). Debe ser asegurado con tornillos." },
-                { id: 114, name: "Limatesa limahoya teja", image: proteja5, description: "Pieza de unión entre dos pendientes de una cubierta que forma un ángulo saliente y entrante. Debe ser asegurado con tornillos tipo paleta o amarras." },
+                { id: 112, name: "Caballate tipo nuevo", image: proteja3,secondImage: logoTeja, description: "Caballete de poca altura, se coloca en la cumbrera de una cubierta a dos o más aguas. Disponible para pendientes de techo de 15° y de 36% (20°) y 47% (25°) sobre pedido. Debe ser asegurado con 4 tornillos, 2 por cada lado en la segunda y quinta onda. Tener en cuenta la aplicación de un sellante debajo de la cabeza del tornillo, no silicona." },
+                { id: 113, name: "Caballate tipo viejo", image: proteja4, secondImage: logoTeja,description: "Se utiliza como cierre de una cubierta en su línea de caballetes, al inicio y al final. Disponible para pendientes de techo de 27% (15°). Debe ser asegurado con tornillos." },
+                { id: 114, name: "Limatesa limahoya teja", image: proteja5, secondImage: logoTeja,description: "Pieza de unión entre dos pendientes de una cubierta que forma un ángulo saliente y entrante. Debe ser asegurado con tornillos tipo paleta o amarras." },
                 {
-                    id: 115, name: "Teja Colonial", image: proteja7, thirdDescription: [
+                    id: 115, name: "Teja Colonial", image: proteja7, secondImage: logoTeja,thirdDescription: [
             
                         {
-                            title: "Longitu m", values: ["0.70", "1.60"]
+                            title: "Longitu mts", values: ["0.70", "1.60"]
                         },
                         {
-                            title: "Ancho m", values: ["1.062", "1.062"]
+                            title: "Ancho mts", values: ["1.062", "1.062"]
                         }
                     ], link: "https://media.proteja.com.co/pd55134/original/-1532273851/ft_colonial_proteja_febrero2024_v1.pdf"
                 },
@@ -685,10 +695,10 @@ const Products = [
                         title: "Teja #", values: ["6", "7", "8", "10", "12"]
                     },
                     {
-                        title: "Ancho m", values: ["0.83", "0.83", "0.83", "0.83", "0.83"]
+                        title: "Ancho mts", values: ["0.83", "0.83", "0.83", "0.83", "0.83"]
                     },
                     {
-                        title: "Largo m", values: ["1.83", "2.15", "2.44", "3.05", "3.66"]
+                        title: "Largo mts", values: ["1.83", "2.15", "2.44", "3.05", "3.66"]
                     }
                 ] },
                 { id: 117, name: "Teja Policarbonato Cristal", image: ajover2, thirdDescription: [
@@ -696,10 +706,10 @@ const Products = [
                         title: "Teja #", values: ["4", "5", "6", "8", "10", "12"]
                     },
                     {
-                        title: "Ancho m", values: ["0.92", "0.92", "0.92", "0.92", "0.92", "0.92"]
+                        title: "Ancho mts", values: ["0.92", "0.92", "0.92", "0.92", "0.92", "0.92"]
                     },
                     {
-                        title: "Largo m", values: ["1.22", "1.50", "1.83", "2.44", "3.05", "3.66"]
+                        title: "Largo mts", values: ["1.22", "1.50", "1.83", "2.44", "3.05", "3.66"]
                     }
                 ]},
                 { id: 118, name: "Teja Ajonit Heavy Duty", image: ajover3, thirdDescription: [
@@ -707,10 +717,10 @@ const Products = [
                         title: "Teja #", values: ["4", "5", "6", "8", "10", "12"]
                     },
                     {
-                        title: "Ancho m", values: ["0.92", "0.92", "0.92", "0.92", "0.92", "0.92"]
+                        title: "Ancho mts", values: ["0.92", "0.92", "0.92", "0.92", "0.92", "0.92"]
                     },
                     {
-                        title: "Largo m", values: ["1.22", "1.52", "1.83", "2.44", "3.05", "3.66"]
+                        title: "Largo mts", values: ["1.22", "1.52", "1.83", "2.44", "3.05", "3.66"]
                     }
                 ] },
                 { id: 119, name: "Teja Ajozinc Translucida", image: ajover4, thirdDescription: [
@@ -718,15 +728,15 @@ const Products = [
                         title: "Teja #", values: ["6", "7", "8", "10", "12"]
                     },
                     {
-                        title: "Ancho m", values: ["0.92", "0.92", "0.92", "0.92", "0.92"]
+                        title: "Ancho mts", values: ["0.92", "0.92", "0.92", "0.92", "0.92"]
                     },
                     {
-                        title: "Largo m", values: ["1.83", "2.15", "2.44", "3.05", "3.66"]
+                        title: "Largo mts", values: ["1.83", "2.15", "2.44", "3.05", "3.66"]
                     }
                 ] },
                 { id: 120, name: "Teja de Zinc Calibre 34 y 35", image: ajover5, thirdDescription: [
                     {
-                        title: "Medidas" ,values: ["2.15", "2.44", "3.05"]
+                        title: "Medidas x mts" ,values: ["2.15", "2.44", "3.05"]
                     }
                 ] },
             
@@ -758,7 +768,7 @@ const Products = [
                 { id: 127, name: "Tanque 5000 L", image: acuaviva6, description: "Peso de kit (Tanque + tapa) 100 kg" },
                 { id: 128, name: "Tanque 6000 L", image: acuaviva7, description: "Peso de kit (Tanque + tapa) 119" },
                 {
-                    id: 129, name: "Bloquelon placa facil", image: santafe1, thirdDescription: [
+                    id: 129, name: "Bloquelon placa facil", image: santafe1,secondImage: santafe,  link: "https://www.santafe.com.co/wp-content/uploads/2021/11/ft-blqln-1.pdf",thirdDescription: [
                         {
                             title: "Alto cm", values: ["80.0"]
                         },
@@ -771,9 +781,9 @@ const Products = [
                     ]
                 },
                 {
-                    id: 130, name: "Perfil entrepiso negro", image: santafe2, thirdDescription: [
+                    id: 130, name: "Perfil entrepiso negro", image: santafe2, secondImage: santafe,thirdDescription: [
                         {
-                            title: "Medida", values: ["90 X 130 MM LARGO 12 M"]
+                            title: "Medida", values: ["130x.90 CM X LARGO 6 MTS", "130x.90 CM X LARGO 7 MTS", "130x.90 CM X LARGO 8 MTS", "130x.90 CM X LARGO 9 MTS", "130x.90 CM X LARGO 12 MTS"]
                         }
                     ]
                 },

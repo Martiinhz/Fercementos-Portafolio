@@ -32,7 +32,7 @@ const CementosAgregados = [
     { id: 6, name: "Cal Hidratada x 10 kg", image: argos8,secondImage: logo , SecondDescription:["Pintura para blanquear de bajo costo.", "Componente en la elaboración de morteros para mampostería.", "Materia prima para pintura de vinilos."], link: "https://colombia.argos.co/fichas_tecnicas/ft-cal-hidratada-uso-general.pdf"},
     
     
-    { id: 7, name: "Arena express x 40 kg", image: argos11, SecondDescription: ["Arena medio ", "Arena gruesas", "Triturado"] },
+    { id: 7, name: "Arena express x 40 kg", image: argos11, SecondDescription: ["Arena media ", "Arena gruesa", "Triturado"] },
     { id: 8, name: "Arena media x metro", image: argos9, SecondDescription: ["Tirado", "Estopas"] },
     { id: 9, name: "Arena gruesa x metro", image: argos9, SecondDescription: ["Tirado", "Estopas"] },
     { id: 10, name: "Triturado x metro", image: argos10, SecondDescription: ["Tirado", "Estopas"] },

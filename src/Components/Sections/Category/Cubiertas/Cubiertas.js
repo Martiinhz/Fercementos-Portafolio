@@ -19,38 +19,42 @@ import ajover2 from '../../../../assets/Productos/Ajover/TejaPolicarbonato10año
 import ajover3 from '../../../../assets/Productos/Ajover/TejaDuty.png'
 import ajover4 from '../../../../assets/Productos/Ajover/TejaTraslucida.png'
 import ajover5 from '../../../../assets/Productos/Ajover/TejaZing.png'
+import logoTeja from '../../../../assets/Productos/Proteja/logo.png'
 
 
 const Cubiertas = [
 
     {
-        id: 1, name: "Teja x proteja perfil #7 ", image: proteja1, secondDescription: [
+        id: 1, name: "Teja proteja perfil #7 ", image: proteja1, secondImage: logoTeja,secondDescription: [
             {
                 title: "Nombre", values: ["No 4", "No 5", "No 6", "No 8", "No 10", "No 12"],
             },
             {
-                title: "Longitud m", values: ["1.220", "1.525", "1.830", "2.440", "3.050", "3.660"],
+                title: "Longitud mts", values: ["1.220", "1.525", "1.830", "2.440", "3.050", "3.660"],
             },
             {
-                title: "Ancho m", values: ["0.92", "0.92", "0.92", "0.92", "0.92", "0.92"]
+                title: "Ancho mts", values: ["0.92", "0.92", "0.92", "0.92", "0.92", "0.92"]
             }
 
         ], link: "https://media.proteja.com.co/pd55130/original/-977337359/ft_perfil7_proteja_febrero2024_v1.pdf"
     },
     {
-        id: 2, name: "Claraboya #6 ", image: proteja2, secondDescription: [
+        id: 2, name: "Claraboya", image: proteja2,  secondImage: logoTeja,secondDescription: [
             {
-                title: "Longitu m", values: ["1.83 m"]
+                title: "Nombre", values: ["No 5","No 6"]
+            },
+            {
+                title: "Longitu mts", values: ["1.53 m","1.83 m"]
             },
 
             {
-                title: "Ancho m", values: ["0.92"]
+                title: "Ancho mts", values: ["0.92","0.92"]
             }
         ]
     },
-    { id: 3, name: "Caballate tipo nuevo", image: proteja3, description: "Caballete de poca altura, se coloca en la cumbrera de una cubierta a dos o más aguas. Disponible para pendientes de techo de 15° y de 36% (20°) y 47% (25°) sobre pedido. Debe ser asegurado con 4 tornillos, 2 por cada lado en la segunda y quinta onda. Tener en cuenta la aplicación de un sellante debajo de la cabeza del tornillo, no silicona." },
-    { id: 4, name: "Caballate tipo viejo", image: proteja4, description: "Se utiliza como cierre de una cubierta en su línea de caballetes, al inicio y al final. Disponible para pendientes de techo de 27% (15°). Debe ser asegurado con tornillos." },
-    { id: 5, name: "Limatesa limahoya teja", image: proteja5, description: "Pieza de unión entre dos pendientes de una cubierta que forma un ángulo saliente y entrante. Debe ser asegurado con tornillos tipo paleta o amarras." },
+    { id: 3, name: "Caballate tipo nuevo", image: proteja3,  secondImage: logoTeja,description: "Caballete de poca altura, se coloca en la cumbrera de una cubierta a dos o más aguas. Disponible para pendientes de techo de 15° y de 36% (20°) y 47% (25°) sobre pedido. Debe ser asegurado con 4 tornillos, 2 por cada lado en la segunda y quinta onda. Tener en cuenta la aplicación de un sellante debajo de la cabeza del tornillo, no silicona." },
+    { id: 4, name: "Caballate tipo viejo", image: proteja4,  secondImage: logoTeja,description: "Se utiliza como cierre de una cubierta en su línea de caballetes, al inicio y al final. Disponible para pendientes de techo de 27% (15°). Debe ser asegurado con tornillos." },
+    { id: 5, name: "Limatesa limahoya teja", image: proteja5, secondImage: logoTeja, description: "Pieza de unión entre dos pendientes de una cubierta que forma un ángulo saliente y entrante. Debe ser asegurado con tornillos tipo paleta o amarras." },
     {
         id: 6, name: "Teja Colonial", image: proteja7, secondDescription: [
 

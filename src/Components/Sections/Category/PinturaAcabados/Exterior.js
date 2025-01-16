@@ -17,7 +17,7 @@ const Exterior = [
         name: "Superlavable (Tipo 1)",
         image: pintuland1,secondImage:logoPintu ,
         secondDescription: [
-            { title: "Presentación", values: ["Cuarto ","Galón", "Cubeta (2.5 galones","Cuñete (5 galones)"] },
+            { title: "Presentación", values: ["Cuarto ","Galón", "Cubeta (2.5 galones)","Cuñete (5 galones)"] },
             { title: "Peso", values: ["1.5 kg","5.8 kg", "14 kg", "28 kg"] }
         ],
         link: "https://pintuland.com.co/wp-content/uploads/2022/08/Carta_De_Colores_Pintuland_Web.pdf"

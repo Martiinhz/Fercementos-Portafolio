@@ -17,77 +17,77 @@ import logowa from '../../../../assets/Productos/Ferreteria/logowa.png'
 
 const Discos = [
     
-    { id: 1, name: "Disco corte de metal Acero inoxidable 4 1/2″", image: disco1, secondImage: logowa, secondDescription: [
+    { id: 1, name: "Disco corte de metal Acero inoxidable DeWalt de 4 1/2″", image: disco1, secondImage: logowa, secondDescription: [
         {
             title: "Medida", values: ["4 1/2″ pulgadas"]
         }
     ] },
-    { id: 2, name: "Disco corte de metal Acero inoxidable 9″", image: disco2, secondImage: logowa, secondDescription: [
+    { id: 2, name: "Disco corte de metal Acero inoxidable DeWalt de 9″", image: disco2, secondImage: logowa, secondDescription: [
         {
             title: "Medida", values: ["9″ Pulgadas"]
         }
     ]  },
-    { id: 3, name: "Disco corte fino de metal 4 1/2″", image: disco3 , secondDescription: [
+    { id: 3, name: "Disco corte fino de metal Barracuda de 4 1/2″", image: disco3 , secondDescription: [
         {
             title: "Medida", values: ["4 1/2″ Pulgadas"]
         }
     ] },
-    { id: 4, name: "Disco corte fino de metal 7″", image: disco4 , secondDescription: [
+    { id: 4, name: "Disco corte fino de metal Barracuda de 7″", image: disco4 , secondDescription: [
         {
             title: "Medida", values: ["7″ Pulgadas"]
         }
     ] },
-    { id: 5, name: "Disco corte de metal Acero inoxidable 7″", image: disco5 , secondImage: logowa, secondDescription: [
+    { id: 5, name: "Disco corte de metal Acero inoxidable DeWalt de 7″", image: disco5 , secondImage: logowa, secondDescription: [
         {
             title: "Medida", values: ["7″ Pulgadas"]
         }
     ] },
-    { id: 6, name: "Disco corte fino de metal 9″", image: disco6 , secondDescription: [
+    { id: 6, name: "Disco corte fino de metal Barracuda de 9″", image: disco6 , secondDescription: [
         {
             title: "Medida", values: ["9″ Pulgadas"]
         }
     ] },
-    { id: 7, name: "Disco de sierra 24 dientes 4 1/2″", image: disco7, secondDescription: [
+    { id: 7, name: "Disco de sierra 24 dientes Barracuda de 4 1/2″", image: disco7, secondDescription: [
         {
             title: "Medida", values: ["4 1/2″ Pulgadas"]
         }
     ] },
-    { id: 8, name: "Disco Diamantado Segmentado 9″", image: disco8, secondDescription: [
+    { id: 8, name: "Disco Diamantado Segmentado Barracuda de 9″", image: disco8, secondDescription: [
         {
             title: "Medida", values: ["9″ Pulgadas"] 
         }
     ] },
-    { id: 9, name: "Disco Diamantado Continuo 7″", image: disco9, secondDescription: [
+    { id: 9, name: "Disco Diamantado Continuo Barracuda de 7″", image: disco9, secondDescription: [
         {
             title: "Medida", values: ["7″ Pulgadas"] 
         }
     ] },
-    { id: 10, name: "Disco Diamantado Segmentado 4 1/2″", image: disco10, secondDescription: [
+    { id: 10, name: "Disco Diamantado Segmentado Barracuda de  4 1/2″", image: disco10, secondDescription: [
         {
             title: "Medida", values: ["4 1/2″ Pulgadas"] 
         }
     ] },
-    { id: 11, name: "Disco Diamantado Continuo 4 1/2″", image: disco11, secondDescription: [
+    { id: 11, name: "Disco Diamantado Continuo Barracuda de  4 1/2″", image: disco11, secondDescription: [
         {
             title: "Medida", values: ["4 1/2″ Pulgadas"] 
         }
     ] },
-    { id: 12, name: "Disco Contiuo 4 1/2″", image: disco12, secondImage: logowa,secondDescription: [
+    { id: 12, name: "Disco Contiuo DeWalt de 4 1/2″", image: disco12, secondImage: logowa,secondDescription: [
         {
             title: "Medida", values: ["4 1/2″ Pulgadas"]
         }
     ] },
-    { id: 13, name: "Disco Diamantado Segmentado 7″", image: disco13 , secondDescription: [
+    { id: 13, name: "Disco Diamantado Segmentado Barracuda de 7″", image: disco13 , secondDescription: [
         {
             title: "Medida", values: ["7″ Pulgadas"]
         }
     ]},
-    { id: 14, name: "Disco de Cierra 40 Dientes 7 1/4″", image: disco14, secondDescription: [
+    { id: 14, name: "Disco de Cierra 40 Dientes Barracuda de 7 1/4″", image: disco14, secondDescription: [
         {
             title: "Medida", values: ["7 1/4″ Pulgadas"]
         }
     ] },
-    { id: 15, name: "Disco Diamantado 7″", image: disco15,secondImage: logowa, secondDescription: [
+    { id: 15, name: "Disco Diamantado DeWalt de 7″", image: disco15,secondImage: logowa, secondDescription: [
         {
             title: "Medida", values: ["7″ Pulgadas"]
         }

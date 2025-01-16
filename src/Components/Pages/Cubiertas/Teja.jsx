@@ -180,7 +180,7 @@ const CementsAggre = ({ searchTerm = "" }) => {
                                             <img
                                                 src={selectedProduct.secondImage}
                                                 alt="Logo decorativo"
-                                                className="w-24 h-24 object-contain mt-[2rem]"
+                                                className="w-[200px] h-[200px] object-contain mt-[2rem]"
                                             />
                                         </div>
                                     )}

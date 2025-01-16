@@ -62,6 +62,7 @@ import Complementarios from './Components/Pages/Tuberia/Complementarios';
 import Carretillas from './Components/Pages/Ferreteria/Carretillas';
 import Especializada from './Components/Pages/PinturaAcabados/Especializado';
 import OtrosHerramientas from './Components/Pages/Ferreteria/Otros'
+import Clavos from './Components/Pages/Ferreteria/Clavos';
 
 const MainLayout = ({ searchTerm, setSearchTerm }) => (
   <>
@@ -127,7 +128,8 @@ const AppRoutes = ({ searchTerm, setSearchTerm }) => {
     {path: "/ferreteria/herramientas", element: <Herramientas/>},
     {path: "/ferreteria/discos", element: <Discos/>},
     {path: "/ferreteria/carretillas", element: <Carretillas/>},
-    {path: "/ferreteria/otros", element: <OtrosHerramientas/>}
+    {path: "/ferreteria/otros", element: <OtrosHerramientas/>},
+    {path: "/ferreteria/clavos", element: <Clavos/>}
     
   ]);
 }

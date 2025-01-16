@@ -58,61 +58,61 @@ const Construccion = [
         ]
     },
     {
-        id: 2, name: "Superboard", image: super1, secondImage: super15,secondDescription: [
+        id: 2, name: "Superboard", image: super1, secondImage: super15,link: "https://sudrywall.com/wp-content/uploads/2021/08/placa-superboard-Estandar.pdf",secondDescription: [
             {
                 title: "Numero", values: ["#4", "#6", "#8", "#10", "#12", "#14", "#17", "#20"]
             },
             {
-                title: "Ancho", values: ["1.22", "1.22", "1.22", "1.22", "1.22", "1.22", "1.22", "1.22"]
+                title: "Ancho mts", values: ["1.22", "1.22", "1.22", "1.22", "1.22", "1.22", "1.22", "1.22"]
             },
             {
-                title: "Longitud", values: ["2.44", "2.44, 3.05", "2.44, 3.05", "2.44, 3.05", "2.44, 3.05", "2.44, 3.05", "2.44, 3.05", "2.44, 3.05"]
+                title: "Longitud mts", values: ["2.44", "2.44", "2.44", "2.44", "2.44", "2.44", "2.44", "2.44"]
             }
         ]
     },
-    { id: 3, name: "Paral 89", image: super2,  secondDescription:[
+    { id: 3, name: "Paral 89 Calibre 26", image: super2,  secondDescription:[
         {
             title: "Longitud", values: ["2.44 Metros"]
         }
     ]
 
      },
-    { id: 4, name: "Canal 90", image: super3,  secondDescription:[
+    { id: 4, name: "Canal 90 Calibre 26", image: super3,  secondDescription:[
         {
             title: "Longitud", values: ["2.44 Metros"]
         }
     ]
 
      },
-    { id: 5, name: "Paral 59", image: super4,  secondDescription:[
+    { id: 5, name: "Paral 59 Calibre 26", image: super4,  secondDescription:[
         {
             title: "Longitud", values: ["2.44 Metros"]
         }
     ]
 
     },
-    { id: 6, name: "Canal 60", image: super5,  secondDescription:[
+    { id: 6, name: "Canal 60 Calibre 26", image: super5,  secondDescription:[
         {
             title: "Longitud", values: ["2.44 Metros"]
         }
     ]
 
     },
-    { id: 7, name: "Omega", image: super6,  secondDescription:[
+    { id: 7, name: "Omega Calibre 26", image: super6,  secondDescription:[
         {
             title: "Longitud", values: ["2.44 Metros"]
         }
     ]
 
     },
-    { id: 8, name: "Vigueta", image: super7,  secondDescription:[
+    { id: 8, name: "Vigueta Calibre 26", image: super7,  secondDescription:[
         {
             title: "Longitud", values: ["2.44 Metros"]
         }
     ]
 
     },
-    { id: 9, name: "Ángulo", image: super8,  secondDescription:[
+    { id: 9, name: "Ángulo Calibre 26", image: super8,  secondDescription:[
         {
             title: "Longitud", values: ["2.44 Metros"]
         }

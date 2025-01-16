@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { CiSearch } from 'react-icons/ci';
 import Logo from '../../../assets/Logo.png';
 import { Link } from 'react-router-dom';
 
@@ -29,15 +28,7 @@ const Header = ({ onSearch }) => {
           <img src={Logo} alt="Fercementos Logo" className="w-[150px] h-auto" />
         </Link>
       </div> 
-      <div className="relative flex items-center w-full max-w-lg">
-        <input
-          type="text"
-          value={searchTerm}
-          placeholder="Buscar productos"
-          className="w-full border rounded-full py-2 px-4 text-gray-600 focus:outline-none focus:ring-2 focus:ring-[#ACC90F]"
-          onChange={handleSearchChange}
-        />
-      </div>
+      
     </header>
   );
 };

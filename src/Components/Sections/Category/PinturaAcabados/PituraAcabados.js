@@ -28,7 +28,7 @@ import impadoc4 from '../../../../assets/Productos/Impadoc/AdhesivoPorcelanato.p
 import impadoc5 from '../../../../assets/Productos/Impadoc/RellenoListoExteriores.png'
 import impadoc6 from '../../../../assets/Productos/Impadoc/RellenoListoInteriores.png'
 import impadoc7 from '../../../../assets/Productos/Impadoc/Impatextura.png'
-import impadoc8 from '../../../../assets/Productos/Impadoc/ImpaboquilaBlanca.png'
+import impadoc8 from '../../../../assets/Productos/Impadoc/boquilla.png'
 import impadoc9 from '../../../../assets/Productos/Impadoc/EstucoTiempo.png'
 import impadoc10 from '../../../../assets/Productos/Impadoc/EstucoPanelSecadoRapido.png'
 import impadoc11 from '../../../../assets/Productos/Impadoc/Boquilla2k.png'
@@ -73,6 +73,7 @@ import logoPintu from '../../../../assets/Productos/Pintuland/logo.png'
 import logoArgos from '../../../../assets/Productos/Argos/logoArgos.png'
 import logoCorona from '../../../../assets/Productos/Pintuland/logoc.png'
 import logoGoya from '../../../../assets/Productos/Brochas/logo.png'
+import alfa from '../../../../assets/Productos/Argos/alfa.png'
 
 const PinturaAcabados = [
 
@@ -81,7 +82,7 @@ const PinturaAcabados = [
         name: "Superlavable (Tipo 1)",
         image: pintuland1,secondImage:logoPintu,
         secondDescription: [
-            { title: "Presentación", values: ["Cuarto ", "Galón", "Cubeta (2.5 galones", "Cuñete (5 galones)"] },
+            { title: "Presentación", values: ["Cuarto ", "Galón", "Cubeta (2.5 galones)", "Cuñete (5 galones)"] },
             { title: "Peso", values: ["1.5 kg", "5.8 kg", "14 kg", "28 kg"] }
         ],
         link: "https://pintuland.com.co/wp-content/uploads/2022/08/Carta_De_Colores_Pintuland_Web.pdf"
@@ -89,7 +90,7 @@ const PinturaAcabados = [
 
     {
         id: 67, name: "Vinilo Lavable (Tipo 2)", image: pintuland2,secondImage:logoPintu, secondDescription: [
-            { title: "Presentación", values: ["Cuarto ", "Galón", "Cubeta (2.5 galones", "Cuñete (5 galones)"] },
+            { title: "Presentación", values: ["Cuarto ", "Galón", "Cubeta (2.5 galones)", "Cuñete (5 galones)"] },
             { title: "Peso", values: ["1.5 kg", "5.8 kg", "14 kg", "28 kg"] }
         ],
         link: "https://pintuland.com.co/wp-content/uploads/2022/08/Carta_De_Colores_Pintuland_Web.pdf"
@@ -97,7 +98,7 @@ const PinturaAcabados = [
 
     {
         id: 100, name: "Vinilo Corriente (Tipo 3)", image: pintuland3,secondImage:logoPintu, secondDescription: [
-            { title: "Presentación", values: ["Cuarto ", "Galón", "Cubeta (2.5 galones", "Cuñete (5 galones)"] },
+            { title: "Presentación", values: ["Cuarto ", "Galón", "Cubeta (2.5 galones)", "Cuñete (5 galones)"] },
             { title: "Peso", values: ["1.5 kg", "5.8 kg", "14 kg", "28 kg"] }
         ],
         link: "https://pintuland.com.co/wp-content/uploads/2022/08/Carta_De_Colores_Pintuland_Web.pdf"
@@ -270,8 +271,8 @@ const PinturaAcabados = [
 
     },
     { id: 287, name: "Boquilla Argos 2kg", image: argos1,secondImage:logoArgos, seconDlink: "https://colombia.argos.co/fichas_tecnicas/ft_boquilla_impermeable_weber_color_2kg.pdf", description: "Boquilla para el llenado de juntas de 2 a 15mm entre piezas de cerámica, porcelanato, gres, piedras naturales en pisos y paredes en zonas interiores y exteriores y zonas húmedas." },
-    { id: 286, name: "Pegante Para ceramica interior x 25 kg", image: argos2,secondImage:logoArgos ,description: "Pegante de color gris ideal para instalación derevestimientos cerámicos en interiores enpisos y muros. Apto para baños, cocinas y zonas de lavado." },
-
+    { id: 286, name: "Pegante Para ceramica interior x 25 kg", image: argos2,secondImage:logoArgos,description: "Pegante de color gris ideal para instalación derevestimientos cerámicos en interiores enpisos y muros. Apto para baños, cocinas y zonas de lavado." },
+    { id: 52354, name: "Alfaquick Aditivo Concentrado 2KG", image: alfa, seconDlink: "https://aunclic.alfa.com.co/staging/doc/225028614-FT.pdf", description: "Es una mezcla concentrada de aditivos de gran desempeño que se adiciona al mortero tradicional hecho en obra, proporcionándole un mayor tiempo de fraguado, excelente manejabilidad, alta adherencia y tiempos de corrección en la instalación de baldosas cerámicas de media y alta absorción en pisos y paredes de zonas interiores."},
     { id: 1, name: "Brocha Monofilamento 1″ pulgada", image: brocha1,secondImage:logoGoya, secondDescription: [
         {
             title: "Material", values: ["Polipropileno alto impacto, cerda sintética PET"],

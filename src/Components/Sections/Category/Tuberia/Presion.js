@@ -17,7 +17,7 @@ import LogoCelta from '../../../../assets/Productos/Celta/logoCelta.png'
 
 const Presion = [
 
-    { id: 1, name: "RDE 21 - 200 psi Tramos de 6 m", image: celta1,secondImage: LogoCelta, secondDescription: [
+    { id: 1, name: "RDE 21 - 200 psi Tramos de 6 mts", image: celta1,link: "https://drive.google.com/file/d/1iRykTcBLori6QSia3pdRhiO5WE7524ij/view?usp=sharing",secondImage: LogoCelta, secondDescription: [
         {
             title: "Diametro Pulg.", values: ["3/4", "1", "1.1/4", "1.1/2", "2", "2.1/2"]
         },
@@ -25,20 +25,20 @@ const Presion = [
             values: ["3", "4"]
         }
     ]},
-    { id: 222221, name: "RDE 13.5 -315 psi Tramos de 6 m", image: celta1,secondImage: LogoCelta, secondDescription: [
+    { id: 222221, name: "RDE 13.5 -315 psi Tramos de 6 mts", image: celta1,link: "https://drive.google.com/file/d/1iRykTcBLori6QSia3pdRhiO5WE7524ij/view?usp=sharing",secondImage: LogoCelta, secondDescription: [
         {
-            title: "Diametro Pulg.", values: ["1/2"]
+            title: "Diametro Pulg.", values: ["1/2", "3/4"]
         }
     ] },
     {
-        id: 2, name: "Tee roscado x soldado", image: celta2,secondImage: LogoCelta, secondDescription: [
+        id: 2, name: "Tee roscado x soldado", image: celta2,link: "https://drive.google.com/file/d/1iRykTcBLori6QSia3pdRhiO5WE7524ij/view?usp=sharing",secondImage: LogoCelta, secondDescription: [
             {
                 title: "Diametro Pulg.", values: ["1/2"]
             }
         ]
     },
     {
-        id: 3, name: "Tapón macho roscado", image: celta3,secondImage: LogoCelta, secondDescription: [
+        id: 3, name: "Tapón macho roscado", image: celta3,link: "https://drive.google.com/file/d/1iRykTcBLori6QSia3pdRhiO5WE7524ij/view?usp=sharing",secondImage: LogoCelta, secondDescription: [
             {
                 title: "Diametro Pulg.", values: ["1/2"],
             },
@@ -46,14 +46,14 @@ const Presion = [
         ]
     },
     {
-        id: 4, name: "Inserto para  manguera", image: celta4,secondImage: LogoCelta, secondDescription: [
+        id: 4, name: "Inserto para  manguera", image: celta4,link: "https://drive.google.com/file/d/1iRykTcBLori6QSia3pdRhiO5WE7524ij/view?usp=sharing",secondImage: LogoCelta, secondDescription: [
             {
                 title: "Diametro Pulg.", values: ["1/2x20mm", "3/4x25mm", "1x32mm"]
             }
         ]
     },
     {
-        id: 5, name: "Buje Roscado", image: celta5,secondImage: LogoCelta, secondDescription: [
+        id: 5, name: "Buje Roscado", image: celta5,link: "https://drive.google.com/file/d/1iRykTcBLori6QSia3pdRhiO5WE7524ij/view?usp=sharing",secondImage: LogoCelta, secondDescription: [
             {
                 title: "Diametro Pulg.", values: ["1/2x3/8", "3/4x1/2", "1x1/2", "1x3/4,", "1.1/4x1/2", "1.1/4x3/4"]
             },
@@ -66,7 +66,7 @@ const Presion = [
         ]
     },
     {
-        id: 6, name: "Adaptador Macho", image: celta6,secondImage: LogoCelta, secondDescription: [
+        id: 6, name: "Adaptador Macho", image: celta6,link: "https://drive.google.com/file/d/1iRykTcBLori6QSia3pdRhiO5WE7524ij/view?usp=sharing",secondImage: LogoCelta, secondDescription: [
             {
                 title: "Diametro Pulg.", values: ["1/2", "3/4", "1", "1.1/4", "1.1/2", "2"]
             },
@@ -76,7 +76,7 @@ const Presion = [
         ]
     },
     {
-        id: 7, name: "Adaptador Hembra", image: celta7,secondImage: LogoCelta, secondDescription: [
+        id: 7, name: "Adaptador Hembra", image: celta7,link: "https://drive.google.com/file/d/1iRykTcBLori6QSia3pdRhiO5WE7524ij/view?usp=sharing",secondImage: LogoCelta, secondDescription: [
             {
                 title: "Diametro Pulg.", values: ["1/2", "3/4", "1", "1.1/4", "1.1/2", "2"]
             },
@@ -86,21 +86,21 @@ const Presion = [
         ]
     },
     {
-        id: 8, name: "Unión de Reparación Dresser", image: celta8,secondImage: LogoCelta, secondDescription: [
+        id: 8, name: "Unión de Reparación Dresser", image: celta8,link: "https://drive.google.com/file/d/1iRykTcBLori6QSia3pdRhiO5WE7524ij/view?usp=sharing",secondImage: LogoCelta, secondDescription: [
             {
                 title: "Diametro Pulg", values: ["1/2"]
             }
         ]
     },
     {
-        id: 9, name: "Válvulas de bola compacta roscada SCH 40", image: celta9,secondImage: LogoCelta, secondDescription: [
+        id: 9, name: "Válvulas de bola compacta roscada SCH 40", image: celta9,link: "https://drive.google.com/file/d/1iRykTcBLori6QSia3pdRhiO5WE7524ij/view?usp=sharing",secondImage: LogoCelta, secondDescription: [
             {
                 title: "Diametro Pulg.", values: ["1/2", "3/4", "1"]
             }
         ]
     },
     {
-        id: 10, name: "Tapón soldado", image: celta10,secondImage: LogoCelta, secondDescription: [
+        id: 10, name: "Tapón soldado", image: celta10,link: "https://drive.google.com/file/d/1iRykTcBLori6QSia3pdRhiO5WE7524ij/view?usp=sharing",secondImage: LogoCelta, secondDescription: [
             {
                 title: "Diametro Pulg.", values: ["1/2", "3/4", "1", "1.1/4", "1.1/2", "2"]
             },
@@ -110,7 +110,7 @@ const Presion = [
         ]
     },
     {
-        id: 11, name: "Tapón Roscado", image: celta11,secondImage: LogoCelta, secondDescription: [
+        id: 11, name: "Tapón Roscado", image: celta11,link: "https://drive.google.com/file/d/1iRykTcBLori6QSia3pdRhiO5WE7524ij/view?usp=sharing",secondImage: LogoCelta, secondDescription: [
             {
                 title: "Diametro Pulg", values: ["1/2", "3/4", "1", "1.1/4", "1.1/2", "2",]
             },
@@ -120,7 +120,7 @@ const Presion = [
         ]
     },
     {
-        id: 12, name: "Unión Universal", image: celta12,secondImage: LogoCelta, secondDescription: [
+        id: 12, name: "Unión Universal", image: celta12,link: "https://drive.google.com/file/d/1iRykTcBLori6QSia3pdRhiO5WE7524ij/view?usp=sharing",secondImage: LogoCelta, secondDescription: [
             {
                 title: "Diametro Pulg", values: ["1/2", "3/4", "1", "1.1/4", "1.1/2", "2"]
             },
@@ -130,14 +130,14 @@ const Presion = [
         ]
     },
     {
-        id: 13, name: "Adaptador Hembra (Con inserto metálico)", image: celta13,secondImage: LogoCelta, secondDescription: [
+        id: 13, name: "Adaptador Hembra (Con inserto metálico)", image: celta13,link: "https://drive.google.com/file/d/1iRykTcBLori6QSia3pdRhiO5WE7524ij/view?usp=sharing",secondImage: LogoCelta, secondDescription: [
             {
                 title: "Diametro Pulg", values: ["1/2"]
             }
         ]
     },
     {
-        id: 14, name: "Válvulas de la bola compacta soldada SCH 40", image: celta14,secondImage: LogoCelta, secondDescription: [
+        id: 14, name: "Válvulas de la bola compacta soldada SCH 40", image: celta14,link: "https://drive.google.com/file/d/1iRykTcBLori6QSia3pdRhiO5WE7524ij/view?usp=sharing",secondImage: LogoCelta, secondDescription: [
             {
                 title: "Diametro Pulg", values: ["1/2", "3/4", "1", "1.1/4", "1.1/2", "2"]
             }

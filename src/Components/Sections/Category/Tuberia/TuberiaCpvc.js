@@ -13,76 +13,76 @@ import LogoCelta from '../../../../assets/Productos/Celta/logoCelta.png'
 
 const TuberiaCpvc = [
 
-    { id: 36, name: "CPV Agua caliente 82°", image: celta36, secondImage: LogoCelta , secondDescription: [
+    { id: 36, name: "CPV Agua caliente 82°", image: celta36,link: "https://drive.google.com/file/d/1iRykTcBLori6QSia3pdRhiO5WE7524ij/view?usp=sharing", secondImage: LogoCelta , secondDescription: [
         {
             title: "Diametro Pulg.", values: ["1/2", "3/4", "1"]
         }
     ]},
     {
-        id: 37, name: "Adaptador Macho", image: celta37,secondImage: LogoCelta, secondDescription: [
+        id: 37, name: "Adaptador Macho", image: celta37,link: "https://drive.google.com/file/d/1iRykTcBLori6QSia3pdRhiO5WE7524ij/view?usp=sharing",secondImage: LogoCelta, secondDescription: [
             {
                 title: "Diametro Pulg.", values: ["1/2", "3/4", "1"]
             }
         ]
     },
     {
-        id: 38, name: "Buje soldado", image: celta38,secondImage: LogoCelta, secondDescription: [
+        id: 38, name: "Buje soldado", image: celta38,link: "https://drive.google.com/file/d/1iRykTcBLori6QSia3pdRhiO5WE7524ij/view?usp=sharing",secondImage: LogoCelta, secondDescription: [
             {
                 title: "Diametro Pulg.", values: ["3/4 x 1/2"]
             }
         ]
     },
     {
-        id: 39, name: "Tapón soldad", image: celta39,secondImage: LogoCelta, secondDescription: [
+        id: 39, name: "Tapón soldad", image: celta39,link: "https://drive.google.com/file/d/1iRykTcBLori6QSia3pdRhiO5WE7524ij/view?usp=sharing",secondImage: LogoCelta, secondDescription: [
             {
                 title: "Diametro Pulg.", values: ["1/2", "3/4", "1"]
             }
         ]
     },
     {
-        id: 40, name: "Codo 90°", image: celta40,secondImage: LogoCelta, secondDescription: [
+        id: 40, name: "Codo 90°", image: celta40,link: "https://drive.google.com/file/d/1iRykTcBLori6QSia3pdRhiO5WE7524ij/view?usp=sharing",secondImage: LogoCelta, secondDescription: [
             {
                 title: "Diametro Pulg.", values: ["1/2", "3/4", "1"]
             }
         ]
     },
     {
-        id: 41, name: "Unión", image: celta41,secondImage: LogoCelta, secondDescription: [
+        id: 41, name: "Unión", image: celta41,link: "https://drive.google.com/file/d/1iRykTcBLori6QSia3pdRhiO5WE7524ij/view?usp=sharing",secondImage: LogoCelta, secondDescription: [
             {
                 title: "Diametro Pulg", values: ["1/2", "3/4", "1"]
             }
         ]
     },
     {
-        id: 42, name: "Codo 45°", image: celta42,secondImage: LogoCelta, secondDescription: [
+        id: 42, name: "Codo 45°", image: celta42,link: "https://drive.google.com/file/d/1iRykTcBLori6QSia3pdRhiO5WE7524ij/view?usp=sharing",secondImage: LogoCelta, secondDescription: [
             {
                 title: "Diametro Pulg.", values: ["1/2", "3/4", "1"]
             }
         ]
     },
     {
-        id: 43, name: "Tee", image: celta43,secondImage: LogoCelta, secondDescription: [
+        id: 43, name: "Tee", image: celta43,link: "https://drive.google.com/file/d/1iRykTcBLori6QSia3pdRhiO5WE7524ij/view?usp=sharing",secondImage: LogoCelta, secondDescription: [
             {
                 title: "Diametro Pulg.", values: ["1/2", "3/4", "1"]
             }
         ]
     },
     {
-        id: 44, name: "Válvula de bola CPVC para soldar", image: celta44,secondImage: LogoCelta, secondDescription: [
+        id: 44, name: "Válvula de bola CPVC para soldar", image: celta44,link: "https://drive.google.com/file/d/1iRykTcBLori6QSia3pdRhiO5WE7524ij/view?usp=sharing",secondImage: LogoCelta, secondDescription: [
             {
                 title: "Diametro Pulg.", values: ["1/2", "3/4"]
             }
         ]
     },
     {
-        id: 45, name: "Unión universal", image: celta45,secondImage: LogoCelta, secondDescription: [
+        id: 45, name: "Unión universal", image: celta45,link: "https://drive.google.com/file/d/1iRykTcBLori6QSia3pdRhiO5WE7524ij/view?usp=sharing",secondImage: LogoCelta, secondDescription: [
             {
                 title: "Diametro Pulg", values: ["1/2", "3/4"]
             }
         ]
     },
     {
-        id: 46, name: "Transición CPVC - METAL", image: celta46,secondImage: LogoCelta, secondDescription: [
+        id: 46, name: "Transición CPVC - METAL", image: celta46,link: "https://drive.google.com/file/d/1iRykTcBLori6QSia3pdRhiO5WE7524ij/view?usp=sharing",secondImage: LogoCelta, secondDescription: [
             {
                 title: "Diametro Pulg.", values: ["1/2", "3/4"]
             }

@@ -24,23 +24,23 @@ import LogoCelta from '../../../../assets/Productos/Celta/logoCelta.png'
 
 const Sanitaria = [
     
-    { id: 15222, name: "Tubería Sanitaria tramos de 6 m", image: celta15, secondImage: LogoCelta, secondDescription: [
+    { id: 15222, name: "Tubería Sanitaria tramos de 6 m", image: celta15, link: "https://drive.google.com/file/d/1iRykTcBLori6QSia3pdRhiO5WE7524ij/view?usp=sharing",secondImage: LogoCelta, secondDescription: [
         {
             title: "Diametro Pulg.", values: ["1.1/2", "2", "3", "4", "6"]
         }
     ]},
-    { id: 15111, name: "Tubería Sanitaria linea azul super tramos de 6 m", image: celta15, secondImage: LogoCelta,secondDescription: [
+    { id: 15111, name: "Tubería Sanitaria linea azul super tramos de 6 m", image: celta15,link: "https://drive.google.com/file/d/1iRykTcBLori6QSia3pdRhiO5WE7524ij/view?usp=sharing", secondImage: LogoCelta,secondDescription: [
         {
             title: "Diametro Pulg.", values: ["1.1/2", "2", "3", "4"]
         }
     ] },
-    { id: 1333, name: "Tubería Sanitaria linea azul tramos de 6 m", image: celta15, secondImage: LogoCelta, secondDescription: [
+    { id: 1333, name: "Tubería Sanitaria linea azul tramos de 6 m", image: celta15,link: "https://drive.google.com/file/d/1iRykTcBLori6QSia3pdRhiO5WE7524ij/view?usp=sharing", secondImage: LogoCelta, secondDescription: [
         {
             title: "Diametro pulg.", values: ["1.1/2", "2", "3", "4"]
         }
     ] },
     {
-        id: 16, name: "Unión", image: celta16,secondImage: LogoCelta, secondDescription: [
+        id: 16, name: "Unión", image: celta16,secondImage: LogoCelta,link: "https://drive.google.com/file/d/1iRykTcBLori6QSia3pdRhiO5WE7524ij/view?usp=sharing", secondDescription: [
             {
                 title: "Diametro Pulg.", values: ["1.1/2", "2", "3", "4", "6", "8"]
             },
@@ -50,7 +50,7 @@ const Sanitaria = [
         ]
     },
     {
-        id: 17, name: "Buje soldado", image: celta17,secondImage: LogoCelta, secondDescription: [
+        id: 17, name: "Buje soldado", image: celta17,secondImage: LogoCelta,link: "https://drive.google.com/file/d/1iRykTcBLori6QSia3pdRhiO5WE7524ij/view?usp=sharing", secondDescription: [
             {
                 title: "Diametro Pulg", values: ["2x1.1/2", "3x1.1/2", "3x2", "4x2", "4x3", "6x4"]
             },
@@ -60,7 +60,7 @@ const Sanitaria = [
         ]
     },
     {
-        id: 18, name: "Codo CxE 90°", image: celta18,secondImage: LogoCelta, secondDescription: [
+        id: 18, name: "Codo CxE 90°", image: celta18,secondImage: LogoCelta, link: "https://drive.google.com/file/d/1iRykTcBLori6QSia3pdRhiO5WE7524ij/view?usp=sharing",secondDescription: [
             {
                 title: "Diametro Pulg.", values: ["1.1/2", "2", "3", "4", "6", "8"]
             },
@@ -70,21 +70,21 @@ const Sanitaria = [
         ]
     },
     {
-        id: 19, name: "Sifón con registro", image: celta19,secondImage: LogoCelta, secondDescription: [
+        id: 19, name: "Sifón con registro", image: celta19,secondImage: LogoCelta,link: "https://drive.google.com/file/d/1iRykTcBLori6QSia3pdRhiO5WE7524ij/view?usp=sharing", secondDescription: [
             {
                 title: "Diametro Pulg.", values: ["1.1/2", "2"]
             }
         ]
     },
     {
-        id: 20, name: "Sifón", image: celta20,secondImage: LogoCelta, secondDescription: [
+        id: 20, name: "Sifón", image: celta20,secondImage: LogoCelta,link: "https://drive.google.com/file/d/1iRykTcBLori6QSia3pdRhiO5WE7524ij/view?usp=sharing", secondDescription: [
             {
                 title: "Diametro Pulg.", values: ["2", "3", "4"]
             }
         ]
     },
     {
-        id: 21, name: "Codo CxC 45°", image: celta21,secondImage: LogoCelta, secondDescription: [
+        id: 21, name: "Codo CxC 45°", image: celta21,secondImage: LogoCelta, link: "https://drive.google.com/file/d/1iRykTcBLori6QSia3pdRhiO5WE7524ij/view?usp=sharing",secondDescription: [
             {
                 title: "Diametro Pulg.", values: ["1.1/2", "2", "3", "4", "6", "8"]
             },
@@ -94,7 +94,7 @@ const Sanitaria = [
         ]
     },
     {
-        id: 22, name: "Codo CxE 45°", image: celta22,secondImage: LogoCelta, secondDescription: [
+        id: 22, name: "Codo CxE 45°", image: celta22,secondImage: LogoCelta,link: "https://drive.google.com/file/d/1iRykTcBLori6QSia3pdRhiO5WE7524ij/view?usp=sharing", secondDescription: [
             {
                 title: "Diametro Pulg.", values: ["1.1/2", "2", "3", "4", "6", "*8"]
             },
@@ -104,35 +104,35 @@ const Sanitaria = [
         ]
     },
     {
-        id: 23, name: "Codo CxC 22.5°", image: celta23,secondImage: LogoCelta, secondDescription: [
+        id: 23, name: "Codo CxC 22.5°", image: celta23,secondImage: LogoCelta, link: "https://drive.google.com/file/d/1iRykTcBLori6QSia3pdRhiO5WE7524ij/view?usp=sharing",secondDescription: [
             {
                 title: "Diametro Pulg.", values: ["2", "3", "4"]
             }
         ]
     },
     {
-        id: 24, name: "Tee doble", image: celta24,secondImage: LogoCelta, secondDescription: [
+        id: 24, name: "Tee doble", image: celta24,secondImage: LogoCelta,link: "https://drive.google.com/file/d/1iRykTcBLori6QSia3pdRhiO5WE7524ij/view?usp=sharing", secondDescription: [
             {
                 title: "Diametro Pulg.", values: ["1.1/2", "2", "3", "4"]
             }
         ]
     },
     {
-        id: 25, name: "Tee doble reducida", image: celta25,secondImage: LogoCelta, secondDescription: [
+        id: 25, name: "Tee doble reducida", image: celta25,secondImage: LogoCelta, link: "https://drive.google.com/file/d/1iRykTcBLori6QSia3pdRhiO5WE7524ij/view?usp=sharing",secondDescription: [
             {
                 title: "Diametro Pulg", values: ["2x1.1/2", "3x2", "4x2", "4x3"]
             }
         ]
     },
     {
-        id: 26, name: "Yee sencilla", image: celta26,secondImage: LogoCelta, secondDescription: [
+        id: 26, name: "Yee sencilla", image: celta26,secondImage: LogoCelta, link: "https://drive.google.com/file/d/1iRykTcBLori6QSia3pdRhiO5WE7524ij/view?usp=sharing",secondDescription: [
             {
                 title: "Diametro Pulg", values: ["2", "3", "4", "6", "*8", "*10"]
             }
         ]
     },
     {
-        id: 27, name: "Codo CxE 22.5°", image: celta27,secondImage: LogoCelta, secondDescription: [
+        id: 27, name: "Codo CxE 22.5°", image: celta27,secondImage: LogoCelta, link: "https://drive.google.com/file/d/1iRykTcBLori6QSia3pdRhiO5WE7524ij/view?usp=sharing",secondDescription: [
             {
                 title: "Diametro Pulg", values: ["2", "3", "4"]
             }
@@ -140,14 +140,14 @@ const Sanitaria = [
     },
     // { id: 28, name: "Codo reventilado", image: celta28 },
     {
-        id: 29, name: "Junta de expansión / Unión reparacion", image: celta29,secondImage: LogoCelta, secondDescription: [
+        id: 29, name: "Junta de expansión / Unión reparacion", image: celta29,secondImage: LogoCelta, link: "https://drive.google.com/file/d/1iRykTcBLori6QSia3pdRhiO5WE7524ij/view?usp=sharing",secondDescription: [
             {
                 title: "Diametro Pulg.", values: ["*3", "*4", "3", "4"]
             }
         ]
     },
     {
-        id: 30, name: "Yee reducida", image: celta30, secondImage: LogoCelta,secondDescription: [
+        id: 30, name: "Yee reducida", image: celta30, secondImage: LogoCelta,link: "https://drive.google.com/file/d/1iRykTcBLori6QSia3pdRhiO5WE7524ij/view?usp=sharing",secondDescription: [
             {
                 title: "Diametro Pulg.", values: ["3x2", "4x2", "4x3", "6x4", "*8x4", "*8x6"]
             },
@@ -157,28 +157,28 @@ const Sanitaria = [
         ]
     },
     {
-        id: 31, name: "Yee doble", image: celta31,secondImage: LogoCelta, secondDescription: [
+        id: 31, name: "Yee doble", image: celta31,secondImage: LogoCelta, link: "https://drive.google.com/file/d/1iRykTcBLori6QSia3pdRhiO5WE7524ij/view?usp=sharing",secondDescription: [
             {
                 title: "Diametro Pulg.", values: ["2", "3", "4"]
             }
         ]
     },
     {
-        id: 32, name: "Yee doble reducida", image: celta32, secondImage: LogoCelta,secondDescription: [
+        id: 32, name: "Yee doble reducida", image: celta32, secondImage: LogoCelta,link: "https://drive.google.com/file/d/1iRykTcBLori6QSia3pdRhiO5WE7524ij/view?usp=sharing",secondDescription: [
             {
                 title: "Diametro Pulg.", values: ["3x2", "4x2", "4x3"]
             }
         ]
     },
     {
-        id: 33, name: "Adaptador de limpieza", image: celta33,secondImage: LogoCelta, secondDescription: [
+        id: 33, name: "Adaptador de limpieza", image: celta33,secondImage: LogoCelta,link: "https://drive.google.com/file/d/1iRykTcBLori6QSia3pdRhiO5WE7524ij/view?usp=sharing", secondDescription: [
             {
                 title: "Diametro Pulg.", values: ["2", "3", "4", "6", "*8", "*10"]
             }
         ]
     },
     {
-        id: 34, name: "Tee sencilla", image: celta34, secondImage: LogoCelta,secondDescription: [
+        id: 34, name: "Tee sencilla", image: celta34, secondImage: LogoCelta,link: "https://drive.google.com/file/d/1iRykTcBLori6QSia3pdRhiO5WE7524ij/view?usp=sharing",secondDescription: [
             {
                 title: "Diametro Pulg.", values: ["1.1/2", "2", "3", "4", "6", "*8"]
             },
@@ -188,7 +188,7 @@ const Sanitaria = [
         ]
     },
     {
-        id: 35, name: "Tee reducida", image: celta35,secondImage: LogoCelta, secondDescription: [
+        id: 35, name: "Tee reducida", image: celta35,secondImage: LogoCelta, link: "https://drive.google.com/file/d/1iRykTcBLori6QSia3pdRhiO5WE7524ij/view?usp=sharing",secondDescription: [
             {
                 title: "Diametro Pulg.", values: ["2x1.1/2", "3x2", "4x2", "4x3", "6x4"]
             }

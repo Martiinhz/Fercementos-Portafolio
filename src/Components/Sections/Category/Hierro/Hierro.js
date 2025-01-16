@@ -10,7 +10,7 @@ const Hierro = [
         image: hierro1,
         secondDescription: [
             {
-                title: "Medida",
+                title: "Calibre",
                 values: ["9mm", "11mm", "12mm"],
             },
         ],
@@ -21,7 +21,7 @@ const Hierro = [
         image: hierro1,
         secondDescription: [
             {
-                title: "Medida",
+                title: "Calibre",
                 values: ["9mm", "11mm", "12mm", "1/4", "1/2", "3/4", "3/8", "5/8", "7/8"],
             },
 
@@ -33,7 +33,7 @@ const Hierro = [
         image: hierro1,
         secondDescription: [
             {
-                title: "Medida",
+                title: "Calibre",
                 values: ["9mm", "11mm", "12mm", "1/4", "1/2", "3/4", "3/8", "5/8", "7/8"],
             },
         ],
@@ -48,6 +48,18 @@ const Hierro = [
     },
 
     {
+        id: 5,
+        name:
+            "Rollo malla electrosolada de 3.5 mm ",
+        image: hierro3,
+        secondDescription: [
+            {
+                title: "Medidas", values: ["18 metros x 2.35 metros"],
+                
+            },
+        ]
+    },
+    {
         id: 1,
         name:
             "Malla Electrosoldada 4mm",
@@ -58,19 +70,6 @@ const Hierro = [
                 
             },
           
-        ]
-    },
-    {
-        id: 2,
-        name:
-            "Malla Electrosoldada 6mm",
-        image: hierro3,
-        secondDescription: [
-            {
-                title: "Medidas", values: ["15x15 6 metro x 2.35 metros"],
-                
-            },
-           
         ]
     },
     {
@@ -87,6 +86,20 @@ const Hierro = [
         ]
     },
     {
+        id: 2,
+        name:
+            "Malla Electrosoldada 6mm",
+        image: hierro3,
+        secondDescription: [
+            {
+                title: "Medidas", values: ["15x15 6 metro x 2.35 metros"],
+                
+            },
+           
+        ]
+    },
+   
+    {
         id: 4,
         name:
             "Malla Electrosoldada 6.5 mm",
@@ -99,18 +112,7 @@ const Hierro = [
           
         ]
     },
-    {
-        id: 5,
-        name:
-            "Rollo malla electrosolada de 3.5 mm ",
-        image: hierro3,
-        secondDescription: [
-            {
-                title: "Medidas", values: ["18 metros x 2.35 metros"],
-                
-            },
-        ]
-    },
+   
 
     { id: 4, name: "Alambre Negro 18", image: hierro7, secondDescription: [{title: "Kilos", values: [("Apeticion del cliente")]},
     {
