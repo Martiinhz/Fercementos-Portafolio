@@ -63,6 +63,7 @@ import Carretillas from './Components/Pages/Ferreteria/Carretillas';
 import Especializada from './Components/Pages/PinturaAcabados/Especializado';
 import OtrosHerramientas from './Components/Pages/Ferreteria/Otros'
 import Clavos from './Components/Pages/Ferreteria/Clavos';
+import Whaspp from './Components/FloatingButton/FloatingWhaspp'
 
 const MainLayout = ({ searchTerm, setSearchTerm }) => (
   <>
@@ -141,7 +142,8 @@ function App() {
     <div className="bg-[#EEEEEE] min-h-screen">
       {/* Las rutas se manejarán dentro de AppRoutes */}
       <AppRoutes searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
-      <BotonFlotante pdfUrl="https://drive.google.com/file/d/1AgrVNQkDbeByUuvL_jgv8mMTrtj_QAbN/view?usp=sharing" />
+      <BotonFlotante pdfUrl="https://drive.google.com/file/d/1w3c5nuPDO3xGFCxdcnqSVl1wy1B73l3Q/view?usp=sharing" />
+      <Whaspp/>
     </div>
   );
 }

@@ -1,7 +1,7 @@
-import pintuland9 from '../../../../assets/Productos/Pintuland/EsmalteLinea.png'
-import pintuland10 from '../../../../assets/Productos/Pintuland/EsmalteLineaDorado.png'
-import pintuland4 from '../../../../assets/Productos/Pintuland/BarnizSintetico.png'
-import pintuland11 from '../../../../assets/Productos/Pintuland/Anticorrosivo.png'
+import pintuland9 from '../../../../assets/Productos/pinturasNew/10.png'
+import pintuland10 from '../../../../assets/Productos/pinturasNew/11.png'
+import pintuland4 from '../../../../assets/Productos/pinturasNew/9.png'
+import pintuland11 from '../../../../assets/Productos/pinturasNew/8.png'
 import logoPintu from '../../../../assets/Productos/Pintuland/logo.png'
 
 

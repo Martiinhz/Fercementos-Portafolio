@@ -1,5 +1,5 @@
-import pintuland1 from '../../../../assets/Productos/Pintuland/SuperLavable.png'
-import pintuland6 from '../../../../assets/Productos/Pintuland/Acriland.png'
+import pintuland1 from '../../../../assets/Productos/pinturasNew/20.png'
+import pintuland6 from '../../../../assets/Productos/pinturasNew/7.png'
 import logoPintu from '../../../../assets/Productos/Pintuland/logo.png'
 
 const Exterior = [

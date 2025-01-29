@@ -1,5 +1,5 @@
-import pintuland2 from '../../../../assets/Productos/Pintuland/Lavable.png'
-import pintuland3 from '../../../../assets/Productos/Pintuland/Corriente.png'
+import pintuland2 from '../../../../assets/Productos/pinturasNew/19.png'
+import pintuland3 from '../../../../assets/Productos/pinturasNew/18.png'
 import logoPintu from '../../../../assets/Productos/Pintuland/logo.png'
 
 const Interior  = [
