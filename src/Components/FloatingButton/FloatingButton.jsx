@@ -7,7 +7,7 @@ const FloatingButton = ({ pdfUrl }) => {
       href={pdfUrl}
       target="_blank"
       rel="noopener noreferrer"
-      className="fixed right-4 bottom-4 bg-gradient-to-br from-blue-500 to-blue-700 text-white rounded-lg shadow-xl hover:shadow-2xl hover:scale-110 transform transition duration-300 flex flex-col items-center justify-center w-16 h-16 p-2"
+      className="fixed right-4 top-44 bg-gradient-to-br from-blue-500 to-blue-700 text-white rounded-lg shadow-xl hover:shadow-2xl hover:scale-110 transform transition duration-300 flex flex-col items-center justify-center w-16 h-16 p-2"
       title="Ver Catálogo"
     >
       {/* Ícono de NPM */}

@@ -6,10 +6,10 @@ const Cinta = [
     {
         id: 7, name: "Cinta Asfaltica Sika", image: proteja8, secondDescription: [
             {
-                title: "Largo", values: ["10cm"]
+                title: "Ancho", values: ["15cm"]
             },
             {
-                title: "Ancho", values: ["10m"]
+                title: "Largo", values: ["10mts"]
             }
         ]
     },
@@ -17,10 +17,10 @@ const Cinta = [
     {
         id: 8, name: "Cinta Asfaltica Alumban", image: proteja9, secondDescription: [
             {
-                title: "Largo", values: ["10cm"]
+                title: "Ancho", values: ["10cm", "20cm", "30cm", "50cm"]
             },
             {
-                title: "Ancho", values: ["10m"]
+                title: "Largo", values: ["10mts", "10mts", "10mts", "10mts"]
             }
         ]
     },

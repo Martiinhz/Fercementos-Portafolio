@@ -64,10 +64,12 @@ import Especializada from './Components/Pages/PinturaAcabados/Especializado';
 import OtrosHerramientas from './Components/Pages/Ferreteria/Otros'
 import Clavos from './Components/Pages/Ferreteria/Clavos';
 import Whaspp from './Components/FloatingButton/FloatingWhaspp'
+import HomeMain from './Components/Products/VariousProducts/HomeMain';
 
 const MainLayout = ({ searchTerm, setSearchTerm }) => (
   <>
-    <ProductGrid searchTerm={searchTerm} />
+  <HomeMain searchTerm={searchTerm}/>
+    {/* <ProductGrid searchTerm={searchTerm} /> */}
     
   </>
 );

@@ -517,132 +517,132 @@ const Products = [
           { id: 76, name: "Boquilla Argos 2kg", image: argos24,secondImage:logoArgos, link: "https://colombia.argos.co/fichas_tecnicas/ft_boquilla_impermeable_weber_color_2kg.pdf", description: "Boquilla para el llenado de juntas de 2 a 15mm entre piezas de cerámica, porcelanato, gres, piedras naturales en pisos y paredes en zonas interiores y exteriores y zonas húmedas." },
           { id: 77, name: "Pegante Para ceramica interior x 25 kg", image: argos25,secondImage:logoArgos ,description: "Pegante de color gris ideal para instalación derevestimientos cerámicos en interiores enpisos y muros. Apto para baños, cocinas y zonas de lavado." },
       { id: 52354, name: "Alfaquick Aditivo Concentrado 2KG", image: alfa, link: "https://aunclic.alfa.com.co/staging/doc/225028614-FT.pdf", description: "Es una mezcla concentrada de aditivos de gran desempeño que se adiciona al mortero tradicional hecho en obra, proporcionándole un mayor tiempo de fraguado, excelente manejabilidad, alta adherencia y tiempos de corrección en la instalación de baldosas cerámicas de media y alta absorción en pisos y paredes de zonas interiores."},
-          { id: 78, name: "Brocha Monofilamento 1″ pulgada", image: brocha1,secondImage:logoGoya, secondDescription: [
+          { id: 78, name: "Brocha Monofilamento 1″ pulgada", image: brocha1,secondImage:logoGoya, thirdDescription: [
               {
                   title: "Material", values: ["Polipropileno alto impacto, cerda sintética PET"],
               }
           ] },
-          { id: 79, name: "Brocha Monofilamento 1/2″ pulgada", image: brocha2,secondImage:logoGoya,  secondDescription: [
+          { id: 79, name: "Brocha Monofilamento 1/2″", image: brocha2,secondImage:logoGoya,  thirdDescription: [
               {
                   title: "Material", values: ["Polipropileno alto impacto, cerda sintética PET"],
               }
           ] },
-          { id: 80, name: "Brocha Monofilamento 2″ pulgada", image: brocha3,secondImage:logoGoya, secondDescription: [
+          { id: 80, name: "Brocha Monofilamento 2″", image: brocha3,secondImage:logoGoya, thirdDescription: [
               {
                   title: "Material", values: ["Polipropileno alto impacto, cerda sintética PET"],
               }
           ] },
-          { id: 81, name: "Brocha Monofilamento 2½″ pulgada", image: brocha4,secondImage:logoGoya,  secondDescription: [
+          { id: 81, name: "Brocha Monofilamento 2½″", image: brocha4,secondImage:logoGoya,  thirdDescription: [
               {
                   title: "Material", values: ["Polipropileno alto impacto, cerda sintética PET"],
               }
           ] },
-          { id: 82, name: "Brocha Monofilamento 3″ pulgada", image: brocha5,secondImage:logoGoya,  secondDescription: [
+          { id: 82, name: "Brocha Monofilamento 3″", image: brocha5,secondImage:logoGoya,  thirdDescription: [
               {
                   title: "Material", values: ["Polipropileno alto impacto, cerda sintética PET"],
               }
           ] },
-          { id: 83, name: "Brocha Monofilamento 4″ pulgada", image: brocha6, secondImage:logoGoya, secondDescription: [
+          { id: 83, name: "Brocha Monofilamento 4″", image: brocha6, secondImage:logoGoya, thirdDescription: [
               {
                   title: "Material", values: ["Polipropileno alto impacto, cerda sintética PET"],
               }
           ] },
-          { id: 84, name: "Brocha Monofilamento 5″ pulgada", image: brocha7,secondImage:logoGoya,  secondDescription: [
+          { id: 84, name: "Brocha Monofilamento 5″", image: brocha7,secondImage:logoGoya,  thirdDescription: [
               {
                   title: "Material", values: ["Polipropileno alto impacto, cerda sintética PET"],
               }
           ] },
       
       
-          { id: 85, name: "Brocha Popular 1″ pulgada", image: brocha10,secondImage:logoGoya, secondDescription: [
+          { id: 85, name: "Brocha Popular 1″", image: brocha10,secondImage:logoGoya, thirdDescription: [
               {
                   title: "Material", values: ["Polipropileno de Alto impacto resistente a los álcalis."],
               }
           ] },
-          { id: 86, name: "Brocha Popular 1/2″ pulgada", image: brocha11, secondImage:logoGoya, secondDescription: [
+          { id: 86, name: "Brocha Popular 1/2″", image: brocha11, secondImage:logoGoya, thirdDescription: [
               {
                   title: "Material", values: ["Polipropileno de Alto impacto resistente a los álcalis."],
               }
           ] },
-          { id: 87, name: "Brocha Popular 2″ pulgada", image: brocha12, secondImage:logoGoya, secondDescription: [
+          { id: 87, name: "Brocha Popular 2″", image: brocha12, secondImage:logoGoya, thirdDescription: [
               {
                   title: "Material", values: ["Polipropileno de Alto impacto resistente a los álcalis."],
               }
           ] },
-          { id: 88, name: "Brocha Popular 2½″ pulgada", image: brocha13, secondImage:logoGoya, secondDescription: [
+          { id: 88, name: "Brocha Popular 2½″", image: brocha13, secondImage:logoGoya, thirdDescription: [
               {
                   title: "Material", values: ["Polipropileno de Alto impacto resistente a los álcalis."],
               }
           ] },
-          { id: 89, name: "Brocha Popular 3″ pulgada", image: brocha14, secondImage:logoGoya, secondDescription: [
+          { id: 89, name: "Brocha Popular 3″", image: brocha14, secondImage:logoGoya, thirdDescription: [
               {
                   title: "Material", values: ["Polipropileno de Alto impacto resistente a los álcalis."],
               }
           ] },
-          { id: 90, name: "Brocha Popular 4″ pulgada", image: brocha15,secondImage:logoGoya,  secondDescription: [
+          { id: 90, name: "Brocha Popular 4″", image: brocha15,secondImage:logoGoya,  thirdDescription: [
               {
                   title: "Material", values: ["Polipropileno de Alto impacto resistente a los álcalis."],
               }
           ] },
-          { id: 91, name: "Brocha Popular 5″ pulgada", image: brocha16,secondImage:logoGoya,  secondDescription: [
+          { id: 91, name: "Brocha Popular 5″", image: brocha16,secondImage:logoGoya,  thirdDescription: [
               {
                   title: "Material", values: ["Polipropileno de Alto impacto resistente a los álcalis."],
               }
           ] },
           
           
-          { id: 92, name: "Brocha Profesional 1″ pulgada", image: brocha19, secondImage:logoGoya, secondDescription: [
+          { id: 92, name: "Brocha Profesional 1″", image: brocha19, secondImage:logoGoya, thirdDescription: [
               {
                   title: "Material", values: ["Polipropileno resistente al impacto "],
               }
           ] },
           
-          { id: 93, name: "Brocha Profesional 1/2″ pulgada", image: brocha20, secondImage:logoGoya, secondDescription: [
+          { id: 93, name: "Brocha Profesional 1/2″", image: brocha20, secondImage:logoGoya,thirdDescription: [
               {
                   title: "Material", values: ["Polipropileno resistente al impacto "],
               }
           ] },
           
-          { id: 94, name: "Brocha Profesional 2″ pulgada", image: brocha21,secondImage:logoGoya,  secondDescription: [
+          { id: 94, name: "Brocha Profesional 2″", image: brocha21,secondImage:logoGoya, thirdDescription: [
               {
                   title: "Material", values: ["Polipropileno resistente al impacto "],
               }
           ] },
           
-          { id: 95, name: "Brocha Profesional 2½″ pulgada", image: brocha22,secondImage:logoGoya,  secondDescription: [
+          { id: 95, name: "Brocha Profesional 2½″", image: brocha22,secondImage:logoGoya,  thirdDescription: [
               {
                   title: "Material", values: ["Polipropileno resistente al impacto "],
               }
           ] },
           
-          { id: 96, name: "Brocha Profesional 3″ pulgada", image: brocha23, secondImage:logoGoya, secondDescription: [
+          { id: 96, name: "Brocha Profesional 3″", image: brocha23, secondImage:logoGoya, thirdDescription: [
               {
                   title: "Material", values: ["Polipropileno resistente al impacto "],
               }
           ] },
           
-          { id: 97, name: "Brocha Profesional 4″ pulgada", image: brocha24,secondImage:logoGoya,  secondDescription: [
+          { id: 97, name: "Brocha Profesional 4″", image: brocha24,secondImage:logoGoya,  thirdDescription: [
               {
                   title: "Material", values: ["Polipropileno resistente al impacto "],
               }
           ] },
           
-          { id: 98, name: "Brocha Profesional 5″ pulgada", image: brocha25,secondImage:logoGoya,  secondDescription: [
+          { id: 98, name: "Brocha Profesional 5″", image: brocha25,secondImage:logoGoya, thirdDescription: [
               {
                   title: "Material", values: ["Polipropileno resistente al impacto "],
               }
           ] },
-          { id: 99, name: "Rodillo bricolage 9″ pulgadas ", image: rodillo1,secondImage:logoGoya, description: "Rodillo bricolage 9″ pulgadas" },
-          { id: 100, name: "Rodillo junior 2″ pulgada", image: rodillo4, secondImage:logoGoya,description: "Rodillo junior 2″ pulgada" },
-          { id: 101, name: "Rodillo junior 3″ pulgada", image: rodillo3, secondImage:logoGoya,description: "Rodillo junior 3″ pulgada" },
-          { id: 102, name: "Rodillo junior 5″ pulgada", image: rodillo5, secondImage:logoGoya,description: "Rodillo junior 5″ pulgada" },
-          { id: 103, name: "Rodillo felpa profesional 9″ pulgadas", image: rodillo6,secondImage:logoGoya, description: "Rodillo felpa profesional 9″ pulgadas" },
-          { id: 104, name: "Espatula Goya 1/2″ pulgada", image: espatula1,secondImage:logoGoya, description: "Espatula Goya 1/2″ pulgada" },
-          { id: 105, name: "Espatula Goya 2″ pulgada", image: espatula2, secondImage:logoGoya,description: "Espatula Goya 2″ pulgada" },
-          { id: 106, name: "Espatula Goya 2½″ pulgada", image: espatula3,secondImage:logoGoya, description: "Espatula Goya 2½″ pulgada" },
-          { id: 107, name: "Espatula Goya 3″ pulgada", image: espatula4,secondImage:logoGoya, description: "Espatula Goya 3″ pulgada" },
-          { id: 108, name: "Espatula Goya 4″ pulgada", image: espatula5, secondImage:logoGoya,description: "Espatula Goya 4″ pulgada" },
-          { id: 109, name: "Espatula Goya 5″ pulgada", image: espatula6, secondImage:logoGoya,description: "Espatula Goya 5″ pulgada" },
+          { id: 99, name: "Rodillo bricolage 9″", image: rodillo1,secondImage:logoGoya, description: "Rodillo bricolage 9″ pulgadas" },
+          { id: 100, name: "Rodillo junior 2″", image: rodillo4, secondImage:logoGoya,description: "Rodillo junior 2″ pulgada" },
+          { id: 101, name: "Rodillo junior 3″", image: rodillo3, secondImage:logoGoya,description: "Rodillo junior 3″ pulgada" },
+          { id: 102, name: "Rodillo junior 5″", image: rodillo5, secondImage:logoGoya,description: "Rodillo junior 5″ pulgada" },
+          { id: 103, name: "Rodillo felpa profesional 9″", image: rodillo6,secondImage:logoGoya, description: "Rodillo felpa profesional 9″ pulgadas" },
+          { id: 104, name: "Espatula Goya 1/2″", image: espatula1,secondImage:logoGoya, description: "Espatula Goya 1/2″ pulgada" },
+          { id: 105, name: "Espatula Goya 2″", image: espatula2, secondImage:logoGoya,description: "Espatula Goya 2″ pulgada" },
+          { id: 106, name: "Espatula Goya 2½″", image: espatula3,secondImage:logoGoya, description: "Espatula Goya 2½″ pulgada" },
+          { id: 107, name: "Espatula Goya 3″", image: espatula4,secondImage:logoGoya, description: "Espatula Goya 3″ pulgada" },
+          { id: 108, name: "Espatula Goya 4″", image: espatula5, secondImage:logoGoya,description: "Espatula Goya 4″ pulgada" },
+          { id: 109, name: "Espatula Goya 5″", image: espatula6, secondImage:logoGoya,description: "Espatula Goya 5″ pulgada" },
 
 
             // Cubiertas
@@ -741,26 +741,27 @@ const Products = [
                 ] },
             
                 {
-                    id: 121, name: "Cinta Asfaltica Sika", image: proteja8, thirdDescription: [
-                        {
-                            title: "Largo", values: ["10cm"]
-                        },
-                        {
-                            title: "Ancho", values: ["10m"]
-                        }
-                    ]
-                },
-            
-                {
-                    id: 122, name: "Cinta Asfaltica Alumban", image: proteja9, thirdDescription: [
-                        {
-                            title: "Largo", values: ["10cm"]
-                        },
-                        {
-                            title: "Ancho", values: ["10m"]
-                        }
-                    ]
-                },
+                        id: 7, name: "Cinta Asfaltica Sika", image: proteja8, thirdDescription: [
+                            {
+                                title: "Ancho", values: ["15cm"]
+                            },
+                            {
+                                title: "Largo", values: ["10mts"]
+                            }
+                        ]
+                    },
+                
+                    {
+                        id: 8, name: "Cinta Asfaltica Alumban", image: proteja9, thirdDescription: [
+                            {
+                                title: "Ancho", values: ["10cm", "20cm", "30cm", "50cm"]
+                            },
+                            {
+                                title: "Largo", values: ["10mts", "10mts", "10mts", "10mts"]
+                            }
+                        ]
+                    },
+                
                 { id: 123, name: "Tanque 250 L", image: acuaviva1, description: "Peso del kit (Tanque + tapa) 7 kg" },
                 { id: 124, name: "Tanque 500 L", image: acuaviva2, description: "Peso de kit (Tanque + tapa) 11 kg" },
                 { id: 125, name: "Tanque 1000 L", image: acuaviva4, description: "Peso de kit (Tanque + tapa) 18 kg" },

@@ -56,7 +56,7 @@ const Cubiertas = [
     { id: 4, name: "Caballate tipo viejo", image: proteja4,  secondImage: logoTeja,description: "Se utiliza como cierre de una cubierta en su línea de caballetes, al inicio y al final. Disponible para pendientes de techo de 27% (15°). Debe ser asegurado con tornillos." },
     { id: 5, name: "Limatesa limahoya teja", image: proteja5, secondImage: logoTeja, description: "Pieza de unión entre dos pendientes de una cubierta que forma un ángulo saliente y entrante. Debe ser asegurado con tornillos tipo paleta o amarras." },
     {
-        id: 6, name: "Teja Colonial", image: proteja7, secondDescription: [
+        id: 6, name: "Teja Colonial", image: proteja7, secondImage: logoTeja,secondDescription: [
 
             {
                 title: "Longitu m", values: ["0.70", "1.60"]
@@ -119,26 +119,27 @@ const Cubiertas = [
     ] },
 
     {
-        id: 7, name: "Cinta Asfaltica Sika", image: proteja8, secondDescription: [
-            {
-                title: "Largo", values: ["10cm"]
-            },
-            {
-                title: "Ancho", values: ["10m"]
-            }
-        ]
-    },
-
-    {
-        id: 8, name: "Cinta Asfaltica Alumban", image: proteja9, secondDescription: [
-            {
-                title: "Largo", values: ["10cm"]
-            },
-            {
-                title: "Ancho", values: ["10m"]
-            }
-        ]
-    },
+            id: 7, name: "Cinta Asfaltica Sika", image: proteja8, secondDescription: [
+                {
+                    title: "Ancho", values: ["15cm"]
+                },
+                {
+                    title: "Largo", values: ["10mts"]
+                }
+            ]
+        },
+    
+        {
+            id: 8, name: "Cinta Asfaltica Alumban", image: proteja9, secondDescription: [
+                {
+                    title: "Ancho", values: ["10cm", "20cm", "30cm", "50cm"]
+                },
+                {
+                    title: "Largo", values: ["10mts", "10mts", "10mts", "10mts"]
+                }
+            ]
+        },
+    
     { id: 9, name: "Tanque 250 L", image: acuaviva1, description: "Peso del kit (Tanque + tapa) 7 kg" },
     { id: 10, name: "Tanque 500 L", image: acuaviva2, description: "Peso de kit (Tanque + tapa) 11 kg" },
     { id: 11, name: "Tanque 1000 L", image: acuaviva4, description: "Peso de kit (Tanque + tapa) 18 kg" },

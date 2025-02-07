@@ -33,132 +33,132 @@ import espatula6 from '../../../../assets/Productos/Espatulas/6.png'
 import logoGoya from '../../../../assets/Productos/Brochas/logo.png'
 
 const Brochas = [
-    { id: 1, name: "Brocha Monofilamento 1″ pulgada", image: brocha1,secondImage:logoGoya, secondDescription: [
+    { id: 1, name: "Brocha Monofilamento 1″", image: brocha1,secondImage:logoGoya, secondDescription: [
         {
             title: "Material", values: ["Polipropileno alto impacto, cerda sintética PET"],
         }
     ] },
-    { id: 2, name: "Brocha Monofilamento 1/2″ pulgada", image: brocha2,secondImage:logoGoya,  secondDescription: [
+    { id: 2, name: "Brocha Monofilamento 1/2″", image: brocha2,secondImage:logoGoya,  secondDescription: [
         {
             title: "Material", values: ["Polipropileno alto impacto, cerda sintética PET"],
         }
     ] },
-    { id: 3, name: "Brocha Monofilamento 2″ pulgada", image: brocha3,secondImage:logoGoya, secondDescription: [
+    { id: 3, name: "Brocha Monofilamento 2″", image: brocha3,secondImage:logoGoya, secondDescription: [
         {
             title: "Material", values: ["Polipropileno alto impacto, cerda sintética PET"],
         }
     ] },
-    { id: 4, name: "Brocha Monofilamento 2½″ pulgada", image: brocha4,secondImage:logoGoya,  secondDescription: [
+    { id: 4, name: "Brocha Monofilamento 2½″", image: brocha4,secondImage:logoGoya,  secondDescription: [
         {
             title: "Material", values: ["Polipropileno alto impacto, cerda sintética PET"],
         }
     ] },
-    { id: 5, name: "Brocha Monofilamento 3″ pulgada", image: brocha5,secondImage:logoGoya,  secondDescription: [
+    { id: 5, name: "Brocha Monofilamento 3″", image: brocha5,secondImage:logoGoya,  secondDescription: [
         {
             title: "Material", values: ["Polipropileno alto impacto, cerda sintética PET"],
         }
     ] },
-    { id: 6, name: "Brocha Monofilamento 4″ pulgada", image: brocha6, secondImage:logoGoya, secondDescription: [
+    { id: 6, name: "Brocha Monofilamento 4″", image: brocha6, secondImage:logoGoya, secondDescription: [
         {
             title: "Material", values: ["Polipropileno alto impacto, cerda sintética PET"],
         }
     ] },
-    { id: 7, name: "Brocha Monofilamento 5″ pulgada", image: brocha7,secondImage:logoGoya,  secondDescription: [
+    { id: 7, name: "Brocha Monofilamento 5″", image: brocha7,secondImage:logoGoya,  secondDescription: [
         {
             title: "Material", values: ["Polipropileno alto impacto, cerda sintética PET"],
         }
     ] },
 
 
-    { id: 10, name: "Brocha Popular 1″ pulgada", image: brocha10,secondImage:logoGoya, secondDescription: [
+    { id: 10, name: "Brocha Popular 1″", image: brocha10,secondImage:logoGoya, secondDescription: [
         {
             title: "Material", values: ["Polipropileno de Alto impacto resistente a los álcalis."],
         }
     ] },
-    { id: 11, name: "Brocha Popular 1/2″ pulgada", image: brocha11, secondImage:logoGoya, secondDescription: [
+    { id: 11, name: "Brocha Popular 1/2″", image: brocha11, secondImage:logoGoya, secondDescription: [
         {
             title: "Material", values: ["Polipropileno de Alto impacto resistente a los álcalis."],
         }
     ] },
-    { id: 12, name: "Brocha Popular 2″ pulgada", image: brocha12, secondImage:logoGoya, secondDescription: [
+    { id: 12, name: "Brocha Popular 2″", image: brocha12, secondImage:logoGoya, secondDescription: [
         {
             title: "Material", values: ["Polipropileno de Alto impacto resistente a los álcalis."],
         }
     ] },
-    { id: 13, name: "Brocha Popular 2½″ pulgada", image: brocha13, secondImage:logoGoya, secondDescription: [
+    { id: 13, name: "Brocha Popular 2½″", image: brocha13, secondImage:logoGoya, secondDescription: [
         {
             title: "Material", values: ["Polipropileno de Alto impacto resistente a los álcalis."],
         }
     ] },
-    { id: 14, name: "Brocha Popular 3″ pulgada", image: brocha14, secondImage:logoGoya, secondDescription: [
+    { id: 14, name: "Brocha Popular 3″", image: brocha14, secondImage:logoGoya, secondDescription: [
         {
             title: "Material", values: ["Polipropileno de Alto impacto resistente a los álcalis."],
         }
     ] },
-    { id: 15, name: "Brocha Popular 4″ pulgada", image: brocha15,secondImage:logoGoya,  secondDescription: [
+    { id: 15, name: "Brocha Popular 4″", image: brocha15,secondImage:logoGoya,  secondDescription: [
         {
             title: "Material", values: ["Polipropileno de Alto impacto resistente a los álcalis."],
         }
     ] },
-    { id: 16, name: "Brocha Popular 5″ pulgada", image: brocha16,secondImage:logoGoya,  secondDescription: [
+    { id: 16, name: "Brocha Popular 5″", image: brocha16,secondImage:logoGoya,  secondDescription: [
         {
             title: "Material", values: ["Polipropileno de Alto impacto resistente a los álcalis."],
         }
     ] },
     
     
-    { id: 19, name: "Brocha Profesional 1″ pulgada", image: brocha19, secondImage:logoGoya, secondDescription: [
+    { id: 19, name: "Brocha Profesional 1″", image: brocha19, secondImage:logoGoya, secondDescription: [
         {
             title: "Material", values: ["Polipropileno resistente al impacto "],
         }
     ] },
     
-    { id: 20, name: "Brocha Profesional 1/2″ pulgada", image: brocha20, secondImage:logoGoya, secondDescription: [
+    { id: 20, name: "Brocha Profesional 1/2″", image: brocha20, secondImage:logoGoya, secondDescription: [
         {
             title: "Material", values: ["Polipropileno resistente al impacto "],
         }
     ] },
     
-    { id: 21, name: "Brocha Profesional 2″ pulgada", image: brocha21,secondImage:logoGoya,  secondDescription: [
+    { id: 21, name: "Brocha Profesional 2″", image: brocha21,secondImage:logoGoya,  secondDescription: [
         {
             title: "Material", values: ["Polipropileno resistente al impacto "],
         }
     ] },
     
-    { id: 22, name: "Brocha Profesional 2½″ pulgada", image: brocha22,secondImage:logoGoya,  secondDescription: [
+    { id: 22, name: "Brocha Profesional 2½″", image: brocha22,secondImage:logoGoya,  secondDescription: [
         {
             title: "Material", values: ["Polipropileno resistente al impacto "],
         }
     ] },
     
-    { id: 23, name: "Brocha Profesional 3″ pulgada", image: brocha23, secondImage:logoGoya, secondDescription: [
+    { id: 23, name: "Brocha Profesional 3″", image: brocha23, secondImage:logoGoya, secondDescription: [
         {
             title: "Material", values: ["Polipropileno resistente al impacto "],
         }
     ] },
     
-    { id: 24, name: "Brocha Profesional 4″ pulgada", image: brocha24,secondImage:logoGoya,  secondDescription: [
+    { id: 24, name: "Brocha Profesional 4″", image: brocha24,secondImage:logoGoya,  secondDescription: [
         {
             title: "Material", values: ["Polipropileno resistente al impacto "],
         }
     ] },
     
-    { id: 25, name: "Brocha Profesional 5″ pulgada", image: brocha25,secondImage:logoGoya,  secondDescription: [
+    { id: 25, name: "Brocha Profesional 5″", image: brocha25,secondImage:logoGoya,  secondDescription: [
         {
             title: "Material", values: ["Polipropileno resistente al impacto "],
         }
     ] },
-    { id: 28, name: "Rodillo bricolage 9″ pulgadas ", image: rodillo1,secondImage:logoGoya, description: "Rodillo bricolage 9″ pulgadas" },
-    { id: 30, name: "Rodillo junior 2″ pulgada", image: rodillo4, secondImage:logoGoya,description: "Rodillo junior 2″ pulgada" },
-    { id: 31, name: "Rodillo junior 3″ pulgada", image: rodillo3, secondImage:logoGoya,description: "Rodillo junior 3″ pulgada" },
-    { id: 32, name: "Rodillo junior 5″ pulgada", image: rodillo5, secondImage:logoGoya,description: "Rodillo junior 5″ pulgada" },
-    { id: 33, name: "Rodillo felpa profesional 9″ pulgadas", image: rodillo6,secondImage:logoGoya, description: "Rodillo felpa profesional 9″ pulgadas" },
-    { id: 36, name: "Espatula Goya 1/2″ pulgada", image: espatula1,secondImage:logoGoya, description: "Espatula Goya 1/2″ pulgada" },
-    { id: 37, name: "Espatula Goya 2″ pulgada", image: espatula2, secondImage:logoGoya,description: "Espatula Goya 2″ pulgada" },
-    { id: 38, name: "Espatula Goya 2½″ pulgada", image: espatula3,secondImage:logoGoya, description: "Espatula Goya 2½″ pulgada" },
-    { id: 39, name: "Espatula Goya 3″ pulgada", image: espatula4,secondImage:logoGoya, description: "Espatula Goya 3″ pulgada" },
-    { id: 40, name: "Espatula Goya 4″ pulgada", image: espatula5, secondImage:logoGoya,description: "Espatula Goya 4″ pulgada" },
-    { id: 41, name: "Espatula Goya 5″ pulgada", image: espatula6, secondImage:logoGoya,description: "Espatula Goya 5″ pulgada" },
+    { id: 28, name: "Rodillo bricolage 9″", image: rodillo1,secondImage:logoGoya, description: "Rodillo bricolage 9″ pulgadas" },
+    { id: 30, name: "Rodillo junior 2″", image: rodillo4, secondImage:logoGoya,description: "Rodillo junior 2″ pulgada" },
+    { id: 31, name: "Rodillo junior 3″", image: rodillo3, secondImage:logoGoya,description: "Rodillo junior 3″ pulgada" },
+    { id: 32, name: "Rodillo junior 5″", image: rodillo5, secondImage:logoGoya,description: "Rodillo junior 5″ pulgada" },
+    { id: 33, name: "Rodillo felpa profesional 9″", image: rodillo6,secondImage:logoGoya, description: "Rodillo felpa profesional 9″ pulgadas" },
+    { id: 36, name: "Espatula Goya 1/2″", image: espatula1,secondImage:logoGoya, description: "Espatula Goya 1/2″ pulgada" },
+    { id: 37, name: "Espatula Goya 2″", image: espatula2, secondImage:logoGoya,description: "Espatula Goya 2″ pulgada" },
+    { id: 38, name: "Espatula Goya 2½″", image: espatula3,secondImage:logoGoya, description: "Espatula Goya 2½″ pulgada" },
+    { id: 39, name: "Espatula Goya 3″", image: espatula4,secondImage:logoGoya, description: "Espatula Goya 3″ pulgada" },
+    { id: 40, name: "Espatula Goya 4″", image: espatula5, secondImage:logoGoya,description: "Espatula Goya 4″ pulgada" },
+    { id: 41, name: "Espatula Goya 5″", image: espatula6, secondImage:logoGoya,description: "Espatula Goya 5″ pulgada" },
 ];
 
 export default Brochas;
