@@ -517,7 +517,7 @@ const Products = [
           { id: 76, name: "Boquilla Argos 2kg", image: argos24,secondImage:logoArgos, link: "https://colombia.argos.co/fichas_tecnicas/ft_boquilla_impermeable_weber_color_2kg.pdf", description: "Boquilla para el llenado de juntas de 2 a 15mm entre piezas de cerámica, porcelanato, gres, piedras naturales en pisos y paredes en zonas interiores y exteriores y zonas húmedas." },
           { id: 77, name: "Pegante Para ceramica interior x 25 kg", image: argos25,secondImage:logoArgos ,description: "Pegante de color gris ideal para instalación derevestimientos cerámicos en interiores enpisos y muros. Apto para baños, cocinas y zonas de lavado." },
       { id: 52354, name: "Alfaquick Aditivo Concentrado 2KG", image: alfa, link: "https://aunclic.alfa.com.co/staging/doc/225028614-FT.pdf", description: "Es una mezcla concentrada de aditivos de gran desempeño que se adiciona al mortero tradicional hecho en obra, proporcionándole un mayor tiempo de fraguado, excelente manejabilidad, alta adherencia y tiempos de corrección en la instalación de baldosas cerámicas de media y alta absorción en pisos y paredes de zonas interiores."},
-          { id: 78, name: "Brocha Monofilamento 1″ pulgada", image: brocha1,secondImage:logoGoya, thirdDescription: [
+          { id: 78, name: "Brocha Monofilamento 1″", image: brocha1,secondImage:logoGoya, thirdDescription: [
               {
                   title: "Material", values: ["Polipropileno alto impacto, cerda sintética PET"],
               }

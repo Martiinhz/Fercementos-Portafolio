@@ -21,16 +21,18 @@ import pintuland21 from '../../../../assets/Productos/Pintuland/SelladorLaca.png
 // import pintuland22 from '../../../../assets/Productos/Pintuland/CosmoMadera.png'
 import pintuland23 from '../../../../assets/Productos/pinturasNew/2.png'
 import pintuland24 from '../../../../assets/Productos/pinturasNew/6.png'
-import impadoc1 from '../../../../assets/Productos/Impadoc/EstucoListo.png'
-import impadoc2 from '../../../../assets/Productos/Impadoc/Estucobras.png'
-import impadoc3 from '../../../../assets/Productos/Impadoc/Impaextuco.png'
-import impadoc4 from '../../../../assets/Productos/Impadoc/AdhesivoPorcelanato.png'
-import impadoc5 from '../../../../assets/Productos/Impadoc/RellenoListoExteriores.png'
-import impadoc6 from '../../../../assets/Productos/Impadoc/RellenoListoInteriores.png'
-import impadoc7 from '../../../../assets/Productos/Impadoc/Impatextura.png'
+import impadoc1 from '../../../../assets/Productos/Impadoc/New/5.png'
+import impadoc from '../../../../assets/Productos/Impadoc/New/4.png'
+import impadoc2 from '../../../../assets/Productos/Impadoc/New/3.png'
+import impadoc3 from '../../../../assets/Productos/Impadoc/New/14.png'
+import impadoc4 from '../../../../assets/Productos/Impadoc/New/8.png'
+import impadoc5 from '../../../../assets/Productos/Impadoc/New/11.png'
+import impadoc55 from '../../../../assets/Productos/Impadoc/New/12.png'
+import impadoc6 from '../../../../assets/Productos/Impadoc/New/15.png'
+import impadoc7 from '../../../../assets/Productos/Impadoc/New/7.png'
 import impadoc8 from '../../../../assets/Productos/Impadoc/boquilla.png'
-import impadoc9 from '../../../../assets/Productos/Impadoc/EstucoTiempo.png'
-import impadoc10 from '../../../../assets/Productos/Impadoc/EstucoPanelSecadoRapido.png'
+import impadoc9 from '../../../../assets/Productos/Impadoc/New/13.png'
+import impadoc10 from '../../../../assets/Productos/Impadoc/New/6.png'
 import impadoc11 from '../../../../assets/Productos/Impadoc/Boquilla2k.png'
 import impadoc12 from '../../../../assets/Productos/Impadoc/Boquilla5k.png'
 import argos1 from '../../../../assets/Productos/Argos/boquilla.png'
@@ -246,12 +248,12 @@ const PinturaAcabados = [
         link: "https://pintuland.com.co/wp-content/uploads/2022/08/Carta_De_Colores_Pintuland_Web.pdf"
     },
     { id: 53, name: "Estuco Listo x 25 kg", image: impadoc1, secondImage: logoImpa, seconDlink: "https://impadoc.com/wp-content/uploads/2023/01/EMV-015-Estucolisto.pdf", description: "Producto en polvo de color blanco crema, diseñado para acabados en la construcción, sustituye la preparación de estucos tradicionales en obras porque viene listo para usar." },
-    { id: 523, name: "Estuco Listo x 10 kg", image: impadoc1, secondImage: logoImpa, seconDlink: "https://impadoc.com/wp-content/uploads/2023/01/EMV-015-Estucolisto.pdf", description: "Producto en polvo de color blanco crema, diseñado para acabados en la construcción, sustituye la preparación de estucos tradicionales en obras porque viene listo para usar." },
+    { id: 523, name: "Estuco Listo x 10 kg", image: impadoc, secondImage: logoImpa, seconDlink: "https://impadoc.com/wp-content/uploads/2023/01/EMV-015-Estucolisto.pdf", description: "Producto en polvo de color blanco crema, diseñado para acabados en la construcción, sustituye la preparación de estucos tradicionales en obras porque viene listo para usar." },
     { id: 54, name: "Estucobras x 25 kg", image: impadoc2, secondImage: logoImpa, seconDlink: "https://impadoc.com/wp-content/uploads/2023/07/EMV-006-Estucobras.pdf", description: "Puede aplicarse sobre Rellenolisto de interiores de Impadoc, pañetelisto o Morterolisto de Impadoc, revoques, repellos o pañetes. " },
     { id: 55, name: "Impaextuco x 25 kg", image: impadoc3, secondImage: logoImpa, seconDlink: "https://impadoc.com/wp-content/uploads/2021/01/EMV-011-Impaextuco.pdf", description: "El Impaextuco es un estuco plástico en polvo para exteriores de color blanco, diseñado para dar acabados en la construcción. Es un material base cemento y aditivos de última tecnología, asegurando acabados finos, durables y resistentes a la intemperie con mayor economía." },
     { id: 56, name: "Adhesivo Porcelanato x 25 kg", image: impadoc4, secondImage: logoImpa, seconDlink: "https://impadoc.com/wp-content/uploads/2023/08/EMV-026-Pegadoc-Porcelanato-Plus.pdf", description: "Pegadoc es un adhesivo cementicio de uso interior y exterior, fabricado con materias primas de alta calidad, que mezclado con agua forma un material con excelente fuerza de adhesión, humectabilidad y resistencia para ser utilizado en la instalación de piezas de alta y baja absorción en superficies verticales y horizontales." },
     { id: 57, name: "Relleno Listo Fino Exteriores x 25 kg", image: impadoc5, secondImage: logoImpa, seconDlink: "https://impadoc.com/wp-content/uploads/2022/05/EMV-020-Relleno-Exteriores.pdf", description: "El relleno exterior es un producto en polvo de color gris, constituido por minerales de alta pureza y aditivos de última tecnología que le confieren características especiales para su optimo desempeño a la intemperie y economía." },
-    { id: 54324, name: "Relleno Listo Grueso Exteriores x 25 kg", image: impadoc5, secondImage: logoImpa, seconDlink: "https://impadoc.com/wp-content/uploads/2022/05/EMV-020-Relleno-Exteriores.pdf", description: "El relleno exterior es un producto en polvo de color gris, constituido por minerales de alta pureza y aditivos de última tecnología que le confieren características especiales para su optimo desempeño a la intemperie y economía." },
+    { id: 54324, name: "Relleno Listo Grueso Exteriores x 25 kg", image: impadoc55, secondImage: logoImpa, seconDlink: "https://impadoc.com/wp-content/uploads/2022/05/EMV-020-Relleno-Exteriores.pdf", description: "El relleno exterior es un producto en polvo de color gris, constituido por minerales de alta pureza y aditivos de última tecnología que le confieren características especiales para su optimo desempeño a la intemperie y economía." },
     { id: 58, name: "Relleno Listo Grueso Interiores x 25 kg ", image: impadoc6, secondImage: logoImpa, seconDlink: "https://impadoc.com/wp-content/uploads/2023/07/EMV-024-Relleno-Inter-Gris.pdf", description: "El rellenolisto interiores está diseñado para ser aplicado sobre diferentes tipos de mampostería como ladrillo común, ladrillo farol, ladrillo estructural, bloques de hormigón, bloques prefabricados y placas de concreto vaciado, siempre en ambientes interiores." },
     { id: 5438, name: "Relleno Listo Fino Interiores x 25 kg ", image: impadoc6, secondImage: logoImpa, seconDlink: "https://impadoc.com/wp-content/uploads/2023/07/EMV-024-Relleno-Inter-Gris.pdf", description: "El rellenolisto interiores está diseñado para ser aplicado sobre diferentes tipos de mampostería como ladrillo común, ladrillo farol, ladrillo estructural, bloques de hormigón, bloques prefabricados y placas de concreto vaciado, siempre en ambientes interiores." },
     { id: 59, name: "Impatextura x 25 kg", image: impadoc7, secondImage: logoImpa, seconDlink: "https://impadoc.com/wp-content/uploads/2021/05/EMV-007-Impatextura.pdf", description: "El Impatextura es un estuco en polvo, cementicio de granulometría mixta y aditivos especiales que al mezclarse con agua forman un producto de color blanco muy trabajable, con alta resistencia, dureza y tiempo de trabajo prolongado." },
@@ -278,127 +280,127 @@ const PinturaAcabados = [
             title: "Material", values: ["Polipropileno alto impacto, cerda sintética PET"],
         }
     ] },
-    { id: 2, name: "Brocha Monofilamento 1/2″ pulgada", image: brocha2,secondImage:logoGoya,  secondDescription: [
+    { id: 2, name: "Brocha Monofilamento 1/2″", image: brocha2,secondImage:logoGoya,  secondDescription: [
         {
             title: "Material", values: ["Polipropileno alto impacto, cerda sintética PET"],
         }
     ] },
-    { id: 3, name: "Brocha Monofilamento 2″ pulgada", image: brocha3,secondImage:logoGoya, secondDescription: [
+    { id: 3, name: "Brocha Monofilamento 2″", image: brocha3,secondImage:logoGoya, secondDescription: [
         {
             title: "Material", values: ["Polipropileno alto impacto, cerda sintética PET"],
         }
     ] },
-    { id: 4, name: "Brocha Monofilamento 2½″ pulgada", image: brocha4,secondImage:logoGoya,  secondDescription: [
+    { id: 4, name: "Brocha Monofilamento 2½″", image: brocha4,secondImage:logoGoya,  secondDescription: [
         {
             title: "Material", values: ["Polipropileno alto impacto, cerda sintética PET"],
         }
     ] },
-    { id: 5, name: "Brocha Monofilamento 3″ pulgada", image: brocha5,secondImage:logoGoya,  secondDescription: [
+    { id: 5, name: "Brocha Monofilamento 3″", image: brocha5,secondImage:logoGoya,  secondDescription: [
         {
             title: "Material", values: ["Polipropileno alto impacto, cerda sintética PET"],
         }
     ] },
-    { id: 6, name: "Brocha Monofilamento 4″ pulgada", image: brocha6, secondImage:logoGoya, secondDescription: [
+    { id: 6, name: "Brocha Monofilamento 4″", image: brocha6, secondImage:logoGoya, secondDescription: [
         {
             title: "Material", values: ["Polipropileno alto impacto, cerda sintética PET"],
         }
     ] },
-    { id: 7, name: "Brocha Monofilamento 5″ pulgada", image: brocha7,secondImage:logoGoya,  secondDescription: [
+    { id: 7, name: "Brocha Monofilamento 5″", image: brocha7,secondImage:logoGoya,  secondDescription: [
         {
             title: "Material", values: ["Polipropileno alto impacto, cerda sintética PET"],
         }
     ] },
 
 
-    { id: 10, name: "Brocha Popular 1″ pulgada", image: brocha10,secondImage:logoGoya, secondDescription: [
+    { id: 10, name: "Brocha Popular 1″", image: brocha10,secondImage:logoGoya, secondDescription: [
         {
             title: "Material", values: ["Polipropileno de Alto impacto resistente a los álcalis."],
         }
     ] },
-    { id: 11, name: "Brocha Popular 1/2″ pulgada", image: brocha11, secondImage:logoGoya, secondDescription: [
+    { id: 11, name: "Brocha Popular 1/2″", image: brocha11, secondImage:logoGoya, secondDescription: [
         {
             title: "Material", values: ["Polipropileno de Alto impacto resistente a los álcalis."],
         }
     ] },
-    { id: 12, name: "Brocha Popular 2″ pulgada", image: brocha12, secondImage:logoGoya, secondDescription: [
+    { id: 12, name: "Brocha Popular 2″", image: brocha12, secondImage:logoGoya, secondDescription: [
         {
             title: "Material", values: ["Polipropileno de Alto impacto resistente a los álcalis."],
         }
     ] },
-    { id: 13, name: "Brocha Popular 2½″ pulgada", image: brocha13, secondImage:logoGoya, secondDescription: [
+    { id: 13, name: "Brocha Popular 2½″", image: brocha13, secondImage:logoGoya, secondDescription: [
         {
             title: "Material", values: ["Polipropileno de Alto impacto resistente a los álcalis."],
         }
     ] },
-    { id: 14, name: "Brocha Popular 3″ pulgada", image: brocha14, secondImage:logoGoya, secondDescription: [
+    { id: 14, name: "Brocha Popular 3″", image: brocha14, secondImage:logoGoya, secondDescription: [
         {
             title: "Material", values: ["Polipropileno de Alto impacto resistente a los álcalis."],
         }
     ] },
-    { id: 15, name: "Brocha Popular 4″ pulgada", image: brocha15,secondImage:logoGoya,  secondDescription: [
+    { id: 15, name: "Brocha Popular 4″", image: brocha15,secondImage:logoGoya,  secondDescription: [
         {
             title: "Material", values: ["Polipropileno de Alto impacto resistente a los álcalis."],
         }
     ] },
-    { id: 16, name: "Brocha Popular 5″ pulgada", image: brocha16,secondImage:logoGoya,  secondDescription: [
+    { id: 16, name: "Brocha Popular 5″", image: brocha16,secondImage:logoGoya,  secondDescription: [
         {
             title: "Material", values: ["Polipropileno de Alto impacto resistente a los álcalis."],
         }
     ] },
     
     
-    { id: 19, name: "Brocha Profesional 1″ pulgada", image: brocha19, secondImage:logoGoya, secondDescription: [
+    { id: 19, name: "Brocha Profesional 1″", image: brocha19, secondImage:logoGoya, secondDescription: [
         {
             title: "Material", values: ["Polipropileno resistente al impacto "],
         }
     ] },
     
-    { id: 20, name: "Brocha Profesional 1/2″ pulgada", image: brocha20, secondImage:logoGoya, secondDescription: [
+    { id: 20, name: "Brocha Profesional 1/2″", image: brocha20, secondImage:logoGoya, secondDescription: [
         {
             title: "Material", values: ["Polipropileno resistente al impacto "],
         }
     ] },
     
-    { id: 21, name: "Brocha Profesional 2″ pulgada", image: brocha21,secondImage:logoGoya,  secondDescription: [
+    { id: 21, name: "Brocha Profesional 2″", image: brocha21,secondImage:logoGoya,  secondDescription: [
         {
             title: "Material", values: ["Polipropileno resistente al impacto "],
         }
     ] },
     
-    { id: 22, name: "Brocha Profesional 2½″ pulgada", image: brocha22,secondImage:logoGoya,  secondDescription: [
+    { id: 22, name: "Brocha Profesional 2½″", image: brocha22,secondImage:logoGoya,  secondDescription: [
         {
             title: "Material", values: ["Polipropileno resistente al impacto "],
         }
     ] },
     
-    { id: 23, name: "Brocha Profesional 3″ pulgada", image: brocha23, secondImage:logoGoya, secondDescription: [
+    { id: 23, name: "Brocha Profesional 3″", image: brocha23, secondImage:logoGoya, secondDescription: [
         {
             title: "Material", values: ["Polipropileno resistente al impacto "],
         }
     ] },
     
-    { id: 24, name: "Brocha Profesional 4″ pulgada", image: brocha24,secondImage:logoGoya,  secondDescription: [
+    { id: 24, name: "Brocha Profesional 4″", image: brocha24,secondImage:logoGoya,  secondDescription: [
         {
             title: "Material", values: ["Polipropileno resistente al impacto "],
         }
     ] },
     
-    { id: 25, name: "Brocha Profesional 5″ pulgada", image: brocha25,secondImage:logoGoya,  secondDescription: [
+    { id: 25, name: "Brocha Profesional 5″", image: brocha25,secondImage:logoGoya,  secondDescription: [
         {
             title: "Material", values: ["Polipropileno resistente al impacto "],
         }
     ] },
-    { id: 28, name: "Rodillo bricolage 9″ pulgadas ", image: rodillo1,secondImage:logoGoya, description: "Rodillo bricolage 9″ pulgadas" },
-    { id: 30, name: "Rodillo junior 2″ pulgada", image: rodillo4, secondImage:logoGoya,description: "Rodillo junior 2″ pulgada" },
-    { id: 31, name: "Rodillo junior 3″ pulgada", image: rodillo3, secondImage:logoGoya,description: "Rodillo junior 3″ pulgada" },
-    { id: 32, name: "Rodillo junior 5″ pulgada", image: rodillo5, secondImage:logoGoya,description: "Rodillo junior 5″ pulgada" },
-    { id: 33, name: "Rodillo felpa profesional 9″ pulgadas", image: rodillo6,secondImage:logoGoya, description: "Rodillo felpa profesional 9″ pulgadas" },
-    { id: 36, name: "Espatula Goya 1/2″ pulgada", image: espatula1,secondImage:logoGoya, description: "Espatula Goya 1/2″ pulgada" },
-    { id: 37, name: "Espatula Goya 2″ pulgada", image: espatula2, secondImage:logoGoya,description: "Espatula Goya 2″ pulgada" },
-    { id: 38, name: "Espatula Goya 2½″ pulgada", image: espatula3,secondImage:logoGoya, description: "Espatula Goya 2½″ pulgada" },
-    { id: 39, name: "Espatula Goya 3″ pulgada", image: espatula4,secondImage:logoGoya, description: "Espatula Goya 3″ pulgada" },
-    { id: 40, name: "Espatula Goya 4″ pulgada", image: espatula5, secondImage:logoGoya,description: "Espatula Goya 4″ pulgada" },
-    { id: 41, name: "Espatula Goya 5″ pulgada", image: espatula6, secondImage:logoGoya,description: "Espatula Goya 5″ pulgada" },
+    { id: 28, name: "Rodillo bricolage 9″", image: rodillo1,secondImage:logoGoya, description: "Rodillo bricolage 9″ pulgadas" },
+    { id: 30, name: "Rodillo junior 2″", image: rodillo4, secondImage:logoGoya,description: "Rodillo junior 2″ pulgada" },
+    { id: 31, name: "Rodillo junior 3″", image: rodillo3, secondImage:logoGoya,description: "Rodillo junior 3″ pulgada" },
+    { id: 32, name: "Rodillo junior 5″", image: rodillo5, secondImage:logoGoya,description: "Rodillo junior 5″ pulgada" },
+    { id: 33, name: "Rodillo felpa profesional 9″", image: rodillo6,secondImage:logoGoya, description: "Rodillo felpa profesional 9″ pulgadas" },
+    { id: 36, name: "Espatula Goya 1/2″", image: espatula1,secondImage:logoGoya, description: "Espatula Goya 1/2″ pulgada" },
+    { id: 37, name: "Espatula Goya 2″", image: espatula2, secondImage:logoGoya,description: "Espatula Goya 2″ pulgada" },
+    { id: 38, name: "Espatula Goya 2½″", image: espatula3,secondImage:logoGoya, description: "Espatula Goya 2½″ pulgada" },
+    { id: 39, name: "Espatula Goya 3″", image: espatula4,secondImage:logoGoya, description: "Espatula Goya 3″ pulgada" },
+    { id: 40, name: "Espatula Goya 4″", image: espatula5, secondImage:logoGoya,description: "Espatula Goya 4″ pulgada" },
+    { id: 41, name: "Espatula Goya 5″", image: espatula6, secondImage:logoGoya,description: "Espatula Goya 5″ pulgada" },
 ];
 
 
